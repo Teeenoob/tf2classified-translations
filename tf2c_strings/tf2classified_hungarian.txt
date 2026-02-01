@@ -1,0 +1,1546 @@
+﻿"lang"
+{
+"Language" "Hungarian"
+"Tokens"
+{
+// ----------------------------------------------------------------
+// Chat
+// ----------------------------------------------------------------
+
+// Channels
+"Channel_All"			"MIND"
+"Channel_Team"			"CSAPAT"
+"Switch_All"			"(ÁTVÁLTÁS CSAPATRA TAB-BAL)"
+"Switch_Team"			"(ÁTVÁLTÁS MINDRE TAB-BAL)"
+
+// Chat Prefixes
+"Chat_All"			    "%s1: %s2"
+"Chat_All_Dead"		    "*HALOTT* %s1: %s2"
+"Chat_All_Spec"		    "*NÉZŐ* %s1 : %s2"
+"Chat_Team"			    "(CSAPAT) %s1: %s2"
+"Chat_Team_Loc"		    "(CSAPAT) %s1 @ %s3: %s2"
+"Chat_Team_Dead"		"(CSAPAT) *HALOTT* %s1: %s2"
+"Chat_Team_Spec"		"(CSAPAT) *NÉZŐ* %s1: %s2"
+"Chat_All_Dev"		    "[FEJL] %s1: %s2"
+"Chat_All_Dev_Dead"	    "*HALOTT* [FEJL] %s1: %s2"
+"Chat_All_Dev_Spec"	    "*NÉZŐ* [FEJL] %s1: %s2"
+"Chat_Team_Dev"		    "(CSAPAT) [FEJL] %s1: %s2"
+"Chat_Team_Dev_Loc"	    "(CSAPAT) [FEJL] %s1 @ %s3: %s2"
+"Chat_Team_Dev_Dead"	"(CSAPAT) *HALOTT* [FEJL] %s1: %s2"
+"Chat_Team_Dev_Spec"	"(CSAPAT) *NÉZŐ* [FEJL] %s1: %s2"
+"Chat_Voice"			"(HANG) "
+
+// Chat Filters
+"Chat_Filter_Voice"	"Hangparancsok"
+
+// ----------------------------------------------------------------
+// General
+// ----------------------------------------------------------------
+
+// Sentry consent popup
+"TF_SentryReport_Title"			"Hibajelentések küldése?"
+"TF_SentryReport_Message"		"Szeretnél névtelen hibajelentéseket küldeni a Team Fortress 2 Classified csapatának?"
+
+// VIP voting
+"Vote_ChangeCivilian"				"VIP megváltoztatása"
+"TF_vote_change_civilian"			"Legyen ez a játékos a VIP: %s1?"
+"TF_vote_change_civilian_caller"	"Ez a játékos akar lenni a VIP: %s1."
+"TF_vote_passed_change_civilian"	"A VIP ez a játékos lesz: %s1..."
+
+// ----------------------------------------------------------------
+// Teams
+// ----------------------------------------------------------------
+
+"TF_GreenTeam" 	"&5 GRN"
+"TF_YellowTeam" "&6 YLW"
+
+"TF_GreenTeam_Name"		"GRN"
+"TF_YellowTeam_Name"	"YLW"
+
+"TF_Other_Name"	"TÖBBI"
+
+// Disguise Kit global disguise
+"Hud_Menu_Disguise_GlobalTeam"	"Globális Álca: Minden ellenfél a saját csapattársaként fog látni téged."
+
+// ----------------------------------------------------------------
+// Classes
+// ----------------------------------------------------------------
+
+"TF_Special"	"KÜLÖNLEGES"
+
+// Civilian
+"TF_Civilian" 				"CIVIL"
+"TF_Class_Name_Civilian" 	"Civil"
+
+"ClassTips_10_Count"	"3"
+"ClassTips_10_1"		"Erősítsd a csapattársad, és adj neki előnyt a csatában!"
+"ClassTips_10_1_Icon"	"chalf_circle"
+"ClassTips_10_2"		"Maradj közel a csapattársaidhoz, hogy sebzésellenállást és passzív gyógyítást adj nekik!"
+"ClassTips_10_2_Icon"	"chalf_circle"
+"ClassTips_10_3"		"Légy védtelen a harcokban!"
+"ClassTips_10_3_Icon"	"chalf_circle"
+
+// ----------------------------------------------------------------
+// Target ID
+// ----------------------------------------------------------------
+
+// General
+"TF_playerid_sameteam"					"%s1%s2"
+"TF_playerid_diffteam"					"%s1(Ellenség) %s2"
+"TF_playerid_noteam"					"%s1"
+"TF_playerid_friendlyspy_disguise"		"Jelmezben (%s1 %s2)"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Lőszer: %s2 (%s3)"
+"TF_playerid_wpn_ammo"					"%s1  -  Lőszer: %s2"
+"TF_playerid_wpn"						"%s1"
+
+// Boosts
+"TF_playerid_healer"					"(Gyógyító) "
+"TF_playerid_healtarget"				"(Gyógyított) "
+"TF_playerid_mediccharge"				"ÜberTöltés: %s1%"
+"TF_playerid_mediccharge_wpn"			"%s1  -  ÜberTöltés: %s2%"
+"TF_playerid_civiliancharge"			"Erősítés: %s1%"
+"TF_playerid_civiliancharge_wpn"		"%s1 - Erősítés: %s2%"
+
+// Buildings
+"TF_playerid_object"					"%s1 (%s2)"
+"TF_playerid_object_diffteam"			"Ellenséges %s1 (%s2)"
+"TF_playerid_object_mini"				"Mini-%s1 (%s2)"
+"TF_playerid_object_mode"				"%s1 %s3 (%s2) "
+"TF_playerid_object_level"				"%s1. szint"
+"TF_playerid_object_upgrade"			"Fejl. állapot: %s1"
+"TF_playerid_object_upgrade_level"		"%s1. szint  -  Fejl. állapot: %s2"
+"TF_playerid_object_upgrading"			"Fejlesztés..."
+"TF_playerid_object_upgrading_level"	"%s1. szint  -  Fejlesztés..."
+"TF_playerid_object_building"			"Épül..."
+"TF_playerid_object_building_level"		"%s1. szint  -  Épül..."
+"TF_playerid_teleporter_no_entrance"	"  -  Nincs Teleport bejárat"
+"TF_playerid_teleporter_no_exit"		"  -  Nincs Teleport kijárat"
+"TF_playerid_object_recharging"			"  -  Újratöltés: %s1%"
+"TF_playerid_object_flooded"			"Elárasztva"
+"TF_playerid_carrying"					"Épületet visz: %s1"
+"TF_playerid_carrying_lvl"				"Épületet visz: %s1 (%s2. szint)"
+
+"TF_friendly"	"Baráti"
+"TF_enemy"		"Ellenséges"
+
+// ----------------------------------------------------------------
+// Respawning
+// ----------------------------------------------------------------
+
+"game_respawntime_now"			"Újraéledésre készülj"
+"game_respawntime_in_sec"		"Újraéledésig: 1 másodperc"
+"game_respawntime_in_secs"		"Újraéledésig: %s1 másodperc"
+"game_respawntime_stalemate"	"Hirtelen Halálban nincs újraéledés"
+"game_respawntime_next_round"	"Újraéledésig: várj a következő körre"
+"TF_Arena_NoRespawning"			"Aréna módban nincs újraéledés"
+
+// ----------------------------------------------------------------
+// Kill feed
+// ----------------------------------------------------------------
+
+"DeathMsg_KilledVIP"		"megölte a VIP-t!"
+"DeathMsg_KilledTeamVIP"	"megölte a %s1 VIP-t!"
+
+"DeathMsg_VIP"          "VIP"
+"DeathMsg_ComboKill"	"KOMBÓS GYILKOS!"
+"DeathMsg_AirshotKill"	"RÖPTÉBEN!"
+
+// Custom suicides
+"DeathMsg_Suicide_Boioing"		"felszállt a magasba!"
+"DeathMsg_Suicide_Stomp"		"áldozatul esett a gravitációnak"
+"DeathMsg_Suicide_Disintegrate"	"elporladt"
+"DeathMsg_Suicide_Decapitate"	"törzssé változott"
+"DeathMsg_Suicide_Gold"			"aranyra lelt"
+"DeathMsg_Suicide_Freeze"		"szilárdra fagyott"
+"DeathMsg_Suicide_Fizzle"		"felvillanyozódott"
+"DeathMsg_Suicide_Disappear"	"eltűnt"
+
+// ----------------------------------------------------------------
+// Voice Menu
+// ----------------------------------------------------------------
+
+"Voice_Menu_ChargeReady"	            "SZANITÉC: ÜberTöltés állapota"
+"Voice_Menu_ChargeReadySubtitle"	    "ÜberTöltésre készen! (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberTöltésre majdnem készen (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"	    "Az ÜberTöltés nincs kész! (%s1%)"
+
+// ----------------------------------------------------------------
+// Class tips
+// ----------------------------------------------------------------
+
+// Scout
+"Tip_1_Count"	"10"
+// Generic
+"Tip_1_1"		"Felderítőként ugorj még egyet a levegőben, hogy irányt változtass."
+"Tip_1_2"		"Felderítőként kétszer olyan gyorsan foglalsz ellenőrzőpontokat, mint a többi osztály."
+"Tip_1_3"		"Felderítőként a sebességed túlszárnyalja a többi osztályét. Tereld el vele az ellenfeleid figyelmét és szökj meg gyorsan!"
+// Stock
+"Tip_1_4"		"Felderítőként a repeszpuskád közvetlen közelről nagy sebzést okoz. Zárd be a távot közted és az ellenfeleid között és okozz jelentős mértékű sebzést."
+"Tip_1_5"		"Felderítőként a pisztolyod remek távoli ellenségek levadászására."
+"Tip_1_6"		"Felderítőként az ütőd kevesebbet sebez mint az átlag közelharci fegyver, de gyorsabban tudsz vele ütni."
+// Death & Taxes
+"Tip_1_7"		"Felderítőként a Tűpisztollyal hatékonyan le tudod faragni az ellenfeled életerejét, még akár távolról is. Tartsd magad mozgásban és íveld a lövéseidet."
+"Tip_1_8"		"Felderítőként az Őrtornyok ledarálása könnyebb a Tűpisztollyal. Használd akkor, ha egy sűrű Őrtorony-fészekkel van dolgod."
+// Fight or Flight
+"Tip_1_9"		"Felderítőként a Tégla megbízhatóan sebez és nagymértékű visszalökést okoz. Törd be a koponyáikat!"
+"Tip_1_10"		"Felderítőként a Tégla mini-kritet okoz ha távolról találod el vele ellenfeled."
+
+// Sniper
+"Tip_2_Count"	"11"
+// Generic
+"Tip_2_1"		"Mesterlövészként célozz fejre, hogy jelentős sebzést okozz."
+"Tip_2_2"		"Mesterlövészként a(z) %attack2% megnyomásával ráközelíthetsz a mesterlövész puskával vagy a Vadászrevolverrel."
+// Stock
+"Tip_2_3"		"Mesterlövészként minél több időt töltesz ráközelítve, annál többet sebez a lövésed."
+"Tip_2_4"		"Mesterlövészként a teljesen feltöltött mesterlövész puska fejlövése a legtöbb osztállyal azonnal végez."
+"Tip_2_5"		"Mesterlövészként használd a géppisztolyodat, hogy elbánj a közelben lévő ellenséggel."
+"Tip_2_6"		"Mesterlövészként a kukrid az utolsó védvonalad és hasznos lehet ha lesből támadnak rád."
+// Death & Taxes
+"Tip_2_7"		"Mesterlövészként a Levadászt megbízható közelharcra is használhatod, a pontosság árán."
+"Tip_2_8"		"Mesterlövészként a Levadász lövése általában célt fog téveszteni, ha öt másodpercnél tovább tartod felhúzva. Engedd le a(z) %attack2% megnyomásával."
+"Tip_2_9"		"Mesterlövészként a Vadászrevolver remek választás közép-távolságra. Használd az ellenfeleid sebzésére miközben gyorsan ki- és belépsz a frontvonalakra."
+"Tip_2_10"		"Mesterlövészként sokkal gyorsabban mozogsz, ha rá vagy közelítve a Vadászrevolverrel, mint a többi elsődleges fegyvereddel."
+"Tip_2_11"		"Mesterlövészként a Halcsapó találatkor visszalöki az ellenfeleid csoportjait és vérzést okoz nekik. Tartsd távol ezzel az illetéktelen behatolókat."
+
+// Soldier
+"Tip_3_Count"	"12"
+// Generic
+"Tip_3_1"		"Hívj Szanitécet a(z) %voicemenu 0 0% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
+"Tip_3_2"		"Katonaként nagy magasságokba, vagy távolságokra rakétaugorhatsz úgy, hogy egyszerre ugrasz és lősz ki egy rakétát egy közeli felület felé."
+"Tip_3_3"		"Katonaként guggolj le, amikor rakétaugrásra készülsz, hogy maximális ugrási magasságot érj el."
+"Tip_3_4"		"Katonaként célozz a rakétákkal az ellenség lába elé, ezzel biztosítva, hogy ne tudják elkerülni a robbanás sebzését."
+"Tip_3_5"		"Katonaként a rakétáid erős visszalökéssel rendelkeznek. Használd ezt ellenfeleid ellökésére, vagy levegőbe repítésére."
+// Stock
+"Tip_3_6"		"Katonaként ne feledd mindig töltve tartani a rakétavetőd. A(z) %reload% megnyomásával manuálisan töltesz újra."
+"Tip_3_7"		"Katonaként válts a sörétes puskára, hogy takarékoskodhass a rakétákkal, és ne kelljen a rakétavetőd újratöltésére várnod a csata közepén."
+"Tip_3_8"		"Katonaként használd az ásódat egyenletes közelharci sebzésre mit sem törődve az újratöltéssel."
+// Death & Taxes
+"Tip_3_9"		"Katonaként az Acélbetétes jelentősen csökkenti a rakétaugrásokból származó sebződésed. Használd akkor, amikor a helyezkedés és mozgékonyság különösen fontos."
+"Tip_3_10"		"Katonaként az R.P.G. rakétája át tud menni a fedezék felett. Ügyelj arra, hogy hova célzol a rakétáddal."
+// Double Down
+"Tip_3_11"		"Katonaként a Tengernagyi Horgony földrengésének sebzése aszerint növekszik, ameddig zuhanás közben a kezedben tartottad. Ne habozz elővenni a rakétaugrásod tetőpontjánál!"
+"Tip_3_12"		"Katonaként a Tengernagyi Horgonyt használva kritikus találatokat szenvedsz ha a levegőben vagy. Repülj óvatosan!"
+
+// Demoman
+"Tip_4_Count"	"15"
+// Generic
+"Tip_4_1"		"Robbantósként a jelenleg összes aktív tapadóbombáidat felrobbanthatod, vagy a távaknáidat semlegesítheted a(z) %attack2% megnyomásával."
+"Tip_4_2"		"Robbantósként robbantsd fel a robbanószereidet a lábad alatt, hogy nagy távokat tehess meg."
+"Tip_4_3"		"Robbantósként guggolj le, amikor robbanóugrásra készülsz, hogy maximális ugrási magasságot érj el."
+// Stock
+"Tip_4_4"		"Robbantósként közvetlen harchoz a gránátvetőd használd. A légi gránátok azonnal felrobbannak ha egy ellenféllel ütköznek."
+"Tip_4_5"		"Robbantósként a tapadóbomba-vetőt használva minél tovább tartod lenyomva a tűzgombot, annál messzebb megy a lövedék."
+"Tip_4_6"		"Robbantósként a tapadóbombákat lődd falakra vagy plafonokra, ahol nehéz őket észrevenni."
+"Tip_4_7"		"Robbantósként a palackodat úgy is használhatod közelharc közben, miután már beugrottál az ellenséges vonalak közé."
+"Tip_4_8"		"Robbantósként a palackod ugyanannyit sebez összetörve és épen is."
+// Death & Taxes
+"Tip_4_9"		"Robbantósként dobd a Dinamitcsomódat ellenőrzőpontokra, hogy elüldözd róluk az ellenséget."
+"Tip_4_10"		"Robbantósként a Dinamitcsomódat hatástalanítani tudják az ellenséges Mérnökök. Vedd ezt figyelembe, ha egy Őrtorony-fészekbe dobdnád."
+"Tip_4_11"		"Robbantósként az Acélbetétes jelentősen csökkenti a tapadóbomba-ugrásból származó sebződésed. Használd akkor, amikor a helyezkedés és mozgékonyság különösen fontos."
+"Tip_4_12"		"Robbantósként az Aknavető távérzékeny aknákat lő amik azonnal felrobbannak ha egy ellenség áll közel hozzá. Használd automatikus védekezésre!"
+// Double Down
+"Tip_4_13"		"Robbantósként a Küklopsz impulzusgránátjai csak akkor élesítenek, ha hagyod őket. Használd ezt egy jól időzített robbanóugrásra, vagy egy halálos csapda aktiválására."
+"Tip_4_14"		"Robbantósként a Küklopsz azonnal élesíti a saját robbanószereidet. Használd fel halálos csapdákhoz, vagy egy agresszív kombós gyilkosságra!"
+"Tip_4_15"		"Robbantósként használd a Küklopszot a közeli tapadóbombák, dinamitcsomók vagy aknák elporlasztására."
+
+// Medic
+"Tip_5_Count"	"16"
+// Generic
+"Tip_5_1"		"Szanitécként gyorsabban gyógyulnak azok a csapattársaid, akik nem mostanában lettek megsebezve!"
+"Tip_5_2"		"Szanitécként gyorsabban gyűjtheted az ÜberTöltésed, ha olyan csapattársakat gyógyítasz, akik jobban megsérültek."
+"Tip_5_3"		"Szanitécként a felkészülési idő alatt sokkal gyorsabban gyűlik az ÜberTöltésed."
+"Tip_5_4"		"Szanitécként töltsd fel az ÜberTöltésed a csapattársaid gyógyításával, majd a(z) %attack2% megnyomásával válj kis időre sebezhetetlenné."
+"Tip_5_5"		"Szanitécként figyelj oda a segítségért kiáltó csapattársaidra. Használd a képernyőn látható Szanitéc nyilakat a megtalálásukhoz."
+"Tip_5_6"		"Szanitécként nem foglalhatsz ellenőrzőpontokat, vagy veheted fel az ellenséges információkat, míg sebezhetetlen vagy."
+// Stock
+"Tip_5_7"		"Szanitécként ne feledd, hogy az Oltópisztoly fecskendői ívesen repülnek, és nem azonnal találnak célba. Célozz a célpont elé és fölé, ha el szeretnéd találni."
+"Tip_5_8"		"Szanitécként használd a gyógypuskád csapattársaid meggyógyítására, és életerejük 150%%-ra növelésére."
+"Tip_5_9"		"Szanitécként az ÜberTöltés kis időre sebezhetetlenné tesz mind téged, mind akit épp gyógyítasz."
+"Tip_5_10"		"Szanitécként a csontfűrészed tökeletes arra, hogy megvédd magad, ha elválsz a célpontodtól."
+// Death & Taxes
+"Tip_5_11"		"Szanitécként a Kritzkrieg kriteket ad a gyógyított csapattársadnak. Használd ki erősebb osztályok ellen és ott, ahol sok az ellenség."
+"Tip_5_12"		"Szanitécként ha a Túloltót használod, figyelj oda az életerődre! Tízzel kevesebb életerőd van míg a fegyvert használod."
+"Tip_5_13"		"Szanitécként a Sokkterápia többet sebez a töltöttségétől függően. A töltése teljesen lemerül ha eltalász egy ellenfelet."
+"Tip_5_14"		"Szanitécként a Sokkterápia teljes töltöttségnél teljesen meggyógyíthat egy csapattársat, de ezzel csökken a fő gyógyítási mértéked."
+// Double Down
+"Tip_5_15"		"Szanitécként a Fiatalító rendkívül hasznos amikor a csapattársaid egy nagy csoportját kell gyógyítanod. Törekedj a telitalálatokra megnövelt gyógyítás és ÜberTöltés bónusz fejében."
+"Tip_5_16"		"Szanitécként a Fiatalító ÜberTöltését fel tudod használni nagy ideiglenes védvonalak kialakítására. Ne habozz előretöréskor bevetni!"
+
+// Heavy
+"Tip_6_Count"	"17"
+// Generic
+"Tip_6_1"		"Hívj Szanitécet a(z) %voicemenu 0 0% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
+"Tip_6_2"		"Gépágyúsként több életerőd van, mint bármely más osztálynak a csapatodban. Vállald bátran a nagy támadások vezetését!"
+"Tip_6_3"		"Gépágyúsként sokkal lassabb vagy mint a többi osztály. Gondolj erre mielőtt hadba szállnál mozgékonyabb ellenfelekkel."
+"Tip_6_4"		"Gépágyúsként a Szanitécek remek társa vagy. Maradj mindig a Szanitéced látómezőjében, hogy rajtad tarthassa a gyógypuskáját."
+"Tip_6_5"		"Gépágyúsként a Kémek egyik fő célpontja vagy. Vesd be az arzenálod, hogy távol tartsd őket, és nézz hátra gyakran."
+"Tip_6_6"		"Gépágyúsként a(z) %attack2% nyomva tartásával folyamatosan pörgesd a gépágyút vagy a Légvédelmi Ágyút, hogy készen várd az érkező ellenséget."
+// Stock
+"Tip_6_7"		"Gépágyúsként a gépágyúd rengeteg lőszert fogyaszt. A készlet pótlásához vegyél fel elejtett fegyvereket."
+"Tip_6_8"		"Gépágyúsként nem veszítesz lendületet, ha a levegőben pörgeted fel a gépágyúd. Ezt kihasználva lepd meg ellenséget a sarkok mögül."
+"Tip_6_9"		"Gépágyúsként a sörétes puskád rengeteget sebez ha sorozatokat lősz vele, és gyorsabban is mozogsz támadás közben mint a gépágyúddal."
+"Tip_6_10"		"Gépágyúsként a magas életerőd miatt te nyered meg a legtöbb közelharcot. Ne félj használni az ökleidet!"
+// Death & Taxes
+"Tip_6_11"		"Gépágyúsként a Szendvics megmentheti az életed. Próbálj biztonságos helyet keresni a Szendvicsed elfogyasztásához, vagy udvariatlanul megzavarhatnak."
+"Tip_6_12"		"Gépágyúsként bármennyit ehetsz a Szendvicsedből, hogy meggyógyulj. Viszont ha megnyomod a(z) %attack2% gombot, hogy megoszd egy barátoddal, akkor meg kell várnod ameddig újratölt."
+"Tip_6_13"		"Gépágyúsként vigyázz, hogy hova dobod a Szendvicsed! A csapattársaid és az ellenfeleid is egyaránt vissza tudják gyógyítani vele az életerjük 50%%-kát!"
+// Fight or Flight
+"Tip_6_14"		"Gépágyúsként a Légvédelmi Ágyú rengeteget sebez ha sorozatokat lősz vele, épp ezért ideális nagyobb csoportok kezelésére vagy ha beszorítod az ellenfeleidet egy szűk helyre."
+"Tip_6_15"		"Gépágyúsként a Légvédelmi Ágyú mini-kriteket sebez a levegőben levő ellenfeleidre. Használd a Katonák vagy az ugratóhasználók letarolására."
+"Tip_6_16"		"Gépágyúsként a Csehov Taslija minden sikeres találat után egy kritikus találatot raktároz el, három kritikus találatig. Bármely fegyverrel el tudod használni a felhalmozott kriteket!"
+"Tip_6_17"		"Gépágyúsként a Csehov Taslija miatt kritikus sebzést szenvedsz az ellenséges közelharci támadásoktól. Légy óvatos közelharc közben!"
+
+// Pyro
+"Tip_7_Count"	"15"
+// Generic
+"Tip_7_1"		"Piróként a tűz alapú fegyverek nem tudnak felgyújtani. Ezt észben tartva, használd a sörétes puskád vagy a tűzoltófejszéd az ellenséges Pirók ellen."
+"Tip_7_2"		"Piróként gyakran visszavonulhatsz az ellenség felgyújtása után, hagyva, hogy az halálra égjen."
+// Stock
+"Tip_7_3"		"Piróként a lángszóród annál több sebzést okoz, minél közelebb vagy az ellenséghez."
+"Tip_7_4"		"Piróként a lángszóród rengeteg lőszert fogyaszt. A készlet pótlásához vegyél fel lőszerkészleteket és elejtett fegyvereket."
+"Tip_7_5"		"Piróként lesből törj ellenségeidre, hogy közelről szállhass szembe velük, így a lángszóród maximális sebzést okozhasson. Használd ki a sarkokat és zugokat."
+"Tip_7_6"		"Piróként a Lángszóró léglökete (%attack2%) rendkívül hasznos eszköz. Használd, hogy ellenfeleid - még a sebezhetetlen Szanitéceket és társaikat is - szakadékokba, vagy más környezeti ártalmakba lökhesd."
+"Tip_7_7"		"Piróként a lángszóród léglöketével (%attack2%) elolthatod lángoló csapattársaid."
+"Tip_7_8"		"Piróként válts át a sörétes puskára, ha az ellenség visszavonul a lángszóród rövid hatótávján kívülre."
+"Tip_7_9"		"Piróként a tűzoltófejszéd tökéletes arra, hogy elbánj a közeledben levő visszavonuló ellenfelekkel."
+// Death & Taxes
+"Tip_7_10"		"Piróként a jelzőpisztolyod képes felgyújtani távoli ellenfeleket. Használd ki az ellenséges Mesterlövészek ellen."
+"Tip_7_11"		"Piróként a jelzőpisztolyod képes egy nagyon kis ideig kritet sebezni az alig felgyújtott ellenséges Pirókon."
+// Fight or Flight
+"Tip_7_12"		"Piróként az Ikercsővel bezárhatod a távot közted és a célpontod között. Lődd fel magad vagy lődd ki magad az ellenfeleidhez!"
+"Tip_7_13"		"Piróként az Ikercső nem olyan megbízhatóan okozza a sebzést mint a sörétes puskád. Ha vesztésre állsz egy ütközetben, lődd ki magad és vonulj vissza!"
+"Tip_7_14"		"Piróként a Betakarító képes egy garantált kritikus találatot teremteni, és képes gyógyítani téged az ellenfeleidből."
+"Tip_7_15"		"Piróként ha a Betakarítóval a kezedben halsz meg, az összes ellenfeled akit eddig felgyújtottál, eloltódik."
+
+// Spy
+"Tip_8_Count"	"15"
+// Generic
+"Tip_8_1"		"Kémként öltsd magadra egy ellenség jelmezét a jelmezkészleteddel. Vigyázz, így is bele tudsz ütközni az ellenfeleidbe, és a támadás eltávolítja a jelmezed."
+"Tip_8_2"		"Kémként ha jelmezt viselsz, a(z) %voicemenu 0 0% megnyomásával hívhatsz ellenséges Szanitéceket."
+"Tip_8_3"		"Kémként jelmezben igyekezz úgy viselkedni, mint egy ellenség. Figyeld meg, hol vannak az ellenséges csapat tagjai, és öltsd magadra egyikük jelmezét."
+"Tip_8_4"		"Kémként jelmezben a(z) %reload% megnyomásával úgy tűnhet az ellenfeleidnek, mintha újratöltenél."
+"Tip_8_5"		"Kémként a(z) %speed% megnyomásával normál sebességgel futhatsz míg lassabb osztályoknak vagy álcázva."
+"Tip_8_6"		"Kémként a(z) %attack2% megnyomásával álcázhatod magad, és rövid időre teljesen láthatatlanná válhatsz."
+"Tip_8_7"		"Kémként az álcád használatával juss az ellenséges vonalak mögé, és jelmezt viselve mozogj köztük észrevétlenül."
+// Stock
+"Tip_8_8"		"Kémként a revolvered nagyon hasznos eszköz ha éppen keresztbe tettek a lopakodó hadműveletednek."
+"Tip_8_9"		"Kémként helyezz elektromos mentesítőket az ellenséges épületekre azok megbénításához és megsemmisítéséhez. Ne feledd, hogy a mentesítő elhelyezésekor a jelmezed nem szűnik meg."
+"Tip_8_10"		"Kémként az elektromos mentesítő megbénítja az Őrtornyokat, mielőtt elpusztítja azokat. Mielőtt megtámadsz egy Mérnököt, iktasd ki az Őrtornyát."
+"Tip_8_11"		"Kémként a késeddel hátulról ledöfheted az ellenséget, azonnal megölve őket."
+// Death & Taxes
+"Tip_8_12"		"Kémként az Altatópisztoly lelassítja az ellenfeleidet és csökkenti a fegyverük sebzését. Ez hasznos lehet, ha éppen meg akarsz szökni."
+"Tip_8_13"		"Kémként az altatópisztolyod nyilai miatt a célpontod kritikus sebzést szenved minden közelharci támadásból. Állj össze a csapattársaiddal ellene vagy végezz vele egymagad."
+// Fight or Flight
+"Tip_8_14"		"Kémként a L'escampette lehetővé teszi a bázisok közti gyors ingázást. Használd gyors szökésekre, vagy gyors beszivárgásokra!"
+"Tip_8_15"		"Kémként a L'escampette veszít az álcájából amikor épp álcázva vagy és sebződsz. Maradj távol a tűzvonaltól."
+
+// Engineer
+"Tip_9_Count"	"20"
+// Generic
+"Tip_9_1"		"Mérnökként fémre van szükséged az építmények készítéséhez, javításához és fejlesztéséhez. A készlet pótlásához gyűjts lőszerkészleteket és elejtett fegyvereket."
+"Tip_9_2"		"Mérnökként többet is tehetsz az építményeid karbantartásánál. A sörétes puskáddal és pisztolyoddal segíts a harcban, és védd építményeid."
+"Tip_9_3"		"Mérnökként ügyelj az építményeidre mentesítőt telepítő ellenséges Kémekre. Mentesítők eltávolítására használd a franciakulcsod."
+"Tip_9_4"		"Mérnökként ne feledkezz meg az építményeid fejlesztéséről. A felfejlesztett épületek nagy előnyt biztosíthatnak neked és a csapatodnak."
+"Tip_9_5"		"Mérnökként a(z) %attack2% megnyomásával forgathatod az építmények tervrajzait. Használd ezt arra, hogy a leghatékonyabb irányba nézzenek az Őrtornyaid vagy a Teleportjaid."
+// Stock
+"Tip_9_6"		"Mérnökként a pisztolyodnak rengeteg a tartalék lőszere. Vezesd közel vele az ellenfeleidet magadhoz és az őrtornyodhoz, vagy próbálj ki egy támadóbb megközelítést."
+"Tip_9_7"		"Mérnökként a franciakulcsoddal hatástalaníthatod az ellenséges Dinamitcsomókat."
+"Tip_9_8"		"Mérnökként ha baráti épületeket ütsz a franciakulcsoddal, meg tudod őket javítani és fejleszteni tudod őket."
+"Tip_9_9"		"Mérnökként az építő eszközzel helyezz el Őrtornyokat, vagy más támogató épületeket."
+"Tip_9_10"		"Mérnökként az Őrtornyok nem csak védekezésre alkalmasak. Gyorsan telepíts belőlük rejtett helyekre, hogy segíts egy előretörésben."
+"Tip_9_11"		"Mérnökként üsd az Őrtornyod a franciakulcsoddal, hogy fém használatával továbbfejleszd. Minden szint több életerőt és nagyobb tűzerőt ad."
+"Tip_9_12"		"Mérnökként építs Adagolókat, melyek neked és csapattársaidnak életerőt és lőszert biztosítanak. Emellett fémet is termelnek, amit felhasználhatsz."
+"Tip_9_13"		"Mérnökként a felfejlesztett Adagolók több életerőt, lőszert és fémet fognak termelni neked, és a csapatodnak."
+"Tip_9_14"		"Mérnökként építs Teleportokat vagy Ugratókat, hogy segíts csapatodnak gyorsabban eljutni a frontvonalra."
+"Tip_9_15"		"Mérnökként a felfejlesztett Teleportok sokkal gyorsabban töltődnek újra, így a csapatod nem veszít lendületéből."
+"Tip_9_16"		"Mérnökként mindegy, hogy a Teleport bejáratát vagy kijáratát ütöd a franciakulcsoddal, mindkettőt egyszerre javíthatod és fejlesztheted."
+// Death & Taxes
+"Tip_9_17"		"Mérnökként a teljesen feltöltött Tekercspisztoly lövések lepattannak a falról és többet sebeznek."
+"Tip_9_18"		"Mérnökként a Tekercspisztoly felrobban ha azt túltöltöd. Használd az eddig ellérhetetlen területek eléréshez."
+// Fight or Flight
+"Tip_9_19"		"Mérnökként az Ugratók lehetővé teszik neked és a csapatodnak, hogy magas helyekre jussatok el. Telepítsd őket, hogy a kevésbé mozgékony osztályúak is feljussanak permekre és tetőkre!"
+"Tip_9_20"		"Mérnökként az ugratóiddal a csapattársaid hatalmas lendülettel ugranak előre. Vesd be őket olyan helyeken ahonnan gyorsan el tudtok indulni."
+
+// Civilian
+"Tip_10_Count"	"11"
+// Generic
+"Tip_10_1"		"Civilként elég lassú vagy. Próbáld tartani a tempót a csapattársaiddal."
+"Tip_10_2"		"Civilként te vagy a legalacsonyabb osztály a csapatodban. Használd ki és rejtőzz el a csapattársaid mögött."
+"Tip_10_3"		"Civilként te vagy az egyetlen osztály aki pontot tud foglalni VIP módban."
+"Tip_10_4"		"Civilként figyelj az ellenséges Mesterlövészekre és Kémekre, mivel képesek azonnal megölni."
+"Tip_10_5"		"Civilként a közeli csapattársaidra hatással van a lelkesítésed, amellyel megnöveled a sebzésvédelmüket és gyógyítod őket. Próbálj meg távol maradni az ellenséges vonalaktól és maradj a csapatoddal."
+"Tip_10_6"		"Civilként a(z) %attack2% megnyomásával erősíteni tudod a csapattársadat, nagy előnyt adva nekik a harcban."
+// Stock
+"Tip_10_7"		"Civilként az esernyőd nem valami hatékony fegyver, csak feltétlen szükség esetén használd. Hagyd, hogy a csapattársaid harcoljanak helyetted."
+"Tip_10_8"		"Civilként az esernyőd mini-kriteket ad az általad kiválasztott játékosnak. Erősítsd azokat az osztályokat akik nagy mértékű sebzést képesek okozni."
+"Tip_10_9"		"Civilként az esernyőd mini-krit erősítése a Szanitéceknek megnövelt mértékű gyógyítást és ÜberTöltés nyereséget ad."
+// Double Down
+"Tip_10_10"		"Civilként a Derbi Pálcád felgyorsítja a csapattársaidat. Ezzel gyorsabban tudnak mozogni és lőni is."
+"Tip_10_11"		"Civilként a Derbi Pálcád felgyorsítja a Szanitécek gyógyítását és a Mérnökök által épített épületek megépülését."
+
+// ----------------------------------------------------------------
+// Stock weapon strings
+// ----------------------------------------------------------------
+
+// Bat
+"TF_Weapon_Bat"			"Ütő"
+"TF_Weapon_Bat_Desc"	"Van ebből egy tucatnyim. Nem félek az egyiket rajtad szétverni."
+// Bottle
+"TF_Weapon_Bottle"		"Palack"
+"TF_Weapon_Bottle_Desc"	"Nem, nem, ezt ivásra találták ki!"
+// Fire Axe
+"TF_Weapon_FireAxe"			"Tűzoltófejsze"
+"TF_Weapon_FireAxe_Desc"	"Tanítsd meg a tűzvédelem értékes leckéjét."
+// Kukri
+"TF_Weapon_Kukri"		"Kukri"
+"TF_Weapon_Kukri_Desc"	"Ízekre szabdalt egy mesterlövész. Na ez aztán a balfogás."
+// Knife
+"TF_Weapon_Knife"		"Kés"
+"TF_Weapon_Knife_Desc"	"Ajánlott azoknak, akik szeretnek hajtogatni."
+// Fists
+"TF_Weapon_Fists"		"Öklök"
+"TF_Weapon_Fists_Desc"	"Még nem végeztem veled!"
+// Shovel
+"TF_Weapon_Shovel"		"Ásó"
+"TF_Weapon_Shovel_Desc"	"Sáncold be az ellenfeleidet a háború idején, és sarcold meg a sírjukat a majdnem békeidőkben."
+// Wrench
+"TF_Weapon_Wrench"		"Franciakulcs"
+"TF_Weapon_Wrench_Desc"	"Mindenhez is értek!"
+// Bonesaw
+"TF_Weapon_Bonesaw"			"Csontfűrész"
+"TF_Weapon_Bonesaw_Desc"	"Ne aggódj, ez nem az én vérem! ...Legalábbis azt hiszem, már nem egészen vagyok benne biztos."
+// Shotgun
+"TF_Weapon_Shotgun"					"Sörétes puska"
+"TF_Weapon_Shotgun_Desc_Engineer"	"Néha a saját kezeidbe kell venned a dolgokat."
+"TF_Weapon_Shotgun_Desc_Soldier"	"A sörétes puskám nem ért egyet az életvágyaddal, te féreg!"
+"TF_Weapon_Shotgun_Desc_Heavy"		"Gépágyús ezzel is beéri."
+"TF_Weapon_Shotgun_Desc_Pyro"		"Hagyd, hogy inkább ez beszéljen."
+// Scattergun
+"TF_Weapon_Scattergun"		"Repeszpuska"
+"TF_Weapon_Scattergun_Desc"	"Nyugi tesó, épphogy csak súroltalak!"
+// Sniper Rifle
+"TF_Weapon_SniperRifle"			"Mesterlövész puska"
+"TF_Weapon_SniperRifle_Desc"	"Elvégzi a munkát."
+// Minigun
+"TF_Weapon_Minigun"			"Gépágyú"
+"TF_Weapon_Minigun_Desc"	"Szása még Gépágyúsra se hallgat. Azt hiszed RÁD fog?"
+// SMG
+"TF_Weapon_SMG"			"Géppisztoly"
+"TF_Weapon_SMG_Desc"	"Na, mit szólsz? Úgy látszik, közelről mindketten veszélyesebbek vagyunk."
+// Syringe Gun
+"TF_Weapon_SyringeGun"		"Oltópisztoly"
+"TF_Weapon_SyringeGun_Desc"	"Ooh, egész jó tűpárna lett belőled!"
+// Rocket Launcher
+"TF_Weapon_RocketLauncher"		"Rakétavető"
+"TF_Weapon_RocketLauncher_Desc"	"A tökéletes Katona tökéletes fegyvere!"
+// Grenade Launcher
+"TF_Weapon_GrenadeLauncher"			"Gránátvető"
+"TF_Weapon_GrenadeLauncher_Desc"	"Ezt bízd csak rám, öcskös."
+// Stickybomb Launcher
+"TF_Weapon_StickybombLauncher"		"Tapadóbomba-vető"
+"TF_Weapon_StickybombLauncher_Desc"	"Ha köll én magam robbantom fel őket a Mennybe!"
+// Flame Thrower
+"TF_Weapon_FlameThrower"		"Lángszóró"
+"TF_Weapon_FlameThrower_Desc"	"Kezdünk bemelegedni..."
+// Pistol
+"TF_Weapon_Pistol"					"Pisztoly"
+"TF_Weapon_Pistol_Desc_Engineer"	"Kezdj táncolni, fiam."
+"TF_Weapon_Pistol_Desc_Scout"		"Mindenki lőtávolon kívül van... egészen addig, amíg már nem."
+// Revolver
+"TF_Weapon_Revolver"		"Revolver"
+"TF_Weapon_Revolver_Desc"	"Ha a lopakodás már nem opció."
+// PDA: Teleporter (Construction PDA)
+"TF_Weapon_ConstructionPDA"			"Építő PDA"
+"TF_Weapon_ConstructionPDA_Desc"	"Minden ami egy magamfajta Mérnöknek kell, itt van ebben a kis szerkezetben."
+"TF_Weapon_PDATeleporter"			"PDA: Teleport"
+// Destruction PDA
+"TF_Weapon_DestructionPDA"	"Romboló PDA"
+// Disguise Kit
+"TF_Weapon_DisguiseKit"	"Jelmezkészlet"
+// Medi Gun
+"TF_Weapon_Medigun"			"Gyógypuska"
+"TF_Weapon_Medigun_Desc"	"Mindannyiótoknak ugyan az a vércsoportja, ja? Többé kevésbé?"
+// Invis Watch
+"TF_Weapon_InvisWatch"		"Átlátsz-óra"
+"TF_Weapon_InvisWatch_Desc"	"Stílusos. Kár, hogy senki se fogja látni."
+// Sapper
+"TF_Weapon_Sapper"		"Mentesítő"
+"TF_Weapon_Sapper_Desc"	"Hát ezt meg ki hagyta itt?"
+
+// ----------------------------------------------------------------
+// Achievement weapon strings
+// ----------------------------------------------------------------
+
+// Kritzkrieg
+"TF_Weapon_Kritzkrieg"		"A Kritzkrieg"
+"TF_Weapon_Kritzkrieg_Desc"	"Hajrá, okozz egy kis ártalmat! Kell a munka mindkettőnknek, ja?"
+// Überspritze
+"TF_Weapon_Uberspritze"			"A Túloltó"
+"TF_Weapon_Uberspritze_Desc"	"Jaj, ne ficeregj, ez a jó célt szolgálja!"
+// Flare Gun
+"TF_Weapon_FlareGun"		"Jelzőpisztoly"
+"TF_Weapon_FlareGun_Desc"	"Valaki meggyulladt! Gyorsan, lőj ki egy vészjelzést!"
+// Sandvich
+"TF_Weapon_Sandvich"		"A Szendvics"
+"TF_Weapon_Sandvich_Desc"	"Gyere csak közelebb! Adok neked harapás!"
+// Huntsman
+"TF_Weapon_Huntsman"		"A Levadász"
+"TF_Weapon_Huntsman_Desc"	"Hol marad a lovagiasság?"
+// Gunboats
+"TF_Weapon_Gunboats"				"Az Acélbetétes"
+"TF_Weapon_Gunboats_Desc_Soldier"	"Acéllal bélelt cipők! Tökéletes annak, aki csalni próbál a hadsereg kiképzőtesztjén."
+"TF_Weapon_Gunboats_Desc_Demoman"	"Annyira jó a bakancs, hogy észre se veszed a csavarokat a lábadban."
+
+// ----------------------------------------------------------------
+// Death & Taxes weapon strings
+// ----------------------------------------------------------------
+
+// Umbrella
+"TF_Weapon_Umbrella"		"Esernyő"
+"TF_Weapon_Umbrella_Desc"	"Az igényes embernek száraznak kell maradnia."
+// Nail Gun
+"TF_Weapon_NailGun"			"Tűpisztoly"
+"TF_Weapon_NailGun_Desc"	"Ja, hamar ki is rúgtak abból a melóból."
+// R.P.G.
+"TF_Weapon_RPG"			"Az R.P.G."
+"TF_Weapon_RPG_Desc"	"Látod ahogy a rakéta kibújik az elejéből fiam? A szabadságra szomjazik, és az Istenért is, meg fogja kapni."
+// Hunting Revolver
+"TF_Weapon_HuntingRevolver"			"A Vadászrevolver"
+"TF_Weapon_HuntingRevolver_Desc"	"Egy támadóbb jellegű megközelítésre."
+// Fishwhacker
+"TF_Weapon_Fishwhacker"			"A Halcsapó"
+"TF_Weapon_Fishwhacker_Desc"	"Tartsd őt biztosan, pajtás. Néha hullatja a kislány a szálkáit."
+// Tranquilizer Gun
+"TF_Weapon_TranquilizerGun"			"Altatópisztoly"
+"TF_Weapon_TranquilizerGun_Desc"	"Álmaidban, chéri."
+// Dynamite Pack
+"TF_Weapon_DynamitePack"		"A Dinamitcsomó"
+"TF_Weapon_DynamitePack_Desc"	"Holnap darabokban leszel."
+// Coilgun
+"TF_Weapon_Coilgun"			"Tekercspisztoly"
+"TF_Weapon_Coilgun_Desc"	"Nincs itt steak, csak egy nagy kupac parázs."
+// Mine Layer
+"TF_Weapon_MineLayer"		"Az Aknavető"
+"TF_Weapon_MineLayer_Desc"	"Hé', legyé' résen! Heh he..."
+// Shock Therapy
+"TF_Weapon_ShockTherapy"		"A Sokkterápia"
+"TF_Weapon_ShockTherapy_Desc"	"MEHET!"
+
+// ----------------------------------------------------------------
+// Fight or Flight weapon strings
+// ----------------------------------------------------------------
+
+// L'escampette
+"TF_Weapon_Lescampette"			"L'escampette"
+"TF_Weapon_Lescampette_Desc"	"Fogd rövidre."
+// Chekhov's Punch
+"TF_Weapon_ChekhovsPunch"		"Csehov Taslija"
+"TF_Weapon_ChekhovsPunch_Desc"	"Ne pityeregj! Narratív célod van Gépágyús életében."
+// Twin Barrel
+"TF_Weapon_TwinBarrel"		"Az Ikercső"
+"TF_Weapon_TwinBarrel_Desc"	"(A megvásárlást követő módosítások érvénytelenítik a garanciát.)"
+// Anti-Aircraft Cannon
+"TF_Weapon_AntiAircraftCannon"		"Légvédelmi Ágyú"
+"TF_Weapon_AntiAircraftCannon_Desc"	"Melyik darabkádat küldje haza Gépágyús anyukádnak?"
+// PDA: Jump Pad
+"TF_Weapon_PDAJumpPad"		"PDA: Ugrató"
+"TF_Weapon_PDAJumpPad_Desc"	"Bízz bennem, pajtás. Ettől elszáll az agyad."
+// Harvester
+"TF_Weapon_Harvester"		"A Betakarító"
+"TF_Weapon_Harvester_Desc"	"Ne kérdezd kiért szól a harang."
+// Brick
+"TF_Weapon_Brick"		"A Tégla"
+"TF_Weapon_Brick_Desc"	"Nem gondoltam, hogy ENNYIRE lassú vagy."
+
+// ----------------------------------------------------------------
+// Double Down weapon strings
+// ----------------------------------------------------------------
+
+// Rejuvenator
+"TF_Weapon_Rejuvenator"			"A Fiatalító"
+"TF_Weapon_Rejuvenator_Desc"	"Próbálj ügyelni arra, hogy ne kerüljön a szemedbe vagy a szádba."
+// Admiralty Anchor
+"TF_Weapon_AdmiraltyAnchor"			"A Tengernagyi Horgony"
+"TF_Weapon_AdmiraltyAnchor_Desc"	"Nem fogok tűrni egyetlen egy durva viccet sem a tengerészgyalogságról az én egységemben!"
+// Derby Cane
+"TF_Weapon_DerbyCane"		"A Derbi Pálca"
+"TF_Weapon_DerbyCane_Desc"	"Elég lelkesnek érzed magad, fiú? Remélem igen."
+// Cyclops
+"TF_Weapon_Cyclops"			"A Küklopsz"
+"TF_Weapon_Cyclops_Desc"	"A vakok országában légy te a király."
+
+// ----------------------------------------------------------------
+// Miscellaneous weapon types
+// ----------------------------------------------------------------
+
+"TF_Weapon_Anchor"					"Horgony"
+"TF_Weapon_Boots"					"Csizma"
+"TF_Weapon_Bow"						"Íj"
+"TF_Weapon_Cane"					"Sétapálca"
+"TF_Weapon_Chains"					"Láncok"
+"TF_Weapon_CigaretteCase"			"...cigarettatárca?"
+"TF_Weapon_Club"					"Bunkósbot"
+"TF_Weapon_DoubleBarrelShotgun"		"Kétcsövű sörétes puska"
+"TF_Weapon_EMPGrenadeLauncher"		"Impulzusgránát-vető"
+"TF_Weapon_Grenade"					"Gránát"
+"TF_Weapon_HealGrenadeLauncher"		"Gyógygránát-vető"
+"TF_Weapon_LunchBox"				"Uzsonnás doboz"
+"TF_Weapon_PDA"						"PDA"
+"TF_Weapon_ProximityMineLauncher"	"Távakna-vető"
+"TF_Weapon_Scythe"					"Kasza"
+"TF_Weapon_Syringe"					"Fecskendő"
+"TF_Weapon_Taser"					"Elektromos sokkoló"
+"TF_Weapon_Throwable"				"Eldobható tárgy"
+
+// ----------------------------------------------------------------
+// Weapon meters
+// ----------------------------------------------------------------
+
+"TF_Meter_Airtime"	"LÉGIIDŐ"
+"TF_Meter_Brick"	"TÉGLA"
+"TF_Meter_Cloak"	"ÁLCA"
+"TF_Meter_Crits"	"KRITEK"
+"TF_Meter_Dynamite"	"DINAMIT"
+"TF_Meter_Harvest"	"SZÜRET"
+"TF_Meter_LunchBox"	"UZSONNA"
+"TF_Meter_Therapy"	"TERÁPIA"
+
+// ----------------------------------------------------------------
+// Buildings
+// ----------------------------------------------------------------
+
+// Building Status
+"Building_hud_hauling"              "Épületet visz..."
+"Building_hud_upgrading"			"Fejlesztés..."
+"Building_hud_jumppad_a_not_built"	"Ugrató A\nNincs építve"
+"Building_hud_jumppad_b_not_built"	"Ugrató B\nNincs építve"
+
+// Jump Pad
+"TF_Object_Jump"					"Ugrató"
+"TF_Object_Jump_A"					"Ugrató A"
+"TF_Object_Jump_B"					"Ugrató B"
+"TF_JumpPad_Mode_A"					"A"
+"TF_JumpPad_Mode_B"					"B"
+
+// ----------------------------------------------------------------
+// Weapon attributes
+// ----------------------------------------------------------------
+
+"Attrib_CritVsBurning"				"Kritet okoz az égő célpontoknak"
+"Attrib_RocketJumpDmgReduction"		"%s1% saját robbanási sebzés"
+"Attrib_Scattergun_HasKnockback"	"Visszalöki a célpontot és a lövészt"
+
+"Attrib_RocketGravity"								"A rakéták ívesen közlekednek"
+"Attrib_CreatesEarthquakeFallDamage"				"Földrengés okozása zuhanási sebzés szenvedésekor, míg aktív"
+"Attrib_TakeProjectileCritsAirborne"				"Krit elszenvedése a lövedékektől a levegőben a viselőn"
+"Attrib_Gravity_Active_Increased"					"+%s1% gravitáció amikor aktív"
+"Attrib_TeleporterJumpPad"							"Kicseréli a Teleport ki- és bejáratokat Ugratókra"
+"Attrib_Mod_Horizontal_Spread"						"Széles, vízszintes szóródása van"
+"Attrib_ApplySelfKnockback"							"Visszafele ható ön-visszalökés tüzeléskor"
+"Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% visszalökés az ellenfélen"
+"Attrib_LifestealCrit"								"Találatkor: életerő elszívása a célponttól amíg a mérce tele van"
+"Attrib_FlatHealOnAfterburn_Active"					"+%s1 életerő nyereség utánégés-tickenként amikor aktív"
+"Attrib_RememberTargetsRemainingAfterburn"			"Követi a maradék utánégést a halott célpontokról"
+"Attrib_OnDeathRemoveTargetsAfterburn"				"Halálkor: az általad felgyújtott ellenségek eloltódnak"
+"Attrib_Explosive_Bullets"							"Robbanótöltetet lő"
+"Attrib_CannotUseStoredCrits"						"A fegyver nem használhat raktározott kriteket"
+"Attrib_GainStoredCritsOnHit"						"Találatkor: %s1 kritikus találat raktározása"
+"Attrib_AlwaysCritsFullStoredCrits"					"A fegyver nem használhat raktározott kriteket kivéve ha a max. kapacitáson van"
+"Attrib_LoseStoredCritsOnMiss"						"Melléütéskor: %s1 elraktározott kritikus találat elvesztése"
+"Attrib_MeleeTakenBecomesCritWearer"				"Krit elszenvedése közelharci sebzésből a viselőn"
+"Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1%-kal gyorsabb mozgási sebesség álcázva"
+"Attrib_LoseCloakOnDamage"							"-%s1% álca mikor álca alatt sebeznek"
+"Attrib_TranqOnHit"									"Találatkor: Az célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig"
+"Attrib_FishwhackerSweep"							"A közeli ellenfelek visszalökődnek"
+"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Az ön-visszalökést befolyásolja a sebzésnövelés"
+"Attrib_ApplySelfKnockbackSwing"					"Visszafele ható ön-visszalökés hintázáskor"
+"Attrib_AirblastSelfKnockback"						"A léglöket visszalöki a használót"
+"Attrib_ProximityMine"								"A távaknák felrobbannak közeli ellenfeleknél"
+"Attrib_AltFire_FizzleMines"						"Alternatív tűz: távaknák elporlasztása"
+"Attrib_NoStickyChargeTime"							"A tapadóbombákat nem lehet feltölteni"
+"Attrib_BlastSplashDamage_Decreased"				"%s1% robbanási területi sebzéscsökkentés"
+"Attrib_BurningTargetsChargeCrit"					"Az égő célpontok feltöltik a krit mércét amikor aktív"
+"Attrib_LimitedRange"								"A fegyvernek korlátozott a hatótávja"
+"Attrib_GainStoredCritsOnKill"						"Öléskor: %s1 kritikus találat raktározása"
+"Attrib_HealOnKillCrit"								"+%s1 életerő visszatöltődik krites öléskor"
+"Attrib_InstantReloadOnDirectHit"					"Telitalálatkor: legfeljebb %s1 lőszer azonnali újratöltése"
+"Attrib_InstantReloadOnHit"							"Találatkor: legfeljebb %s1 lőszer azonnali újratöltése"
+"Attrib_InstantReloadOnDirectHitKill"				"Telitalálati öléskor: legfeljebb %s1 lőszer azonnali újratöltése"
+"Attrib_InstantReloadOnKill"						"Öléskor: legfeljebb %s1 lőszer azonnali újratöltése"
+"Attrib_ViewPunchOnHit"								"Találatkor: a célpont nézetének eltorzítása"
+"Attrib_FlinchDecrease"								"%s1%-kal kevesebb megrezzenés"
+"Attrib_FlinchIncrease"								"+%s1%-kal több megrezzenés"
+"Attrib_FlinchDecreaseWearer"						"%s1%-kal kevesebb megrezzenés a viselőn"
+"Attrib_FlinchIncreaseWearer"						"+%s1%-kal több megrezzenenés a viselőn"
+"Attrib_FlinchDecreaseAiming"						"%s1% kevesebb megrezzenés célzás közben"
+"Attrib_FlinchIncreaseAiming"						"+%s1% több megrezzenés célzás közben"
+"Attrib_CritVsBleed"								"100% kritikus találat vérző játékosokon"
+"Attrib_MinicritWhileDisguised"						"Támadáskor mini-kritet sebez ha jelmezben vagy"
+"Attrib_TakeMinicritsWhileDisguised"				"Mini-krit sebzés szenvedése ha jelmezben vagy"
+"Attrib_ObjectivesGiveMiniCrits"					"Mini-kritet okoz azoknak az ellenfeleknek, akik épp elfoglalják, megvédik vagy viszik a játékcélt"
+"Attrib_HeadshotIsMinicrit"							"A fejlövések mini-kritet sebeznek"
+"Attrib_BuildingsMaxLevel"							"Az épületeknek %s1 max. fejlesztési szintjük van"
+"Attrib_UpgradeCost"								"Az épületeknek %s1 fémtöbblet kell a fejlesztéshez"
+"Attrib_Dispenser_Build_Rate"						"%s1%-kal növeli az adagoló-építési sebességet"
+"Attrib_JumpPad_Build_Rate"							"Felgyorsítja az Ugrató megépülési idejét %s1% másodperccel"
+"Attrib_DispenserBuildCost"							"%s1% Adagoló építési költség"
+"Attrib_SentrygunBuildCost"							"%s1% Őrtorony építési költség"
+"Attrib_JumpPadBuildCost"							"%s1% Ugrató építési költség"
+"Attrib_NoPrimaryAmmoFromDispensersAlways"			"Az Adagolók nem termelnek lőszert"
+"Attrib_MetalOnSentryKill"							"Őrtornyos öléskor: +%s1 fém"
+"Attrib_SentryKnockback_Increased"					"Az Őrtorony +%s1% visszalökést okoz"
+"Attrib_SentryKnockback_Decreased"					"Az Őrtorony %s1% visszalökést okoz"
+"Attrib_SentryTurnRate_Increased"					"Az Őrtorony +%s1%-kal gyorsabban fordul"
+"Attrib_SentryTurnRate_Decreased"					"Az Őrtorony %s1%-kal lassabban fordul"
+"Attrib_HealingMedigunReceivedBonus"				"+%s1% életerő gyógypuskából a viselőn"
+"Attrib_HealingMedigunReceivedPenalty"				"%s1% életerő gyógypuskából a viselőn"
+"Attrib_HealingMedigunReceivedActiveBonus"			"+%s1% életerő gyógypuskából amikor aktív"
+"Attrib_HealingMedigunReceivedActivePenalty"		"%s1% életerő gyógypuskából amikor aktív"
+"Attrib_HealingDispenserReceivedBonus"				"+%s1% életerő az adagolóból a viselőn"
+"Attrib_HealingDispenserReceivedPenalty"			"%s1% életerő az adagolóból a viselőn"
+"Attrib_HealingDispenserReceivedActiveBonus"		"+%s1% életerő az adagolókból amikor aktív"
+"Attrib_HealingDispenserReceivedActivePenalty"		"%s1% életerő az adagolókból amikor aktív"
+"Attrib_DispenserCanOverhealOnWearer"				"Az Adagolók túlgyógyítják a viselőt"
+"Attrib_DispenserCanOverhealOnActive"				"Az Adagolók túlgyógyítanak amikor aktív"
+"Attrib_EverythingCanOverhealOnWearer"				"Bármivel túl lehet gyógyítani a viselőt"
+"Attrib_EverythingCanOverhealOnActive"				"Bármivel túl lehet gyógyítani amikor aktív"
+"Attrib_NoCritHeals"								"Nincs Kritikus-Gyógyítás: a gyógyítási mérték nem növekedik amikor egy harcon kívüli célpontot gyógyítasz"
+"Attrib_HealthKitsCanOverhealOnWearer"				"A mentőládák túlgyógyítják a viselőt"
+"Attrib_HealthKitsCanOverhealOnActive"				"A mentőládák túlgyógyítanak amikor aktív"
+"Attrib_HealingReceivedActiveBonus"					"+%s1% életerő a gyógyítóktól amikor aktív"
+"Attrib_HealingReceivedActivePenalty"				"%s1% életerő a gyógyítóktól amikor aktív"
+"Attrib_HealthFromPacks_Active_Increased"			"+%s1% életerő mentőládákból amikor aktív"
+"Attrib_HealthFromPacks_Active_Decreased"			"%s1% életerő mentőládákból amikor aktív"
+"Attrib_DamageDelaysRegeneration"					"A sebzés elszenvedése késlelteti az életerő regenerálódását %s1 mp-vel"
+"Attrib_DestroyGrenadesDetonateOwn"					"A robbanás elpusztítja az ellenséges gránátokat és élesíti a sajátjaid"
+"Attrib_HoldFirePreventDetonation"					"Tűzgomb nyomva tartása: gránát élesítés megakadályozása"
+"Attrib_CritAirborneEnemies"						"Kritikus sebzés légi célpontokra"
+"Attrib_ModCritAirborneDirectHitOnly"				"Kritikus sebzés a légi célpontokra csak telitalálatkor"
+"Attrib_ObjectivesGiveCrits"						"Kritet okoz azoknak az ellenfeleknek, akik épp elfoglalják, megvédik vagy viszik a játékcélt"
+"Attrib_AddAmmoOnDirectHit"							"Telitalálatkor: %s1 lőszer visszanyerése"
+"Attrib_AddAmmoOnDirectHitKill"						"Telitalálati öléskor: %s1 lőszer visszanyerése"
+"Attrib_AddAmmoOnKill"								"Öléskor: %s1 lőszer visszanyerése"
+"Attrib_MinicritVsWet"								"100% mini-krit elázott játékosokon"
+"Attrib_TakeMinicritsProjectileAirborne"			"Mini-kritek elszenvedése a lövedékektől a levegőben"
+"Attrib_HealOnSmack"								"A max. töltöttségi szintnél megütött csapattársak teljesen meggyógyulnak"
+"Attrib_MultDamageCrit"								"A kritikus találatok %s1%-kal többet sebeznek"
+"Attrib_DropTeamHealthPackOnKill"					"Baráti mentőláda eldobása öléskor"
+"Attrib_PassiveAmmoHolstered"						"Újratölti a lőszert amikor nem aktív"
+"Attrib_Backstab"									"Támadd meg az ellenfeled hátulról, hogy hátba döfve egy találattal megöld."
+"Attrib_UpgradeRepairBuildings"						"Ütéssel gyorsítja az építést, valamint fejleszti és javítja a baráti építményeket."
+"Attrib_AltFire_DetonateStickybombs"				"Alternatív tűz: összes tapadóbomba felrobbantása"
+"Attrib_AltFire_Airblast"							"Alternatív tűz: léglöket kibocsátása\nEllöki az ellenségeket és a lövedékeket, és eloltja az égő csapattársakat"
+"Attrib_AltFire_Cloak"								"Alternatív tűz: láthatatlanná válás"
+"Attrib_SapBuildings"								"Kikapcsolja az épületeket és elszívja az életerejüket\nA jelmezed nem távolítódik el használat közben"
+"Attrib_ReloadNotActive"							"Ez a fegyver újratölt, amikor nem aktív"
+"Attrib_Sandvich"									"Edd meg legfeljebb 120 életerő visszanyeréséhez.\nAlternatív tűz: Szendvics megosztása egy baráttal (Közepes mentőláda)"
+"Attrib_AltFire_MinicritBoost"						"Alternatív tűz: mini-krit erősítés"
+"Attrib_SplitsIntoBomblets"							"4 kisebb dinamítrúdra válik szét felrobbanáskor"
+"Attrib_DisabledByWrench"							"A franciakulcs hatástalanítja"
+"Attrib_Coilgun"									"A teljesen feltöltött lövések lepattannak a falakról és felrobban a kezedben túltöltéskor"
+"Attrib_DamageAffectedByCharge"						"A sebzés értéke függ a jelenlegi töltöttségi szinttől"
+"Attrib_JumpPadNoUpgrade"							"Az ugratókat nem lehet fejleszetni"
+"Attrib_AltFire_HasteBoost"							"Alternatív tűz: gyorsítsd fel csapattársaidat"
+"Attrib_AltFire_UberBubble"							"Alternatív tűz: eszköz kilövése, amely sérhetetlenséget ad egy burokban"
+
+// ----------------------------------------------------------------
+// Map strings
+// ----------------------------------------------------------------
+
+// cp_amaranth
+"Amaranth_cap_A"	"a raktárakat"
+"Amaranth_cap_B"	"a RED szállítmányozási épületet"
+
+// 4dom_hydro
+"Hydro_dom_cap_warehouse"	"A-t, a raktárat"
+"Hydro_dom_cap_radar_dish"	"B-t, a radart"
+"Hydro_dom_cap_power_plant"	"C-t, az erőművet"
+"Hydro_dom_cap_dam"			"D-t, a gátat"
+
+// vip_mineside
+"vip_mineside_description"	"Feladat:
+A RED csapat győz, ha megakadályozzák a VIP-t a menekülőzóna elérésében. A BLU csapat nyer, ha elkísérik a VIP-t a menekülőzónához.
+
+Egyéb megjegyzések:
+A menekülőzóna nem nyílik meg ameddig nem viszed el az aktatáskát az irányítószobába ami a menekülőzóna kapuja mellett van.
+
+Ha a BLU csapat kézbesíti az aktatáskát, a kapu 60 másodpercig lesz nyitva, majd megint lezárul."
+
+"Mineside_setup_goal_red"	"Öld meg az ellenséges csapat VIP-jét, hogy megakadályozd a menekülőzóna elérésében. Ne hagyd, hogy felvegye a táskát."
+"Mineside_setup_goal_blu"	"Kísérd el a VIP-t a menekülőzónához. Vidd a táskát az irányítószobába, hogy kinyisd a kaput."
+
+"Mineside_escape_zone"	"a menekülőutat"
+
+// dom_oilcanyon
+"Oilcanyon_cap_A"	"A-t, a kanyont"
+"Oilcanyon_cap_B"	"B-t, a lézert"
+"Oilcanyon_cap_C"	"C-t, a finomítót"
+
+// vip_trainyard
+"Trainyard_escape_zone"	"a menekülőjárművet"
+
+// vip_harbor
+"Harbor_cap_1"			"a rakodódokkot"
+"Harbor_cap_2"			"a vízpartot"
+"Harbor_cap_3"			"a raktárat"
+
+// 4dom_krepost
+"dom_krepost_description"	"Feladat:
+A győzelemhez az egyik csapatnak el kell foglalnia, majd fenntartania az ellenőrzőpontjait, hogy ponthoz jussanak.
+
+Az aktív ellenőrzőpont véletlenszerűen válatkozik a csapatok bázisai között 60 másodpercenként.
+
+Egyéb megjegyzések:
+A foglálás gátlása megakadályozza az ellenség pontszerzését.
+
+Az aktív ellenőrzőpont lezárul amikor egy új ellenőrzőpont lesz kiválasztva.
+
+Csak dicsőséges kézitusa és kardvívás!"
+
+"Krepost_cap_red"	"a RED kastélyát"
+"Krepost_cap_blu"	"a BLU kastélyát"
+"Krepost_cap_grn"	"a GRN kastélyát"
+"Krepost_cap_ylw"	"a YLW kastélyát"
+
+"Krepost_attack_red"	"Kinyílt a RED kapuja!"
+"Krepost_attack_blu"	"Kinyílt a BLU kapuja!"
+"Krepost_attack_grn"	"Kinyílt a GRN kapuja!"
+"Krepost_attack_ylw"	"Kinyílt a YLW kapuja!"
+
+// td_caper
+"Caper_cap_A"	"A-t, a lézertornyot"
+"Caper_cap_B"	"B-t, a silókat"
+"Caper_cap_C"	"C-t, a csatornát"
+
+// vipr_2bridge
+"2Bridge_cap_A"	"a RED hídját"
+"2Bridge_cap_B"	"a BLU hídját"
+
+// vipr_drizzle
+"Drizzle_cap_A"	"a RED bánya bejáratát"
+"Drizzle_cap_B"	"a BLU bánya bejáratát"
+
+// dom_railway
+"Railway_cap_A"	"A-t, a garázst"
+"Railway_cap_B"	"B-t, a rakodócsarnokot"
+"Railway_cap_C"	"C-t, a rakománytelepet"
+
+// dom_sawtooth
+"Sawtooth_cap_A"	"A-t, a kilátót"
+"Sawtooth_cap_B"	"B-t, a fűrészmalmot"
+"Sawtooth_cap_C"	"C-t a rádiótornyot"
+
+// td_sunnyside
+"Sunnyside_cap_A"	"A-t, a pajtákat"
+"Sunnyside_cap_B"	"B-t, a tartályokat"
+"Sunnyside_cap_C"	"C-t, az ólakat"
+
+// vip_avanti
+"Avanti_red_setup_goal"		"Induljatok lefelé és öljétek meg az ellenséges csapat VIP-ját, hogy megakadályozzátok a menekülőzóna elérésében!"
+"Avanti_blue_setup_goal"	"Induljatok felfelé és kísérjétek el a VIP-t a menekülőzónához!"
+"Avanti_cap_1"				"a pincészetet"
+"Avanti_cap_2"				"a teraszt"
+"Avanti_cap_3"				"a harangtornyot"
+"Avanti_cap_4"				"a főkaput"
+
+// vipr_chopper
+"Chopper_cap_A"				"a RED radart"
+"Chopper_cap_B"				"a BLU radart"
+
+// ----------------------------------------------------------------
+// Gamemodes
+// ----------------------------------------------------------------
+
+"Gametype_CTF_Penguin"		"Pingvinrablás" // We have fun here
+"Gametype_Domination"		"Hatalom"
+"Gametype_MedDomination"	"Hatalom (Középkori)"
+"Gametype_KOTF"				"A Zászló Királya"
+"Gametype_TD"				"Terület-hatalom"
+"Gametype_VIP"				"VIP"
+"Gametype_VIPRace"			"VIP-verseny"
+
+"Gametype_FourTeam"	        "Négy-Csapatos"
+
+"Gametype_Arena_FourTeam"			"Aréna (Négy-Csapatos)"
+"Gametype_AttackDefense_FourTeam"	"Támadó / Védekező (Négy-Csapatos)"
+"Gametype_CP_FourTeam"				"Ellenőrzőpontok (Négy-Csapatos)"
+"Gametype_CTF_FourTeam"				"Zászlórablás (Négy-Csapatos)"
+"Gametype_Domination_FourTeam"		"Hatalom (Négy-Csapatos)"
+"Gametype_MedDomination_FourTeam"	"Hatalom (Négy-Csapatos Középkori)"
+"Gametype_KOTF_FourTeam"			"A Zászló Királya (Négy-Csapatos)"
+"Gametype_Koth_FourTeam"			"A Hegy Királya (Négy-Csapatos)"
+"Gametype_Escort_FourTeam"			"Bomba (Négy-Csapatos)"
+"Gametype_EscortRace_FourTeam"		"Bombaverseny (Négy-Csapatos)"
+"Gametype_SD_FourTeam"				"Különleges küldemény (Négy-Csapatos)"
+"Gametype_TD_FourTeam"				"Terület-hatalom (Négy-Csapatos)"
+"Gametype_Training_FourTeam"		"Kiképzés mód (Négy-Csapatos)"
+"Gametype_VIP_FourTeam"				"VIP (Négy-Csapatos)"
+"Gametype_VIPRace_FourTeam"			"VIP-verseny (Négy-Csapatos)"
+
+// Offline practice descriptions
+"TF_GameModeDesc_VIP"			"A BLU elkíséri a Civilt. A RED-nek ezt meg kell akadályoznia."
+"TF_GameModeDesc_VIPRace"		"Kísérjétek el a Civileteket a célhoz mielőtt a másik csapat ugyan ezt tenné."
+"TF_GameModeDesc_Domination"	"Foglaljatok el ellenőrzőpontokat és minél tovább tartsátok meg őket."
+"TF_GameModeDesc_Arena"			"Öljetek meg mindenkit vagy várjátok meg amíg megnyílik az ellenőrzőpont."
+
+"TF_GameModeBrief_VIPRace"		"VIP Verseny - Mindkét csapat rendelkezik VIP-val"
+
+// ----------------------------------------------------------------
+// Gamemode strings
+// ----------------------------------------------------------------
+
+// Domination
+"default_dom_description"	"Feladat:
+A győzelemhez az egyik csapatnak el kell foglalnia, majd fenntartania az ellenőrzőpontjait, hogy ponthoz jussanak. Minél több ellenőrzőpontot foglalsz el, annál gyorsabban kapsz pontokat.
+
+Egyéb megjegyzések:
+Ha akadályozod egy ellenőrzőpont foglalását, akkor az nem ad több pontot az ellenségnek akik azt a pontot használták.
+
+Ha a csapatod le van maradva, foglald el az összes ellenőrzőpontot, hogy pontbónuszhoz juss."
+
+"domination_setup_goal"	"Foglalj ellenőrzőpontokat, hogy pontokat szerezzhess. Több pont elfoglalásával nagyobb sikerrel járhatsz!"
+
+// VIP
+"default_vip_description"	"Feladat:
+A BLU csapat nyer, ha elkísérik a VIP-t a menekülőzónához az idő lejárta előtt. A RED csapat nyer, ha megakadályozzák a menekülőzóna elérésében.
+
+Egyéb megjegyzések:
+A BLU csapat meg tudja állítani a foglalás állapotát ha nincs jelen a VIP."
+
+"vip_setup_goal_offense"	"Kísérd el a VIP-t a menekülőzónához."
+"vip_setup_goal_defense"	"Öld meg az ellenséges csapat VIP-ját, hogy megakadályozd a menekülőzóna elérésében."
+
+"TF_VIP_Assigned"				"%s1 mostantól a VIP!"
+"TF_VIP_Tutorial_Annotation_2"	"Védő erősítést biztosít a hozzá közel levő játékosoknak és\nideiglenes mini-kritet tud adni az egyik csapattársának!"
+"TF_VIP_Tutorial_Annotation_3"	"De tartsd észben azt, hogy az ő élete fontosabb mint a tiéd, szóval ne hagyd meghalni!"
+
+"Cant_cap_civilian_only"		"Csak a VIP\n foglalhatja el ezt a pontot."
+"Cant_cap_civilian_only_frozen"	"Foglalás befagyasztva\n Csak a VIP\n foglalhatja el ezt a pontot."
+
+// VIP (Lives)
+"vipl_setup_goal_offense"	"Kísérd el a VIP-t a menekülőzónához. Ne hagyd, hogy megöljék őt."
+"vipl_setup_goal_defense"	"Öld meg az ellenséges csapat VIP-jét, vagy akadályozd meg a menekülőzóna elérésében."
+
+// VIP (Flags)
+"vip_bring_flag_here"	"Vidd ide az eszközt!"
+"vip_bring_flag"		"Vidd az eszközt az irányítószobába!"
+
+"TF_VIP_TakeDeviceToPoint"		"Vidd a táskát az irányítószobába!"
+"TF_VIP_TeamDeviceReturned"		"A táska haza került! Szerezd meg!"
+"TF_VIP_EnemyDeviceReturned"	"A táska haza került! Védd meg a ledobási területet!"
+
+// VIP Race
+"default_vipr_description"	"Feladat:
+Az a csapat nyer, aki elkíséri a VIP-t az ellenőrzőpontokat követően a menekülőzónához. Öld meg az ellenséges VIP-t, hogy nullázd az általa elfoglalt ellenőrzőpontokat.
+
+Egyéb megjegyzések:
+Ha a VIP meghal, mindazon ellenőrzőpont elvész, amit előzőleg elfoglalt.
+
+Bármely csapat meg tudja állítani egy ellenőrzőpont foglalási állapotát, ha a VIP-juk nincs jelen.
+
+Hirtelen Halálkor, öld meg az ellenséges VIP-t, hogy nyerj!"
+
+"vipr_setup_goal"		"Kísérjétek a VIP-t az ellenőrzőpontokhoz. Akadályozzátok meg az ellenséges VIP-t, hogy ugyan ezt megtegye!"
+"vipr_setup_goal_4team"	"Kísérjétek a VIP-t az ellenőrzőpontokhoz. Akadályozzátok meg az ellenséges csapatokat, hogy ugyan ezt megtegyék!"
+
+"vipr_cap_wrong_vip"	"Az ELLENSÉGES ellenőrzőpontot foglald el, te buta!"
+"vipr_own_civ_death"	"A VIP-tok meghalt! Védjétek meg!"
+"vipr_their_civ_death"	"Szép munka! A VIP-juk meghalt!"
+"vipr_cap_a_reset"		"Az A ellenőrzőpont visszaállt!"
+"vipr_cap_b_reset"		"A B ellenőrzőpont visszaállt!"
+"vipr_cap_a_reset_vip"	"Meghaltál! Az A ellenőrzőpont visszaállt!"
+"vipr_cap_b_reset_vip"	"Meghaltál! A B ellenőrzőpont visszaállt!"
+
+"vipr_central_point"		"a középső ellenőrzőpontot"
+"vipr_cap_mid_reset"		"A középső ellenőrzőpont visszaállt!"
+"vipr_death_cap_mid_reset"	"Meghaltál! A középső ellenőrzőpont visszaállt!"
+
+"vipr_red_civ_death"	"A RED VIP-ja meghalt!"
+"vipr_blu_civ_death"	"A BLU VIP-ja meghalt!"
+"vipr_ylw_civ_death"	"A YLW VIP-ja meghalt!"
+"vipr_grn_civ_death"	"A GRN VIP-ja meghalt!"
+
+"vipr_escape_zone"	"a menekülőzónát"
+
+// Territorial Domination
+"default_td_description"			"Feladat:
+A győzelemhez az egyik csapatnak kell birtokolnia az összes ellenőrzőpontot.
+
+Egyéb megjegyzések:
+Annál az ellenőrző pontnál éledsz újra amit már birtokoltok.
+
+Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen lesz kiválasztva."
+
+// Payload Race (Four-Team)
+"4plr_goal"	"Told el a kocsidat az útvonal végéig, hogy nyerj!"
+
+"4plr_cap_red"	"a RED ellenőrzőpontját"
+"4plr_cap_blu"	"a BLU ellenőrzőpontját"
+"4plr_cap_grn"	"a GRN ellenőrzőpontját"
+"4plr_cap_ylw"	"a YLW ellenőrzőpontját"
+
+// Useful generic stuff for mappers
+"generic_cap_A"			"az A ellenőrzőpontot"
+"generic_cap_B"			"a B ellenőrzőpontot"
+"generic_cap_C"			"a C ellenőrzőpontot"
+"generic_cap_D"			"a D ellenőrzőpontot"
+"generic_cap_E"			"az E ellenőrzőpontot"
+
+// ----------------------------------------------------------------
+// Intro movies
+// ----------------------------------------------------------------
+
+// cp_coldfront
+"TF_IM_Coldfront_Intro"	"A Coldfront ellenőrzőpontos pálya"
+
+// cp_steel
+"TF_IM_Steel_Intro"	"A Steel támadó/védekező ellenőrzőpontos pálya."
+"TF_IM_Steel_BlueWin"	"A BLU csapatnak el kell foglalnia az E ellenőrzőpontot, hogy megnyerje a kört."
+"TF_IM_Steel_PlotTwist"	"Azonban..."
+"TF_IM_Steel_FinalCap"	"Az E pont mindig játékban van. A BLU csapat bármikor el tudja foglalni."
+"TF_IM_Steel_Points"	"Az A, B, C, és D pontok elfoglalása könnyebbé teszi az E pont elfoglalását."
+"TF_IM_Steel_CapA"	"Az A pont elfoglalásával több útvonal nyílik meg a B és E pontokhoz."
+"TF_IM_Steel_CapB"	"A B pont elfoglalásával a RED csapat újraéledési szobája átkerül máshova és megnyit egy másik útvonalat a C ponthoz. "
+"TF_IM_Steel_CapC"	"A C pont elfoglalásával egy híd nyílik meg az E ponthoz."
+"TF_IM_Steel_CapD"	"A D pont elfoglalásával a RED csapat nehezebben közelítheti meg az E pontot."
+"TF_IM_Steel_Bridge"	"A hidak nélkül az E pontot nem érheti el mindenki."
+"TF_IM_Steel_Pit"	"Vigyázz a gödörre!"
+
+// VIP Race
+"TF_IM_VIPR_Intro"	"Üdvözlünk a VIP-verseny játékmódban"
+"TF_IM_VIPR_ToWin"	"Hogy nyerjetek, segítenetek kell a VIP-toknak elfoglalni az ellenséges ellenőrzőpontokat..."
+"TF_IM_VIPR_Escape"	"..majd el kell kísérnetek a menekülőzónához mielőtt az ellenséges csapat ugyan ezt megtehetné!"
+"TF_IM_VIPR_Death"	"Ha a VIP meghal, bármely elfoglalt pontjuk semlegessé válik"
+"TF_IM_VIPR_HUD"	"Mindkét VIP állapota és előrehaladása a képernyő alján található"
+
+// ----------------------------------------------------------------
+// Scoreboard
+// ----------------------------------------------------------------
+
+"TF_ScoreBoard_Player"				"%s1 játékos"
+"TF_ScoreBoard_Players"				"%s1 játékos"
+
+"ScoreBoard_Spectator"		        "%s1 néző: %s2"
+"ScoreBoard_Spectators"		        "%s1 néző: %s2"
+
+"TF_ScoreBoard_KillsLabel"			"Ölések:"
+"TF_ScoreBoard_AssistsLabel"		"Segítések:"
+"TF_ScoreBoard_DeathsLabel"			"Halálok:"
+
+"TF_Scoreboard_DamageLabel"			"Sebzés:"
+"TF_ScoreBoard_HealingLabel"		"Gyógyítás:"
+"TF_Scoreboard_SupportLabel"		"Támogatás:"
+
+"TF_ScoreBoard_CapturesLabel"		"Foglalások:"
+"TF_ScoreBoard_DefensesLabel"		"Védések:"
+"TF_ScoreBoard_DominationsLabel"	"Alázások:"
+"TF_ScoreBoard_RevengesLabel"		"Bosszúk:"
+"TF_ScoreBoard_BonusLabel"			"Bónusz:"
+
+"TF_ScoreBoard_UberchargesLabel"	"ÜberTöltések:"
+"TF_ScoreBoard_TransportsLabel"		"Szállítások:"
+"TF_ScoreBoard_DestructionLabel"	"Rombolások:"
+"TF_ScoreBoard_HeadshotsLabel"		"Fejlövések:"
+"TF_ScoreBoard_BackstabsLabel"		"Hátbadöfések:"
+
+"TF_Medal_Developer"		"TF2C Fejlesztő"
+"TF_Medal_Contributor"		"TF2C Közreműködő"
+"TF_Medal_Playtester"		"TF2C Tesztelő"
+
+// ----------------------------------------------------------------
+// Win Panel
+// ----------------------------------------------------------------
+
+"Winpanel_Teams1"	"CSAPAT"
+"Winpanel_Teams2"	"Csapat"
+
+"Winpanel_TeamWins"		"A %s1 %s2 GYŐZ!"
+"Winpanel_TeamLost"		"A %s1 %s2 VESZTETT!"
+"Winpanel_TeamAdvances"	"A %s1 %s2 TERJESZKEDIK"
+"Winpanel_TeamDefends"	"A %s1 %s2 VÉDEKEZIK!"
+
+"WinPanel_Green_Team_Wins"	"A GRN csapat győzött"
+"WinPanel_Yellow_Team_Wins"	"A YLW csapat győzött"
+
+"Winpanel_GreenWins"		"A GRN CSAPAT GYŐZ!"
+"Winpanel_GreenAdvances"	"A GRN CSAPAT TERJESZKEDIK"
+"Winpanel_GreenDefends"		"A GRN CSAPAT VÉDEKEZIK!"
+"Winpanel_YellowWins"		"A YLW CSAPAT GYŐZ!"
+"Winpanel_YellowAdvances"	"A YLW CSAPAT TERJESZKEDIK"
+"Winpanel_YellowDefends"	"A YLW CSAPAT VÉDEKEZIK!"
+"Winpanel_GreenMVPs"		"A GRN csapat legjobbjai:"
+"Winpanel_YellowMVPs"		"A YLW csapat legjobbjai:"
+
+"Winreason_KOTHPointHeld"		"%s1 sikeresen védte az ellenőrzőpontját az idő lejártáig"
+"Winreason_PayloadPushed"		"%s1 eltolta a bombát az utolsó pontig"
+"Winreason_ArenaPointCaptured"	"%s1 elfoglalta az ellenőrzőpontot"
+"Winreason_RoundScoreLimit"		"%s1 %s2 pontot ért el"
+"Winreason_VIPEscaped"			"A VIP megszökött"
+"Winreason_VIPKilled"			"A VIP meghalt"
+
+// ----------------------------------------------------------------
+// Main Menu
+// ----------------------------------------------------------------
+
+"TF_Menu_Welcome"			"Üdv újra,"
+
+"TF_Menu_ResumeGame"		"Folytatás"
+"TF_Menu_Mute"				"Játékosok némítása"
+"TF_Menu_Vote"				"Szavazásra bocsátás"
+
+"TF_Menu_FindServers"		"Szerverek keresése"
+"TF_Menu_CreateServer"		"Szerverlétrehozás"
+"TF_Menu_OfflineTraining"	"Offline Gyakorlás"
+
+"TF_Menu_Loadout"			"Felszerelés"
+
+"TF_Menu_Achievements"		"Teljesítmények"
+"TF_Menu_Stats"				"Statisztikák"
+
+"TF_Menu_Options"			"Beállítások"
+"TF_Menu_Addons"			"Kiegészítők (Hamarosan!)"
+
+"TF_Menu_Quit"				"Kilépés"
+"TF_Menu_Disconnect"		"Szétkapcsolás"
+
+"TF_Menu_Blog"				"Fejl. blog"
+
+"TF_Friends_Title"					"Barátok (%friend_count%)"
+"TF_Friends_Status_InTF2C"			"TF2C-vel játszik"
+"TF_Friends_Status_Idle_InTF2C"		"TF2C-ben tétlen"
+"TF_Friends_Status_InMod"			"Más moddal játszik"
+"TF_Friends_Status_Idle_InMod"		"Tétlen más modban"
+"TF_Friends_Status_InGame"			"Más játékkal játszik"
+"TF_Friends_Status_Idle"			"Más játékban tétlen"
+"TF_Friends_Status_Online"			"Online"
+"TF_Friends_Status_Away"			"Távol van"
+"TF_Friends_Status_Offline"			"Offline"
+
+
+// ----------------------------------------------------------------
+// Loadout
+// ----------------------------------------------------------------
+
+// Loadout gamemode indicator
+"TF_Loadout_Modifier_StockItemsOnly"		"Csak alapértelmezett tárgyak!"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"Csak \"középkori\" tárgyak!"
+"TF_Loadout_Modifier_RandomizerClasses"		"Véletlenszerű osztályok!"
+"TF_Loadout_Modifier_RandomizerItems"		"Véletlenszerű tárgyak!"
+"TF_Loadout_Modifier_RandomizerAttributes"	"Véletlenszerű tulajdonságok!"
+"TF_Loadout_Modifier_RandomizerMayhem"		"Randomizált Ámokfutás!"
+"TF_Loadout_Modifier_CustomWeaponsEnabled"	"Egyéni fegyverek engedélyezve!"
+
+// Item slot types
+"TF_Loadout_Slot_Invalid"		"Érvénytelen"
+"TF_Loadout_Slot_Primary"		"Elsődleges"
+"TF_Loadout_Slot_Secondary"		"Másodlagos"
+"TF_Loadout_Slot_Melee"			"Harmadlagos"
+"TF_Loadout_Slot_Utility"		"Kellék"
+"TF_Loadout_Slot_Building"		"Épület"
+"TF_Loadout_Slot_PDA1"			"PDA"
+"TF_Loadout_Slot_PDA2"			"PDA2"
+
+// Item slot vanity names
+"TF_Loadout_Slot_Secondary_Medic"	"Gyógypuska"
+"TF_Loadout_Slot_Building_Spy"		"Mentesítő"
+"TF_Loadout_Slot_PDA2_Spy"			"Óra"
+
+"TF_Loadout_Close"				"Bezárás"
+"TF_Loadout_Back"				"Vissza"
+"TF_Loadout_Defaults"		    "Visszaállítás"
+
+// Reset inventory
+"TF_ConfirmDefaultInventory_Title"		"Visszaállítás"
+"TF_ConfirmDefaultInventory_Message"	"Biztosan alapértelmezettre szeretnéd állítani ennek az osztálynak a felszerelését?"
+"TF_ConfirmDefaultInventory_OK"			"Visszaállítás"
+
+// ----------------------------------------------------------------
+// Options
+// ----------------------------------------------------------------
+
+// TODO this is one big mess
+// Keyboard Options
+"TF2c_KeyboardCategory_Movement"        "MOZGÁS"
+"TF2c_KeyboardCategory_Combat"          "HARC"
+"TF2c_KeyboardCategory_Communication"   "KOMMUNIKÁCIÓ"
+"TF2c_KeyboardCategory_UI"  		 	"UI"
+"TF2c_KeyboardCategory_Extra"			"EXTRA"
+"TF2c_UseDefaultsButton"				"Visszaállítás"
+"TF_ClassSkill_Spy_Spywalk"				"KÉM: Kémséta"
+"TF_Voice_Menu_0_0"			            "Hangparancs: SZANITÉC!"
+"TF_Voice_Menu_0_1"			            "Hangparancs: Köszönöm!"
+"TF_Voice_Menu_1_0"			            "Hangparancs: Támadnak"
+"TF_Voice_Menu_1_1"			            "Hangparancs: Kém!"
+"TF_Voice_Menu_1_2"			            "Hangparancs: Őrtorony előttem!"
+"TF_Voice_Menu_1_3"			            "Hangparancs: Teleportot ide"
+"TF_Voice_Menu_1_4"			            "Hangparancs: Adagolót ide"
+"TF_Voice_Menu_1_5"			            "Hangparancs: Őrtornyot ide"
+"TF_Voice_Menu_1_6"			            "Hangparancs: Aktiváld az ÜberTöltést!"
+"TF_Voice_Menu_1_7"			            "Hangparancs: (SZANITÉC) ÜberTöltés állapota"
+"TF_Voice_Menu_2_0"			            "Hangparancs: Segítség!"
+"TF_Spec_Next"							"Következő megfigyelő cél"
+"TF_Spec_Prev"							"Előző megfigyelő cél"
+"TF_Spec_Mode"							"Megfigyelő mód váltás"
+"TF_Use"								"Használ (Interakció)"
+"TF_Kill"								"Öngyilkosság"
+"TF_Explode"							"Önrobbantás"
+
+// Scoreboard Options
+"TF_Enable"								"Bekapcsolás"
+"TF_Disable"							"Kikapcsolás"
+"TF_RightClick_Enable"					"Jobb-klikk a bekapcsoláshoz"
+
+// UI options
+"TF_Open_Charinfo"						"Karakter felszerelése"
+
+"TF2c_EnableGamepad"					"Gamepad bekapcsolása"
+
+"TF2c_MouseRawInput"					"Nyers bemenet"
+"TF2c_MouseSensitivity"					"Egér érzékenysége"
+"TF2c_MouseSmoothing"					"Egér kisimítása"
+"TF2c_MouseAcceleration"				"Egérgyorsítás"
+"TF2c_MouseAccelerationStrength"		"Egérgyorsítás mértéke"
+
+"TF2c_Options_Game"                     "JÁTÉK"
+"TF2c_Options_Input"                    "IRÁNYÍTÁS"
+"TF2c_Options_Video"                    "KÉP"
+"TF2c_Options_Audio"                    "HANG"
+"TF2c_Options_MultiPlayer"              "TÖBBJÁTÉKOS"
+
+"TF2c_OptionCategory_Mouse"				"EGÉR"
+"TF2c_OptionCategory_Joystick"			"GAMEPAD"
+"TF2c_OptionCategory_Keyboard"			"BILLENTYŰZET"
+
+"TF2c_OptionCategory_Graphics"			"GRAFIKA"
+"TF2c_OptionCategory_Video"				"KÉP"
+
+"TF2c_OptionCategory_Volume"			"HANGERŐ"
+"TF2c_OptionCategory_Device"			"KIMENET"
+"TF2c_OptionCategory_Language"			"NYELV"
+"TF2c_OptionCategory_Voice"				"HANG"
+
+"TF2c_OptionCategory_Combat"			"HARC"
+"TF2c_OptionCategory_HUD"				"HUD"
+"TF2c_OptionCategory_ViewModel"			"NÉZETMODELL"
+"TF2c_OptionCategory_ClassSpecific"		"OSZTÁLYFÜGGŐ"
+"TF2c_OptionCategory_Performance"		"TELJESÍTMÉNY"
+"TF2c_OptionCategory_Misc"				"EGYÉB"
+"TF2c_OptionCategory_Replay"			"VISSZAJÁTSZÁS"
+"TF2c_OptionCategory_DemoSupport"		"DEMÓ"
+"TF2c_OptionCategory_Communication"		"KOMM."
+
+"TF2c_OptionCategory_CustomizationMultiplayer"			"Testreszabás"
+"TF2c_OptionCategory_Network"							"HÁLÓZAT"
+
+"TF2c_MuteUnfocused"					"Fókuszon kívüli némítás"
+
+"TF2c_Options_Custom"					"Egyéni"
+
+"TF2c_ChatFilterSettingsButton"			"Beállítások"
+
+"GameUI_CloseWithoutSaving"				"Bezárás mentés nélkül"
+"GameUI_CloseWithoutSavingText" 		"Biztosan be szeretnéd zárni?\n Minden mentetlen változtatás el fog veszni!"
+"GameUI_Legacy"							"Régi menü"
+"GameUI_Effect_Detail"          		"Effektek részletessége"
+"GameUI_VeryLow"               			"Nagyon alacsony"
+"GameUI_Off"               				"Kikapcsolva"
+"GameUI_Everyone"               		"Mindenki"
+"GameUI_FriendsOnly"               		"Csak barátoknak"
+
+"GameUI_Restart"						"Újraindítás szükséges"
+"GameUI_RestartText"					"Néhány változtatás miatt újra kell indítanod a játékot:"
+"GameUI_OptionsRestart_Revert"			"Visszaállítás"
+
+// Combat
+"TF2C_Option_DamageFeedback"				"Sebzés-visszajelző bekapcsolása"
+"TF2C_Tooltip_DamageFeedback"				"A sebzés-visszajelző kontextusától függő hangokat fog lejátszani, ha különböző típusú sebzést okozol, vagy szenvedsz el"
+"TF2C_Option_DamageFeedbackOutgoing"		"Okozott sebzéshang bekapcsolása"
+"TF2C_Tooltip_DamageFeedbackOutgoing"		"Az okozott sebzéshangok akkor játszódnak le, ha sebzést okozol az ellenfeleidnek"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"Okozott sebzéshang hangereje"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"Az okozott sebzés visszajelzésének hangereje"
+"TF2C_Option_DamageFeedbackIncoming"		"Elszenvedett sebzéshang bekapcsolása"
+"TF2C_Tooltip_DamageFeedbackIncoming"		"Az elszenvedett sebzéshangokat akkor hallod, ha épp sebeznek"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"Elszenvedett sebzéshang hangereje"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Az elszenvedett sebzés visszajelzésének hangereje"
+
+"TF_CenterFirePreference"         	"Középről kilövő lövedékek előnyben részesítése"
+"TF_CenterFirePreference_Tip"    	"Ha be van kapcsolva, a lövedékek születési Y koordináta pozíciója 0 lesz a játékosnak; az alkalmazáshoz a játékosnak ehhez a menüben kell lennie, vagy nézőnek kell lennie"
+"TF_BurningDeathAnim"				"„Elégés” halálanimációk bekapcsolása"
+"TF_BurningDeathAnim_Tip"			"Ha be van kapcsolva, a hullák lehet, hogy lejátszák ezeket a különleges halálanimációkat amikor elégnek"
+"TF_CombatTextBatchingWindow"		"Harci sebzésszöveg-esemény összegyűjtések közötti késleltetés"
+"TF_CombatTextBatchingWindow_Tip"	"Maximum késleltetési idő összegyűjtött sebzésszöveg-események között"
+"TF_CombatTextDropshadow"			"A sebzésszöveg árnyékot vetít ki"
+"TF_CombatTextDropshadow_Tip"		"Ha be van kapcsolva, minden sebzésszöveg árnyékot fog vetni"
+
+// ClassSpecific
+"TF_CyclopsDoubleTap"             	"ROBBANTÓS: Küklopsz „dupla kattintás” bekapcsolása"
+"TF_CyclopsDoubleTap_Tip"        	"Ha be van kapcsolva, a Küklopsz gránátjai egy második kattintás után fognak élesíteni, az elsődleges tűzgomb elengedése helyett"
+"TF_SapperAwareness"                "MÉRNÖK: Mentesítő figyelem"
+"TF_SapperAwareness_Tip"            "Ha be van kapcsolva, az épületeken egy alternatív színnel fog figyelmeztetni, ha azt mentesítik"
+"TF_SniperBell"					    "MESTERLÖVÉSZ: Hangjelzés teljes töltöttségkor"
+"TF_SniperBell_Tip"					"A mesterlövész puskák automatikus hangjelzést adnak, amikor teljesen fel vannak töltve"
+"TF_ZoomSensitivityRatio"			"MESTERLÖVÉSZ: Ráközelítés érzékenységi értéke"
+"TF_ZoomSensitivityRatio_Tip"		"A távcsöves ráközelítés érzékenységének beállítása"
+"TF_SpywalkInverted"				"KÉM: Kémséta használata alapból"
+"TF_SpywalkInverted_Tip"			"Ha be van kapcsolva, alapból a Kémséta sebességét fogja használni, és a normál mozgási sebességet a Kémséta gombbal"
+"TF_ViewModelCloakTint"				"KÉM: Nézetmodell színezése álca alatt"
+"TF_ViewModelCloakTint_Tip"			"Nézetmodell beszínezése álca alatt."
+"TF_AvoidBecomingVIP"				"CIVIL: VIP szerep kerülése"
+"TF_AvoidBecomingVIP_Tip"			"Ha be van kapcsolva, általában a játék nem vesz számba amikor VIP-t választ; viszont kiválaszthatnak ha mindenkinek be van ez kapcsolva vagy ha rád szavaznak"
+
+// HUD
+"TF_LoadoutGrid"                  "Felszerelés négyzetháló bekapcsolása"
+"TF_LoadoutGrid_Tip"              "Ha be van kapcsolva, a fegyver leltár oldala négyzethálósan jelenik meg"
+"TF_HighlightAmmo"				  "Fénylő körvonalak mutatása az elejtett fegyvereken"
+"TF_HighlightAmmo_Tip"			  "Ha be van kapcsolva, az elejtett fegyverek fényleni fognak, hogy kiemeljék a helyüket"
+"TF_MessageAlert"				  "Üzenetjelző hang bekapcsolása"
+"TF_MessageAlert_Tip"			  "Ha be van kapcsolva, üzenetjelző hangot fogsz hallani valahányszor üzenet érkezik a szöveges csevegőre"
+"TF_MessageVolume"				  "Üzenetjelző hang hangereje"
+"TF_MessageVolume_Tip"			  "Üzenetjelző hang hangerejének beállítása"
+"TF_ScoreBoardShowAvatars"		  "Profilképek megjelenítése a pontlistán"
+"TF_ShowCurrentWeapon"		  	  "Jelenleg elővett fegyver megjelenítése"
+"TF_OverlayToastPosition"         "Steam értesítés helye"
+"TF_TopLeft"                      "Bal fent"
+"TF_TopRight"                     "Jobb fent"
+"TF_BottomLeft"                   "Bal lent"
+"TF_BottomRight"                  "Jobb lent"
+"TF_OverlayToastInsetHoriz"       "Steam értesítés vízszintes beágyazódása"
+"TF_OverlayToastInsetVert"        "Steam értesítés függőleges beágyazódása"
+"TF_TargetID_Floating_Health"	  "Célpont-azonosító - Lebegő életerő bekapcsolása"
+"TF_TargetID_Floating_Health_Tip" "Ha be van kapcsolva, a célpont felett megjelenik az életereje"
+"TF_TargetID_Alpha"				  "Célpont-azonosító - Névtábla hátterének átlátszósága"
+"TF_TargetID_Alpha_Tip"			  "Beállítja a célpont-azonosító névtábla hátterének az átlátszóságát"
+"TF_TargetID_Show_Avatars"		  "Célpont-azonosító - Profilképek megjelenítése"
+"TF_TargetID_Show_Avatars_Tip"	  "Steam profilképek megjelenítése a célpont-azonosítón"
+"TF_HideKeybinds"                 "Megjelenített billentyűbeállítások elrejtése a játékban"
+"TF_HideKeybinds_Tip"			  "A HUD-on megjelenített billentyűbeállítások kikapcsolása"
+"TF_AlternativeTimer"             "Alternatív visszaszámláló használata"
+"TF_AlternativeTimer_Tip"         "Ha be van kapcsolva, a számláló egy fix szélességű betűtípust fog használni"
+"TF_DisableDropShadow"            "Szövegárnyékolás kikapcsolása"
+"TF_DisableDropShadow_Tip"        "Kikapcsolja a legtöbb szövegen és képen az árnyékolást"
+"TF_DeathNoticeMax"               "Ölési jelentés - Maximum látható tétel"
+"TF_DeathNoticeMax_Tip"           "Beállítja a max. egyszerre megjeleníthető ölési jelentés tételeket"
+"TF_DeathNoticeTime"              "Ölési jelentés - A jelentések lejárati ideje (másodpercben)"
+"TF_DeathNoticeTime_Tip"          "Beállítja az ölési jelentés tételeinek lejáratát"
+
+// ViewModel
+
+"TF_ViewModelFOV"				"Nézetmodell látómezeje"
+"TF_FlipViewModels"				"Nézetmodellek megfordítása"
+"TF_InvisibleArms"				"Láthatatlan nézetmodell-karok"
+"TF_ViewModelOpacity"			"Nézetmodell áttetszősége"
+
+// Misc
+"TF_ClassAutoKill"					"Osztályválasztás utáni öngyilkosság"
+"TF_ClassAutoKill_Tip"				"Ha be van kapcsolva, a csatamezőn azonnal öngyilkos leszel amint osztályt váltasz.\n\nHa ki van kapcsolva, a legközelebbi újraéledéskor váltasz osztályt."
+"TF_ClassMenu_Music"				"Osztálymenü zene"
+"TF_StreamerMode"					"Közvetítő mód bekapcsolása"
+"TF_StreamerMode_Tip"				"Ha be van kapcsolva, kikapcsolja a csevegőt (kivéve a hangos csevegőt) és mindenkit névtelenít"
+"TF_ModelMuzzleFlash"				"Béta-stílusú tüzelési effekt bekapcsolása"
+"TF_ModelMuzzleFlash_Tip"			"Ha be van kapcsolva, a tüzelési effektek részecskék helyett modellek lesznek"
+
+// Voice
+"TF2c_Option_Proximity_Voice_Local"	"Távérzékeny hangos csevegő bekapcsolása"
+// MULTIPLAYER
+"TF_DownloadFilter_Title"			"A szerverekről letöltött egyedi fájlok engedélyei"
+"GameUI_DownloadFilter_All"			"Egyedi fájlok engedélyezése"
+"GameUI_DownloadFilter_NoSounds"	"Egyedi hangok tiltása"
+"GameUI_DownloadFilter_MapsOnly"	"Csak pályafájlok"
+"GameUI_DownloadFilter_None"		"Egyedi fájlok tiltása"
+
+"TF_Network_Rate"       			"Hálózatfrissítés mértéke"
+"TF_Network_Rate_Tip"       		"Hálózatfrissítés mértékének beállítása, amely ellentétesen állítja be a hálózati interpolációt.\n\nAjánlott minden beállítást kipróbálni, hogy meglásd melyik érződik a legjobbnak a saját hálózatodon."
+
+// Video
+"TF2c_Option_BloomScale"	"HDR ragyogás mértéke"
+
+// ----------------------------------------------------------------
+// Stats
+// ----------------------------------------------------------------
+
+"TF_Stats_Reset"			            "Nullázás" // R
+"TF_Stats_Close"			            "Bezárás" // Q
+
+"TF_NextTip"						    "Következő tipp"
+
+"Stat_PadJumps"							"UGRATÓK"
+
+"StatPanel_Label_PadJumps"				"Ugratások száma: "
+
+"TF_ClassRecord_MostUbercharges"        "Legtöbb ÜberTöltés:"
+"TF_ClassRecord_Alt_MostUbercharges"	"ÜberTöltés"
+"TF_ClassRecord_MostPadJumps"	        "Legtöbb ugratás:"
+"TF_ClassRecord_Alt_MostPadJumps"		"ugratás"
+
+"StatPanel_PadJumps_Best"		        "Ebben a körben többen használták az ugratóidat, mint a korábbi legjobb eredményed."
+"StatPanel_PadJumps_Tie"		        "Ebben a körben ugyanannyian használták az ugratóidat mint a rekordod."
+"StatPanel_PadJumps_Close"		        "Ebben a körben majdnem annyian használták az ugratóidat, mint a rekordod."
+"StatPanel_MVM_PadJumps_Best"			"Ebben a Mann vs. Masina körben többen használták az ugratóidat, mint a korábbi legjobb eredményed."
+"StatPanel_MVM_PadJumps_Tie"			"Ebben a Mann vs. Masina körben ugyanannyian használták az ugratóidat mint a rekordod."
+"StatPanel_MVM_PadJumps_Close"			"Ebben a Mann vs. Masina körben majdnem annyian használták az ugratóidat, mint a rekordod."
+// ----------------------------------------------------------------
+// Achievements
+// ----------------------------------------------------------------
+
+// Achievement groups
+"Achievement_Group_3000"	"Támadó osztályok (%s1 / %s2)"
+"Achievement_Group_3100"	"Védekező osztályok (%s1 / %s2)"
+"Achievement_Group_3200"	"Támogató osztályok (%s1 / %s2)"
+"Achievement_Group_3300"	"Pályák és játékmódok (%s1 / %s2)"
+
+// Launch achievements
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Kiszámolt baleset"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"Ölj meg egy távoli ellenfelet az R.P.G. íves rakétájával."
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"Tapasztalt világutazó"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"Játszd végig a Dustbowl, 2Fort, Badlands (CP), Well (CTF) és Avanti pályákat."
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_DUSTBOWL"	"Dustbowl"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_2FORT"	"2Fort"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_BADLANDS"	"Badlands (CP)"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_WELL"	"Well (CTF)"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_VIP_AVANTI"	"Avanti"
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_NAME"		"KA-BLOOIE!"
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"Tégy tönkre 5 Mérnök által épített épületet a Dinamitcsomóval."
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"Kanóc-oltás"
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"Hatástalanítsd egy ellenséges Robbantós Dinamitcsomóját a franciakulcsoddal."
+"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_NAME"				"Mélyálom"
+"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"Kémként, ölj meg 10 elkábított játékost a közelharci fegyvereddel."
+"TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"Szülinapi zsúr"
+"TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"				"Olts el 20 Dinamitcsomó-rudat a léglöketeddel."
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"Vasharapó"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"A Tűpisztolyt használva, pusztíts el 5 Őrtornyot."
+"TF2C_ACHIEVEMENT_BRICK_NAME"							"Tégla"
+"TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"Együtt a hajóval"
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"Ölj meg egy ellenfelet a Tengernagyi Horgony földrengésével, miután már meghaltál."
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"Zúzz és tépj!"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"Ölj meg az Ikercsővel 10 ellenfelet mellbe lövésekkel."
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"Fejjel előre"
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"Fejezz le 3 ellenfelet a Betakarítóval, egyetlen életben."
+"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"Kilapító kombó"
+"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"Ölj meg legalább 3 ellenfelet egyetlen Küklöpsz kombó robbantással."
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"Lefegyverzés"
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"Gépágyúsként aktiválj egy ellenséges Aknát ami legalább 5 mp-je lett lerakva, anélkül, hogy közel mennél hozzá."
+"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, ööö..."
+"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"Ölj meg egy ellenfelet egy rosszul beütött élesítőkóddal."
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"Az önkontroll elve"
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"A Légvédelmi Ágyút használva, okozz 2000 sebzést, egyetlen életben anélkül, hogy sebeznéd magad."
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Felkészítés, végeredmény"
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Ölj meg valakit egy krittel a Csehov Taslijával úgy, hogy a maximum krittartalékod van."
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Végsebesség"
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"Landolj valakinek a fején és öld meg egy Ugrató használata után."
+"TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"Maratonsebész"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Hosszabítsd meg a Fiatalító ÜberTöltését 12 másodpercig."
+"TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"Meghalt!"
+"TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"Hozd rá a szívbajt egy ellenséges Gépágyúsra akinél a Csehov Taslija van."
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Légpangás"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Lőj fejbe egy ellenfelet miközben a levegőben van."
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Vadászd le a franciát"
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Fedj fel egy láthatatlan L'escampette-es Kémet."
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"A vállalkozó"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Nyerj meg egy VIP kört Civilként anélkül, hogy meghalnál."
+"TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"A játékban az idő a tét"
+"TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"Nyerj meg egy kör VIP-versenyt 3 perc alatt." 
+"TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Régészet"
+"TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Fedezd fel az elásott kincset Jinn-nen."
+"TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"Játékmester"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Nyerj meg egy kör léghokit a 2Bridge pályán."
+"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"Madárnak nézés"
+"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"Kergess bele egy csirkét egy környezeti ártalomba." 
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Hármas ügynök"
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"Döfj le mind a három ellenséges csapatból egy játékost egyetlen Négy-Csapatos körben."
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"Totális hatalom"
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"Legyen az összes pont a csapatod tulajdonában egy Hatalom körben."
+"TF2C_ACHIEVEMENT_SHAME_NAME"							"Szegénységi bizonyítvány"
+"TF2C_ACHIEVEMENT_SHAME_DESC"							"Ess áldozatul az ellenséges VIP-nak. Ezennel meg lettél bélyegezve."
+"TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Romboló kritika"
+"TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Alázz le egy játékost akinek hozzájárulói medálja van."
+
+// ----------------------------------------------------------------
+// Discord Rich Presence
+// ----------------------------------------------------------------
+
+"Discord_InMenu"					"Menüben"
+"Discord_InMenu_ToolTip"			"Főmenü"
+"Discord_IsLoading"					"Jelenleg betölt..."
+"Discord_IsLoading_ToolTip"			"Betöltés..."
+"Discord_InOfficialMap"				"Hivatalos pálya: %s1"
+"Discord_InCommunityMap"			"Közösségi pálya: %s1"
+"Discord_InServer_Info"				"Ezen a szerveren: %s1"
+
+// ----------------------------------------------------------------
+// Server Browser
+// ----------------------------------------------------------------
+"ServerBrowser_PlayerCount"                "%s1/%s2"
+"ServerBrowser_LatencyDetail"              "Válaszidő: %s1"
+"ServerBrowser_IPAddressDetail"            "IP-cím: %s1"
+"ServerBrowser_PlayerListHeading"          "Játékosok (%s1/%s2, %s3 bot):"
+"ServerBrowser_NotFullFilter"              "Szerver nincs tele"
+"ServerBrowser_HasPlayersFilter"           "Játszanak rajta"
+"ServerBrowser_NoPasswordFilter"           "Nem jelszóvédett"
+"ServerBrowser_HasTagsFilter"              "E címkékkel rendelkezik:"
+"ServerBrowser_MaxLatencyFilter"           "Max. válaszidő"
+"ServerBrowser_MaxPlayersFilter"           "Max. játékosok"
+"ServerBrowser_ServerTypeFilter"           "Szervertípus"
+"ServerBrowser_MapNameFilter"              "Pálya:"
+"ServerBrowser_SortBy"                     "Rendezés:"
+"ServerBrowser_SortByName"                 "Név"
+"ServerBrowser_SortByMap"                  "Pálya"
+"ServerBrowser_SortByPlayers"              "Játékosok"
+"ServerBrowser_SortByLatency"              "Válaszidő"
+"ServerBrowser_SortByLastPlayed"           "Legutóbb játszott"
+"ServerBrowser_UseLegacyBrowser"           "Régi szerver-kereső"
+"ServerBrowser_CurrentMapHeading"          "Jelenlegi pálya:"
+"ServerBrowser_TagListHeading"             "Címkék:"
+"ServerBrowser_OfficialDetail"             "Ez egy hivatalos szerver"
+"ServerBrowser_VerifiedDetail"             "Ez egy megbízható szerver"
+"ServerBrowser_Any"                        "Bármilyen"
+"ServerBrowser_Official"                   "Hivatalos"
+"ServerBrowser_Verified"                   "Megbízható"
+"ServerBrowser_OfficialOrVerified"         "Hivatalos vagy megbízható"
+"ServerBrowser_CustomRules"	               "Egyedi szabályok"
+"ServerBrowser_CustomWeapons"              "Egyedi fegyverek"
+
+// ----------------------------------------------------------------
+// RETRANSLATIONS BELOW
+// ----------------------------------------------------------------
+
+//cp_dustbowl RETRANSLATIONS
+"Dustbowl_cap_1_A"		"az első foglalást az első szakaszon"
+"Dustbowl_cap_1_B"		"a második foglalást az első szakaszon"
+"Dustbowl_cap_2_A"		"az első foglalást a második szakaszon"
+"Dustbowl_cap_2_B"		"a második foglalást a második szakaszon"
+"Dustbowl_cap_3_A"		"az első foglalást a harmadik szakaszon"
+"Dustbowl_cap_3_B"		"a rakétát, az utolsó foglalást"
+
+//pl_goldrush RETRANSLATIONS
+"Goldrush_cap_1_A"		"az első foglalást az első szakaszon"
+"Goldrush_cap_1_B"		"a második foglalást az első szakaszon"
+"Goldrush_cap_2_A"		"az első foglalást a második szakaszon"
+"Goldrush_cap_2_B"		"a második foglalást a második szakaszon"
+"Goldrush_cap_3_A"		"az első foglalást a harmadik szakaszon"
+"Goldrush_cap_3_B"		"a második foglalást a harmadik szakaszon"
+"Goldrush_cap_3_C"		"az atomgödröt, az utolsó foglalást"
+
+//Arena map RETRANSLATIONS
+"Arena_cap"			"az ellenőrzőpontot"
+
+//koth_viaduct RETRANSLATION
+"koth_viaduct_cap"			"az ellenőrzőpontot"
+
+"TF_Hitbeeps"				                "Találati hang lejátszása, amikor megsebzel egy ellenfelet" //RETRANSLATIONS TO AVOID TRUNCATION ˇˇˇ
+"TF_LastHitbeeps"			                "Utolsó találati hang lejátszása, amikor megölsz valakit"
+"TF_CombatTextBatching"		                "Harci sebzésszöveg összegyűjtése egyetlen számmá"
+"TF_CombatTextDoesntBlock"	                "A sebzés-szöveg nem akadályozza meg a fej feletti hatásokat"
+
+"TF_medigun_autoheal"		        "SZANITÉC: Gyógyítás a tűzgomb nyomvatartása nélkül" //RETRANSLATED TO AVOID TRUNCATION
+"game_takesshots"	                "Képernyőmentés az eredménytábláról a pálya végén" //RETRANSLATION, to avoid truncation
+
+//DEMO RETRANSLATIONS to avoid truncation
+"TF_DemoSupport_Screens"			"Képernyőmentés az eredménytábláról a meccs végén"
+
+"TF_ResetStats"				            "&NULLÁZÁS" //RETRANSLATION, to avoid truncation
+
+"TF_GameModeDesc_Koth"			"Egy csapatnak addig kell birtokolnia a pontot, míg az idő le nem telik."
+
+}
+}

@@ -1,0 +1,1510 @@
+﻿"lang"
+{
+"Language" "schinese"
+"Tokens"
+{
+// ----------------------------------------------------------------
+// Chat
+// ----------------------------------------------------------------
+
+// Channels
+"Channel_All"			"全体"
+"Channel_Team"			"团队"
+"Switch_All"			"（按下TAB键切换至团队）"
+"Switch_Team"			"（按下TAB键切换至全体）"
+
+// Chat Prefixes
+"Chat_All"				"%s1: %s2"
+"Chat_All_Dead"			"*死亡* %s1: %s2"
+"Chat_All_Spec"			"*旁观者* %s1 : %s2"
+"Chat_Team"				"(团队) %s1: %s2"
+"Chat_Team_Loc"			"(团队) %s1 @ %s3: %s2"
+"Chat_Team_Dead"		"(团队) *死亡* %s1: %s2"
+"Chat_Team_Spec"		"(团队) *旁观者* %s1: %s2"
+"Chat_All_Dev"			"[开发者] %s1: %s2"
+"Chat_All_Dev_Dead"		"*死亡* [开发者] %s1: %s2"
+"Chat_All_Dev_Spec"		"*旁观者* [开发者] %s1: %s2"
+"Chat_Team_Dev"			"(团队) [开发者] %s1: %s2"
+"Chat_Team_Dev_Loc"		"(团队) [开发者] %s1 @ %s3: %s2"
+"Chat_Team_Dev_Dead"	"(团队) *死亡* [开发者] %s1: %s2"
+"Chat_Team_Dev_Spec"	"(团队) *旁观者* [开发者] %s1: %s2"
+"Chat_Voice"			"(语音) "
+
+// Chat Filters
+"Chat_Filter_Voice"		"语音指令"
+
+// ----------------------------------------------------------------
+// General
+// ----------------------------------------------------------------
+
+// Sentry consent popup
+"TF_SentryReport_Title"			"发送错误报告？"
+"TF_SentryReport_Message"		"是否允许向《军团要塞2：秘典》开发团队发送匿名错误报告？"
+
+// VIP voting
+"Vote_ChangeCivilian"				"更换VIP"
+"TF_vote_change_civilian"			"选择玩家 %s1 成为VIP？"
+"TF_vote_change_civilian_caller"	"玩家 %s1 想成为VIP。"
+"TF_vote_passed_change_civilian"	"VIP将会是：%s1..."
+
+// ----------------------------------------------------------------
+// Teams
+// ----------------------------------------------------------------
+
+"TF_GreenTeam" 	                "&5 绿队"
+"TF_YellowTeam"                 "&6 黄队"
+
+"TF_GreenTeam_Name"		        "绿队"
+"TF_YellowTeam_Name"	        "黄队"
+
+"TF_Other_Name"	                "其他团队"
+
+// Disguise Kit global disguise
+"Hud_Menu_Disguise_GlobalTeam"	"全局伪装：每名队伍的敌人都会把你当成自己的队友。"
+
+// ----------------------------------------------------------------
+// Classes
+// ----------------------------------------------------------------
+
+"TF_Special"	"特殊"
+
+// Civilian
+"TF_Civilian" 				"平民"
+"TF_Class_Name_Civilian" 	"平民"
+
+"ClassTips_10_Count"	"3"
+"ClassTips_10_1"		"为你的队友提供增益效果，在战斗中占据优势!"
+"ClassTips_10_1_Icon"	"chalf_circle"
+"ClassTips_10_2"		"靠近你的队友，给予他们伤害抗性和被动治疗效果!"
+"ClassTips_10_2_Icon"	"chalf_circle"
+"ClassTips_10_3"		"你在面对战斗时手无缚鸡之力!"
+"ClassTips_10_3_Icon"	"chalf_circle"
+
+// ----------------------------------------------------------------
+// Target ID
+// ----------------------------------------------------------------
+
+// General
+"TF_playerid_sameteam"					"%s1%s2"
+"TF_playerid_diffteam"					"%s1敌人：%s2"
+"TF_playerid_noteam"					"%s1"
+"TF_playerid_friendlyspy_disguise"		"伪装成 %s1 %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  弹药：%s2 (%s3)"
+"TF_playerid_wpn_ammo"					"%s1  -  弹药：%s2"
+"TF_playerid_wpn"						"%s1"
+
+// Boosts
+"TF_playerid_healer"					"（治疗者） "
+"TF_playerid_healtarget"				"（治疗）"
+"TF_playerid_mediccharge"				"UberCharge：%s1%"
+"TF_playerid_mediccharge_wpn"			"%s1  -  UberCharge：%s2%"
+"TF_playerid_civiliancharge"			"增益效果：%s1%"
+"TF_playerid_civiliancharge_wpn"		"%s1 - 增益效果：%s2%"
+
+// Buildings
+"TF_playerid_object"					"%s1 (%s2)"
+"TF_playerid_object_diffteam"			"敌人 %s1 (%s2)"
+"TF_playerid_object_mini"				"迷你%s1 (%s2)"
+"TF_playerid_object_mode"				"%s1 %s3 (%s2) "
+"TF_playerid_object_level"				"等级：%s1"
+"TF_playerid_object_upgrade"			"升级进度：%s1"
+"TF_playerid_object_upgrade_level"		"等级：%s1  -  升级进度 %s2"
+"TF_playerid_object_upgrading"			"正在升级..."
+"TF_playerid_object_upgrading_level"	"等级：%s1  -  正在升级..."
+"TF_playerid_object_building"			"正在建造..."
+"TF_playerid_object_building_level"		"等级：%s1  -  正在建造..."
+"TF_playerid_teleporter_no_entrance"	"  -  没有匹配的传送装置入口!"
+"TF_playerid_teleporter_no_exit"		"  -  没有匹配的传送装置出口!"
+"TF_playerid_object_recharging"			"  -  重新充能中：%s1%"
+"TF_playerid_object_flooded"			"被水淹没"
+"TF_playerid_carrying"					"正在搬运：%s1"
+"TF_playerid_carrying_lvl"				"正在搬运：%s1（等级：%s2）"
+
+"TF_friendly"	"友方"
+"TF_enemy"		"敌方"
+
+// ----------------------------------------------------------------
+// Respawning
+// ----------------------------------------------------------------
+
+"game_respawntime_now"			"准备重生"
+"game_respawntime_in_sec"		"重生时间：1 秒"
+"game_respawntime_in_secs"		"重生时间：%s1 秒"
+"game_respawntime_stalemate"	"骤死赛中无法重生"
+"game_respawntime_next_round"	"重生时间：等待下一回合"
+"TF_Arena_NoRespawning"			"“竞技场”模式下没有重生机会"
+
+// ----------------------------------------------------------------
+// Kill feed
+// ----------------------------------------------------------------
+
+"DeathMsg_KilledVIP"			"杀死了VIP！"
+"DeathMsg_KilledTeamVIP"		"杀死了 %s1 VIP！"
+
+"DeathMsg_VIP"					"VIP"
+"DeathMsg_ComboKill"			"爆破连杀！"
+"DeathMsg_AirshotKill"			"空接了！"
+
+// Custom suicides
+"DeathMsg_Suicide_Boioing"		"升天了！"
+"DeathMsg_Suicide_Stomp"		"被高重力束缚了！"
+"DeathMsg_Suicide_Disintegrate"	"化作灰烬了！"
+"DeathMsg_Suicide_Decapitate"	"的身体抛弃了头！"
+"DeathMsg_Suicide_Gold"			"变成了金雕！"
+"DeathMsg_Suicide_Freeze"		"变成了冰雕！"
+"DeathMsg_Suicide_Fizzle"		"试图触碰高压电！"
+"DeathMsg_Suicide_Disappear"	"蒸发了！"
+
+// ----------------------------------------------------------------
+// Voice Menu
+// ----------------------------------------------------------------
+
+"Voice_Menu_ChargeReady"				"（医生）UberCharge 就绪"
+"Voice_Menu_ChargeReadySubtitle"		"UberCharge 就绪！（100%）"
+"Voice_Menu_ChargeAlmostReadySubtitle"	"UberCharge 差不多就绪了（%s1%）"
+"Voice_Menu_ChargeNotReadySubtitle"		"UberCharge 还未就绪！（%s1%）"
+
+// ----------------------------------------------------------------
+// Class tips
+// ----------------------------------------------------------------
+
+// Scout
+"Tip_1_Count"	"10"
+// Generic
+"Tip_1_1"		"作为侦察兵，在半空中再跳一次可改变方向并避开敌方火力。"
+"Tip_1_2"		"作为侦察兵，你占领控制点和推车的速度是其他兵种的两倍。"
+"Tip_1_3"		"作为侦察兵，你的速度远超于其他兵种。时刻保持移动吸引敌人的火力并快速逃脱！"
+// Stock
+"Tip_1_4"		"作为侦察兵，你的猎枪在近距离内可以造成大量伤害。缩短与敌人之间距离造成高爆发伤害！"
+"Tip_1_5"		"作为侦察兵，距离敌人较远时，使用手枪解决他们不失为一个好的选择。"
+"Tip_1_6"		"作为侦察兵，你的球棒造成的伤害比普通近战武器要少，但攻击速度要快得多。"
+// Death & Taxes
+"Tip_1_7"		"作为侦察兵，你的钉枪即使在远距离下也能造成不错的少量伤害。时刻保持移动并让你的子弹轨迹呈现弧线下落。"
+"Tip_1_8"		"作为侦察兵，你的钉枪可以轻而易举摧毁步哨枪，在遇到步哨枪群时记得使用它！"
+// Fight or Flight
+"Tip_1_9"		"作为侦察兵，你的砖块会对敌人造成稳定伤害以及巨大的击退效果，用这个把敌人全部击飞吧！"
+"Tip_1_10"		"作为侦察兵，你的砖块在远距离投掷并击中敌人时会造成迷你爆击伤害。"
+
+// Sniper
+"Tip_2_Count"	"11"
+// Generic
+"Tip_2_1"		"作为狙击手，瞄准敌人的头部以造成爆击伤害。"
+"Tip_2_2"		"作为狙击手，按 %attack2% 即可缩放狙击步枪的瞄准镜和狩猎左轮步枪的瞄准范围。"
+// Stock
+"Tip_2_3"		"作为狙击手，你开镜瞄准的时间越长，就能造成越大的伤害。"
+"Tip_2_4"		"作为狙击手，完全充能的狙击步枪爆头可以一击必杀大多数兵种。"
+"Tip_2_5"		"作为狙击手，使用 SMG 解决近身的敌人十分重要。"
+"Tip_2_6"		"作为狙击手，你的反曲刀是最后一道防线，应对偷袭时很有用！"
+// Death & Taxes
+"Tip_2_7"		"作为狙击手，猎人短弓更适合近距离作战，但是对付远处的敌人则会显得不太精准。"
+"Tip_2_8"		"作为狙击手，如果猎人短弓蓄力时间超过 5 秒，你的射击精准度会大打折扣。按 %attack2% 重置弓箭。"
+"Tip_2_9"		"作为狙击手，狩猎左轮步枪在中距离作战下是一个不错的选择。用它来快速造成伤害，同时快速进出前线。"
+"Tip_2_10"		"作为狙击手，使用狩猎左轮步枪瞄准时的移动速度比使用其他主武器时更快。"
+"Tip_2_11"		"作为狙击手，敲鱼棒会击退成群结队的敌人并对他们造成失血伤害。用它来击退逼近的敌人。"
+
+// Soldier
+"Tip_3_Count"	"12"
+// Generic
+"Tip_3_1"		"作为士兵，如果你受伤了，按 %voicemenu 0 0% 呼叫医生，附近的医生会收到你的请求。"
+"Tip_3_2"		"作为士兵，你可以在跳起的同时向脚下发射一枚火箭弹来进行火箭跳，使自己到达很高的地方。"
+"Tip_3_3"		"作为士兵，火箭跳时下蹲可以跳得更高。"
+"Tip_3_4"		"作为士兵，瞄准敌人的脚发射火箭以确保他们无法避开爆炸伤害。"
+"Tip_3_5"		"作为士兵，你的火箭具有强大的击退效果。利用击退效果来推开敌人，或者拦截从天而降的敌人。"
+// Stock
+"Tip_3_6"		"作为士兵，时刻确保你的火箭发射器装好弹药。任何时候都可以按 %reload% 填充弹药。"
+"Tip_3_7"		"作为士兵，在战斗中，可以使用你的霰弹枪作战以保存火箭弹，避免在战斗中装填火箭发射器。"
+"Tip_3_8"		"作为士兵，你可以使用铲子在近距离造成持续伤害，从而避免溅射伤害。"
+// Death & Taxes
+"Tip_3_9"		"作为士兵，炮艇能极大地减少由火箭跳带来的伤害。这在占据有利位点和移动的时候尤为重要。"
+"Tip_3_10"		"作为士兵，你的 R.P.G. 发射的火箭弹可以越过掩体直接打击敌人，发射前请务必仔细瞄准！"
+// Double Down
+"Tip_3_11"		"作为士兵，你的海军锚产生的地震伤害会随着你的滞空时间而增加。在火箭跳到最高点的时候取出它！"
+"Tip_3_12"		"作为士兵，装备海军锚后在空中受到任何飞行物的伤害都是爆击。在准备火箭跳和滞留在空中时要小心！"
+
+// Demoman
+"Tip_4_Count"	"15"
+// Generic
+"Tip_4_1"		"作为爆破手，你可以按 %attack2% 远程引爆粘弹或消除地雷发射器发射的地雷。"
+"Tip_4_2"		"作为爆破手，在使用黏性炸弹发射器时，你可以按 %attack% 发射黏性炸弹，然后按 %attack2% 引爆。在脚下引爆爆炸物来跳得更高。"
+"Tip_4_3"		"作为爆破手，在爆炸跳跃时蹲下，可以跳得更高。"
+// Stock
+"Tip_4_4"		"作为爆破手，在正面交锋时应使用榴弹发射器。除非榴弹先接触到地面，否则它们碰到敌人的一瞬间便会爆炸。"
+"Tip_4_5"		"作为爆破手，当你使用黏性炸弹发射器时，你按住开火按钮越久，射击的距离会越长。"
+"Tip_4_6"		"作为爆破手，将黏性炸弹射到墙上及天花板上，敌人才不容易发现。"
+"Tip_4_7"		"作为爆破手，在爆炸跳跃到敌人领地内时，你的瓶子可以用于近战。"
+"Tip_4_8"		"作为爆破手，你的瓶子无论是破碎还是完好的，它的攻击力都是一样的。"
+// Death & Taxes
+"Tip_4_9"		"作为爆破手，把你的集束炸药扔到控制点上来清除敌人。"
+"Tip_4_10"		"作为爆破手，你的集束炸药可以被敌方工程师拆除。将其投掷进步哨枪群之前记得留意敌方工程师！"
+"Tip_4_11"		"作为爆破手，炮艇能极大地减少由爆炸跳跃带来的伤害。这在占据有利点位和移动的时候尤为重要。"
+"Tip_4_12"		"作为爆破手，地雷发射器可以发射感应式地雷，当敌人站在地雷附近时就会引爆。使用它进行自动化防御！"
+// Double Down
+"Tip_4_13"		"作为爆破手，独眼巨炮的榴弹只会在你引爆时爆炸，在引爆时把握时机进行爆炸跳跃或者用来布置致命陷阱！"
+"Tip_4_14"		"作为爆破手，独眼巨炮会瞬间引爆你自己发射的爆炸物和集束炸药。大胆发动进攻，试着使用连续爆破击杀敌人！"
+"Tip_4_15"		"作为爆破手，你可以使用独眼巨炮将敌方附近的粘弹、集束炸药和地雷一并清除。"
+
+// Medic
+"Tip_5_Count"	"16"
+// Generic
+"Tip_5_1"		"作为医生，治疗最近没有受到伤害的队友时，速度会快得多！"
+"Tip_5_2"		"作为医生，治疗受伤严重的队友可以更快地补充 UberCharge。"
+"Tip_5_3"		"作为医生，在准备阶段时 UberCharge 的积攒速率会快很多。"
+"Tip_5_4"		"作为医生，通过治疗队友即可补充 UberCharge。 然后按 %attack2% 短暂进入 UberCharge 状态。"
+"Tip_5_5"		"作为医生，请保持警觉，注意需要帮助的队友。使用屏幕上的语音气泡寻找他们。"
+"Tip_5_6"		"作为医生，你和你的治疗对象不能在无敌的时候占领控制点或是捡起情报。"
+// Stock
+"Tip_5_7"		"作为医生，请记住注射枪的子弹行迹为弧线而且有飞行时间。预判你的目标并且瞄准时要稍微抬高点，以便准确命中目标。"
+"Tip_5_8"		"作为医生，用你的医疗枪为多名队友进行超量治疗，并将他们的生命值暂时提升至正常值的 150%%。"
+"Tip_5_9"		"作为医生，你的医疗枪的 UberCharge 可以让你和你的治疗对象在短时间内进入无敌状态。"
+"Tip_5_10"		"作为医生，当你与治疗对象分离时，使用骨锯来解决在近距离情况下向你靠近的敌人。"
+// Death & Taxes
+"Tip_5_11"		"作为医生，你的闪电战医疗枪能给予队友爆击增益，在敌人聚集的地方使用它并将伤害最大化！"
+"Tip_5_12"		"作为医生，使用过载充能针筒时一定要注意自己的生命值。装备它时，你的最大生命值会减 10。"
+"Tip_5_13"		"作为医生，电击治疗仪的能量条越满，造成的伤害就越高。只要你击中敌人，它的能量条就会耗尽。"
+"Tip_5_14"		"作为医生，电击治疗仪可以在充满能量条状态下完全治愈一名队友，但也会降低你的主要治疗效率。"
+// Double Down
+"Tip_5_15"		"作为医生，妙手回春炮在治疗成群结队的队友时非常有用。瞄准并直击命中还会增加治疗量和获取 UberCharge 奖励。
+"Tip_5_16"		"作为医生，妙手回春炮的 UberCharge 会在激活时部署一道临时护盾，进入该护盾范围内的任何队友会对所有伤害免疫。"
+
+// Heavy
+"Tip_6_Count"	"17"
+// Generic
+"Tip_6_1"		"作为机枪手，如果你受伤了，按 %voicemenu 0 0% 呼叫医生，附近的医生会收到你的请求。"
+"Tip_6_2"		"作为机枪手，你的生命值远高于其他兵种，不要害怕进攻，掩护并带领你的团队向前冲锋。"
+"Tip_6_3"		"作为机枪手，你的移动速度是所有兵种中最慢的，在与高机动兵种交战时一定要时刻保持警惕！"
+"Tip_6_4"		"作为机枪手，你是医生的最佳拍挡。站在医生能清楚看到你的位置，以保持得到治疗。"
+"Tip_6_5"		"作为机枪手，你是间谍的首要目标。利用你的转轮机枪让他们无处遁形，并且时刻留意自己的身后。"
+"Tip_6_6"		"作为机枪手，按住 %attack2% 能让转轮机枪保持转动，准备好痛宰敌人。"
+// Stock
+"Tip_6_7"		"作为机枪手，你的转轮机枪会消耗大量弹药。拾取掉落的武器和弹药包来补充弹药。"
+"Tip_6_8"		"作为机枪手，跳起来在空中预热机枪不会影响你的速度。利用这个技巧给墙角后面的敌人一个惊喜！"
+"Tip_6_9"		"作为机枪手，霰弹枪可以造成高爆发伤害，与转轮机枪相比，霰弹枪可以让你在攻击时移动得更快。"
+"Tip_6_10"		"作为机枪手，你的高生命值能让你在大多数近战中解决向你靠近的敌人。不要害怕使用拳头！"
+// Death & Taxes
+"Tip_6_11"		"作为机枪手，一定要找一个安全的地方享用三明治，否则可能会被敌人粗暴地打断。"
+"Tip_6_12"		"作为机枪手，你可以食用若干次三明治来恢复你的生命值。不过按 %attack2% 把它分享给队友会使它进入冷却。"
+"Tip_6_13"		"作为机枪手，把你的三明治扔出去时要小心。队友和敌人都可以用它回复 50%% 的生命值！"
+// Fight or Flight
+"Tip_6_14"		"作为机枪手，你的高射炮能造成高爆发伤害，是应对聚集敌人和清理掩体背后目标的理想武器。"
+"Tip_6_15"		"作为机枪手，高射炮能对空中的敌人造成迷你爆击。用它击落士兵或者使用跳板的敌人。"
+"Tip_6_16"		"作为机枪手，契诃夫之拳能在成功击中目标时会储存最多 3 次爆击。将其与转轮机枪配合使用！"
+"Tip_6_17"		"作为机枪手，契诃夫之拳会加强你受到敌人近战攻击时的伤害。在近战中要小心谨慎。"
+
+// Pyro
+"Tip_7_Count"	"15"
+// Generic
+"Tip_7_1"		"作为火焰兵，你的防火服可以保护你免遭燃烧的厄运。当遭遇敌方火焰兵时，尽量使用霰弹枪和或近战武器来对付他们。"
+"Tip_7_2"		"作为火焰兵，你通常可以把敌人烧着后就撤退，让他们被火烧死。"
+// Stock
+"Tip_7_3"		"作为火焰兵，你离敌人越近，火焰喷射器就能造成越大的伤害。"
+"Tip_7_4"		"作为火焰兵，你的火焰喷射器需要大量弹药。请捡起掉落在地上的武器或弹药包来补充弹药。"
+"Tip_7_5"		"作为火焰兵，请伏击敌人，并在近距离范围内用火焰喷射器将他们一网打尽。利用角落和障碍物的优势埋伏。"
+"Tip_7_6"		"作为火焰兵，火焰喷射器的压缩空气是一个相当好用的工具，按 %attack2% 来把敌人（包括进入无敌状态的敌人）推走，或是推到危险的地方！"
+"Tip_7_7"		"作为火焰兵，火焰喷射器的压缩空气（按 %attack2%）可以吹灭队友身上的火焰。"
+"Tip_7_8"		"作为火焰兵，如果敌人撤退并而超出了火焰喷射器的射程，请切换使用霰弹枪。"
+"Tip_7_9"		"作为火焰兵，你的消防斧是对付敌方火焰兵和逃跑敌人的最佳选择。"
+// Death & Taxes
+"Tip_7_10"		"作为火焰兵，你的信号枪可以在远距离点燃敌人。对付远处的敌人和狙击手非常有效。"
+"Tip_7_11"		"作为火焰兵，你的信号枪有非常短暂的时机可以爆击击中正在燃烧的敌方火焰兵。"
+// Fight or Flight
+"Tip_7_12"		"作为火焰兵，双管霰弹枪可以用来拉近你与目标之间的距离。利用后坐力将自己向上推或者推向敌人！"
+"Tip_7_13"		"作为火焰兵，双管霰弹枪的伤害不如霰弹枪可靠。如果你在遭遇战中失利，可以利用它的后坐力来让自己撤退！"
+"Tip_7_14"		"作为火焰兵，手持时收割者可以积攒能量获得爆击，还能让你从燃烧的敌人身上获得治疗。"
+"Tip_7_15"		"作为火焰兵，在装备收割者的情况下死亡将扑灭你点燃的任何敌人。"
+
+// Spy
+"Tip_8_Count"	"15"
+// Generic
+"Tip_8_1"		"作为间谍，请利用伪装工具伪装成敌人。注意，你会因为撞到敌人暴露并且发动攻击即会解除伪装。"
+"Tip_8_2"		"作为间谍，伪装时按 %voicemenu 0 0% 能呼叫敌方医生。"
+"Tip_8_3"		"作为间谍，伪装时你的行为要尽量和敌人一样。仔细观察敌方成员，然后伪装成其中一员。"
+"Tip_8_4"		"作为间谍，伪装时按 %reload% 可以让伪装的敌方成员看起来也在装弹。"
+"Tip_8_5"		"作为间谍，伪装成速度比较慢的兵种时，你可以按 %speed% 以正常速度奔跑。"
+"Tip_8_6"		"作为间谍，按 %attack2% 就能隐身，并能完全隐身一段较短的时间。"
+"Tip_8_7"		"作为间谍，利用隐身技能躲在敌人后方，利用伪装技能混进敌人中。"
+// Stock
+"Tip_8_8"		"作为间谍，当你的潜行计划泡汤的时候，左轮手枪是帮助你脱身的好工具。"
+"Tip_8_9"		"作为间谍，可以将电子工兵放置在敌方建筑上，以便使其失效并摧毁。放置电子工兵时不会解除伪装。"
+"Tip_8_10"		"作为间谍，你的电子工兵会先让步哨枪失效，然后再将其摧毁。攻击工程师前请首先给步哨枪放上电子工兵。"
+"Tip_8_11"		"作为间谍，使用刀子从背后背刺敌人，瞬间将其击毙。"
+// Death & Taxes
+"Tip_8_12"		"作为间谍，你的麻醉枪会使目标减速，并降低他们的远程武器伤害。这有助于为逃跑创造机会。"
+"Tip_8_13"		"作为间谍，你的麻醉枪发射的飞镖会使你的目标受到的近战伤害转为爆击。利用这一点让你的队友群殴他，或者自行解决他。"
+// Fight or Flight
+"Tip_8_14"		"作为间谍，逃生怀表可让你快速进出敌方基地。使用它快速逃跑或者快速潜入！"
+"Tip_8_15"		"作为间谍，在装备逃生怀表时受到伤害会失去隐身能量。远离交火地带。"
+
+// Engineer
+"Tip_9_Count"	"20"
+// Generic
+"Tip_9_1"		"作为工程师，你需要金属才能建造、修理和升级你的建筑。捡起掉落在地上的武器和弹药包获取更多金属。"
+"Tip_9_2"		"作为工程师，除了维修你的建筑，你还可以做更多的事情。使用你的霰弹枪和手枪来协助战斗和保护你的建筑。"
+"Tip_9_3"		"作为工程师，请留意敌方间谍是否在本方建筑中放置了电子工兵。用你的扳手移除工兵。"
+"Tip_9_4"		"作为工程师，记得升级你的建筑物。升级后的建筑可以更高效地辅助你和你的队伍！"
+"Tip_9_5"		"作为工程师，安置建筑之前，按 %attack2% 可以改变建筑物的朝向。使步哨枪和传送器更高效地辅助你的队伍！"
+// Stock
+"Tip_9_6"		"作为工程师，你的手枪有大量的后备弹药。用它将敌人引向你的步哨枪，或者采取更具进攻性的方法。"
+"Tip_9_7"		"作为工程师，你可以使用扳手敲击集束炸药来拆除它。"
+"Tip_9_8"		"作为工程师，请敲击友方建筑为其提供修复和升级。"
+"Tip_9_9"		"作为工程师，请使用建造工具安置步哨枪、补给器以及传送装置。"
+"Tip_9_10"		"作为工程师，步哨枪的作用不仅限于防守。你也可以迅速地把它放在隐蔽的角落从而协助队伍推进。"
+"Tip_9_11"		"作为工程师，使用扳手敲打步哨枪即可用金属为其升级。每升一级它的生命值和火力都有提升。"
+"Tip_9_12"		"作为工程师，请建造补给器为你的队友提供治疗和弹药。补给器也能产生金属供你使用。"
+"Tip_9_13"		"作为工程师，升级后的补给器会为你和你的队友回复更多生命值，产生更多弹药和金属！"
+"Tip_9_14"		"作为工程师，建造传送装置和跳板来帮助你的队伍更快抵达前线。"
+"Tip_9_15"		"作为工程师，升级后的传送装置充能更快，可以使你的队伍持续压制敌方。"
+"Tip_9_16"		"作为工程师，无论用你的扳手敲击传送装置的入口还是出口，都可以同时修复或升级它们。"
+// Death & Taxes
+"Tip_9_17"		"作为工程师，线圈枪发射的子弹在蓄满力后会在墙壁上反弹，造成更多伤害。"
+"Tip_9_18"		"作为工程师，如果线圈枪蓄力过满，就会引发爆炸。使用爆炸带来的推进力到达以前无法到达的区域。"
+// Fight or Flight
+"Tip_9_19"		"作为工程师，你的跳板可以让你和你的队友到达更高的地方。仔细考虑它们部署的位置。帮助速度较慢的队友更快抵达制高点。"
+"Tip_9_20"		"作为工程师，你的跳板可以让队友以强大的推进力向前跳跃。将它们部署在可以快速推进的开阔地带。"
+
+// Civilian
+"Tip_10_Count"	"11"
+// Generic
+"Tip_10_1"		"作为平民，你的速度相当慢。尽量跟上队友的步伐，才能增加你的存活概率。"
+"Tip_10_2"		"作为平民，你是游戏中最矮的兵种。在队友身后躲避攻击时非常有用。"
+"Tip_10_3"		"作为平民，你是唯一能在护送VIP模式与护送VIP竞赛模式下占领控制点的兵种。"
+"Tip_10_4"		"作为平民，时刻留意敌方狙击手和间谍，因为他们能立即杀死你。"
+"Tip_10_5"		"作为平民，附近的队友会受到你提供的护盾增益降低受到的伤害并回复生命值。请试着避开敌人的视线，与团队共同行动。"
+"Tip_10_6"		"作为平民，对队友按下 %attack2% 可以给予他们增益，让他们在战斗中获得巨大优势。"
+// Stock
+"Tip_10_7"		"作为平民，你的雨伞除了挡雨与血外并不是一件合格的武器。命令你的队友为你战斗吧。"
+"Tip_10_8"		"作为平民，用你的雨伞按下 %attack2% 会为你选择的一名队友提供迷你爆击，给他们提供高额伤害加成。"
+"Tip_10_9"		"作为平民，你雨伞给予的迷你爆击增益会提升医生的治疗速度并给予 UberCharge 积攒速度加成。"
+// Double Down
+"Tip_10_10"		"作为平民，德比手杖可以为队友提供急速增益，可以让他们更快的移动和射击。"
+"Tip_10_11"		"作为平民，你的德比手杖可以提高医生的治疗效率和工程师的建造效率。"
+
+// ----------------------------------------------------------------
+// Stock weapon strings
+// ----------------------------------------------------------------
+
+// Bat
+"TF_Weapon_Bat"			"球棒"
+"TF_Weapon_Bat_Desc"	"这玩意我多得很，我不介意在你头上敲烂一个。"
+// Bottle
+"TF_Weapon_Bottle"		"瓶子"
+"TF_Weapon_Bottle_Desc"	"不，不。别拿来打人，应该把它喝了！"
+// Fire Axe
+"TF_Weapon_FireAxe"			"消防斧"
+"TF_Weapon_FireAxe_Desc"	"传授非常宝贵的防火安全意识。"
+// Kukri
+"TF_Weapon_Kukri"		"反曲刀"
+"TF_Weapon_Kukri_Desc"	"会被神枪手砍伤的只有蠢人。"
+// Knife
+"TF_Weapon_Knife"		"刀子"
+"TF_Weapon_Knife_Desc"	"献给那些喜欢看热闹的家伙。"
+// Fists
+"TF_Weapon_Fists"		"拳头"
+"TF_Weapon_Fists_Desc"	"我跟你还没完！"
+// Shovel
+"TF_Weapon_Shovel"		"铁锹"
+"TF_Weapon_Shovel_Desc"	"在战争期间亲手埋葬你的敌人然后在和平时期把他们从坟墓里挖出来。"
+// Wrench
+"TF_Weapon_Wrench"		"扳手"
+"TF_Weapon_Wrench_Desc"	"我啥事都会一点。"
+// Bonesaw
+"TF_Weapon_Bonesaw"			"骨锯"
+"TF_Weapon_Bonesaw_Desc"	"别担心，这不是我的血！...不过仔细看看它的话，我也不太确定。"
+// Shotgun
+"TF_Weapon_Shotgun"					"霰弹枪"
+"TF_Weapon_Shotgun_Desc_Engineer"	"有时候，必须你亲自出马。"
+"TF_Weapon_Shotgun_Desc_Soldier"	"我的霰弹枪不想让你活着，你这个臭蛆！"
+"TF_Weapon_Shotgun_Desc_Heavy"		"机枪手会凑合着用的。"
+"TF_Weapon_Shotgun_Desc_Pyro"		"用这个来对着别人说话。"
+// Scattergun
+"TF_Weapon_Scattergun"		"猎枪"
+"TF_Weapon_Scattergun_Desc"	"放松伙计，只是一点小擦伤而已！"
+// Sniper Rifle
+"TF_Weapon_SniperRifle"			"狙击步枪"
+"TF_Weapon_SniperRifle_Desc"	"出色地完成工作。"
+// Minigun
+"TF_Weapon_Minigun"			"转轮机枪"
+"TF_Weapon_Minigun_Desc"	"“萨莎”都不会听机枪手的话，你觉得她会听你的？"
+// SMG
+"TF_Weapon_SMG"			"SMG"
+"TF_Weapon_SMG_Desc"	"现在怎么样？距离近了我们都更危险。"
+// Syringe Gun
+"TF_Weapon_SyringeGun"		"注射枪"
+"TF_Weapon_SyringeGun_Desc"	"噢，你可真是个不错的针线盒！"
+// Rocket Launcher
+"TF_Weapon_RocketLauncher"		"火箭发射器"
+"TF_Weapon_RocketLauncher_Desc"	"最完美的武器献给最好的士兵！"
+// Grenade Launcher
+"TF_Weapon_GrenadeLauncher"			"榴弹发射器"
+"TF_Weapon_GrenadeLauncher_Desc"	"放心交给我好了，小子。"
+// Stickybomb Launcher
+"TF_Weapon_StickybombLauncher"		"黏性炸弹发射器"
+"TF_Weapon_StickybombLauncher_Desc"	"如果有必要，我会亲手把他们都炸到天堂！"
+// Flame Thrower
+"TF_Weapon_FlameThrower"		"火焰喷射器"
+"TF_Weapon_FlameThrower_Desc"	"事态逐渐升温..."
+// Pistol
+"TF_Weapon_Pistol"					"手枪"
+"TF_Weapon_Pistol_Desc_Engineer"	"开始跳舞吧，小子。"
+"TF_Weapon_Pistol_Desc_Scout"		"所有人都在射程外，直到他们再也不在了。"
+// Revolver
+"TF_Weapon_Revolver"		"左轮手枪"
+"TF_Weapon_Revolver_Desc"	"当隐身不再是唯一选择时。"
+// PDA: Teleporter (Construction PDA)
+"TF_Weapon_ConstructionPDA"			"建造工具"
+"TF_Weapon_ConstructionPDA_Desc"	"像我这样的工程师所需要的一切，都在这个小东西里。"
+"TF_Weapon_PDATeleporter"			"建造工具：传送装置"
+// Destruction PDA
+"TF_Weapon_DestructionPDA"	"拆除工具"
+// Disguise Kit
+"TF_Weapon_DisguiseKit"	"伪装工具"
+// Medi Gun
+"TF_Weapon_Medigun"			"医疗枪"
+"TF_Weapon_Medigun_Desc"	"你们的血型都一样，对吧，差不多吧？"
+// Invis Watch
+"TF_Weapon_InvisWatch"		"隐形手表"
+"TF_Weapon_InvisWatch_Desc"	"如此时髦的东西，可惜他们永远也看不见。"
+// Sapper
+"TF_Weapon_Sapper"		"电子工兵"
+"TF_Weapon_Sapper_Desc"	"谁把这玩意落那上面了。"
+
+// ----------------------------------------------------------------
+// Achievement weapon strings
+// ----------------------------------------------------------------
+
+// Kritzkrieg
+"TF_Weapon_Kritzkrieg"		"闪电战医疗枪"
+"TF_Weapon_Kritzkrieg_Desc"	"来吧，弄点伤员出来，这样咱们才都有钱赚，对吧？"
+// Überspritze
+"TF_Weapon_Uberspritze"			"过载充能针筒"
+"TF_Weapon_Uberspritze_Desc"	"噢，别再扭来扭去了，这是为了医学做出贡献！"
+// Flare Gun
+"TF_Weapon_FlareGun"		"信号枪"
+"TF_Weapon_FlareGun_Desc"	"有人着火了！快点发出求救信号！"
+// Sandvich
+"TF_Weapon_Sandvich"		"三明治"
+"TF_Weapon_Sandvich_Desc"	"走近一点！尝尝我的杰作。"
+// Huntsman
+"TF_Weapon_Huntsman"		"猎人短弓"
+"TF_Weapon_Huntsman_Desc"	"骑士精神都到哪儿去了？"
+// Gunboats
+"TF_Weapon_Gunboats"				"炮艇"
+"TF_Weapon_Gunboats_Desc_Soldier"	"一双灌铅的鞋！某个想在军队体检中作弊的人才会穿这个。"
+"TF_Weapon_Gunboats_Desc_Demoman"	"这靴子看着挺不错，就算是踩在钉子上也畅通无阻。"
+
+// ----------------------------------------------------------------
+// Death & Taxes weapon strings
+// ----------------------------------------------------------------
+
+// Umbrella
+"TF_Weapon_Umbrella"		"雨伞"
+"TF_Weapon_Umbrella_Desc"	"上流人士必须时刻保持干燥。"
+// Nail Gun
+"TF_Weapon_NailGun"			"钉枪"
+"TF_Weapon_NailGun_Desc"	"是啊，我很快就丢掉那份工作了。"
+// R.P.G.
+"TF_Weapon_RPG"			"R.P.G."
+"TF_Weapon_RPG_Desc"	"看到这些火箭从筒口出来的轨迹了吗？小子，它渴望自由，而上帝实现了它。"
+// Hunting Revolver
+"TF_Weapon_HuntingRevolver"			"狩猎左轮步枪"
+"TF_Weapon_HuntingRevolver_Desc"	"专为更具进攻性的打法而生。"
+// Fishwhacker
+"TF_Weapon_Fishwhacker"			"敲鱼棒"
+"TF_Weapon_Fishwhacker_Desc"	"稳住它，伙计。它容易飞出木屑。"
+// Tranquilizer Gun
+"TF_Weapon_TranquilizerGun"			"麻醉枪"
+"TF_Weapon_TranquilizerGun_Desc"	"祝你好梦，亲爱的。"
+// Dynamite Pack
+"TF_Weapon_DynamitePack"		"集束炸药"
+"TF_Weapon_DynamitePack_Desc"	"你明天就知道什么叫碎尸万段了。"
+// Coilgun
+"TF_Weapon_Coilgun"			"线圈枪"
+"TF_Weapon_Coilgun_Desc"	"不是牛排，照样可以把你烤得滋滋作响。"
+// Mine Layer
+"TF_Weapon_MineLayer"		"地雷发射器"
+"TF_Weapon_MineLayer_Desc"	"欸，当心脚下，呵呵...."
+// Shock Therapy
+"TF_Weapon_ShockTherapy"		"电击治疗仪"
+"TF_Weapon_ShockTherapy_Desc"	"离远点！"
+
+// ----------------------------------------------------------------
+// Fight or Flight weapon strings
+// ----------------------------------------------------------------
+
+// L'escampette
+"TF_Weapon_Lescampette"			"逃生怀表"
+"TF_Weapon_Lescampette_Desc"	"我们还需要再快一点。"
+// Chekhov's Punch
+"TF_Weapon_ChekhovsPunch"		"契诃夫之拳"
+"TF_Weapon_ChekhovsPunch_Desc"	"别哭嘛！你在机枪手的生活里有点故事讲呢。"
+// Twin Barrel
+"TF_Weapon_TwinBarrel"		"双管霰弹枪"
+"TF_Weapon_TwinBarrel_Desc"	"（私自改装将不提供售后保修。）"
+// Anti-Aircraft Cannon
+"TF_Weapon_AntiAircraftCannon"		"高射炮"
+"TF_Weapon_AntiAircraftCannon_Desc"	"机枪手应该捡起哪个部位寄去给你的妈妈？"
+// PDA: Jump Pad
+"TF_Weapon_PDAJumpPad"		"建造工具：跳板"
+"TF_Weapon_PDAJumpPad_Desc"	"相信我，伙计！这个会让你大吃一惊。"
+// Harvester
+"TF_Weapon_Harvester"		"收割者"
+"TF_Weapon_Harvester_Desc"	"不要问丧钟为谁而鸣。"
+// Brick
+"TF_Weapon_Brick"		"砖块"
+"TF_Weapon_Brick_Desc"	"谁会想到你反应这么慢。"
+
+// ----------------------------------------------------------------
+// Double Down weapon strings
+// ----------------------------------------------------------------
+
+// Rejuvenator
+"TF_Weapon_Rejuvenator"			"妙手回春炮"
+"TF_Weapon_Rejuvenator_Desc"	"请尽量不要让它接触到你的嘴和眼睛。"
+// Admiralty Anchor
+"TF_Weapon_AdmiraltyAnchor"			"海军锚"
+"TF_Weapon_AdmiraltyAnchor_Desc"	"我不会容忍我的部队里出现有关海军的低俗笑话！"
+// Derby Cane
+"TF_Weapon_DerbyCane"		"德比手杖"
+"TF_Weapon_DerbyCane_Desc"	"感觉有动力了吗，小子。你最好有。"
+// Cyclops
+"TF_Weapon_Cyclops"			"独眼巨炮"
+"TF_Weapon_Cyclops_Desc"	"在盲人之国里，你就是国王。"
+
+// ----------------------------------------------------------------
+// Miscellaneous weapon types
+// ----------------------------------------------------------------
+
+"TF_Weapon_Anchor"					"海军锚"
+"TF_Weapon_Boots"					"靴子"
+"TF_Weapon_Bow"						"弓"
+"TF_Weapon_Cane"					"手杖"
+"TF_Weapon_Chains"					"锁链"
+"TF_Weapon_CigaretteCase"			"...香烟包？"
+"TF_Weapon_Club"					"反曲刀"
+"TF_Weapon_DoubleBarrelShotgun"		"双管霰弹枪"
+"TF_Weapon_EMPGrenadeLauncher"		"电磁榴弹发射器"
+"TF_Weapon_Grenade"					"手榴弹"
+"TF_Weapon_HealGrenadeLauncher"		"治疗榴弹发射器"
+"TF_Weapon_LunchBox"				"午餐盒"
+"TF_Weapon_PDA"						"PDA"
+"TF_Weapon_ProximityMineLauncher"	"感应式地雷发射器"
+"TF_Weapon_Scythe"					"镰刀"
+"TF_Weapon_Syringe"					"注射器"
+"TF_Weapon_Taser"					"电击枪"
+"TF_Weapon_Throwable"				"投掷类武器"
+
+// ----------------------------------------------------------------
+// Weapon meters
+// ----------------------------------------------------------------
+
+"TF_Meter_Airtime"	"滞空时间"
+"TF_Meter_Brick"	"砖块"
+"TF_Meter_Cloak"	"隐身能量"
+"TF_Meter_Crits"	"爆击"
+"TF_Meter_Dynamite"	"炸药"
+"TF_Meter_Harvest"	"收割能量"
+"TF_Meter_LunchBox"	"午餐盒"
+"TF_Meter_Therapy"	"治疗"
+
+// ----------------------------------------------------------------
+// Buildings
+// ----------------------------------------------------------------
+
+// Building Status
+"Building_hud_hauling"				"建造中..."
+"Building_hud_upgrading"			"正在升级..."
+"Building_hud_jumppad_a_not_built"	"跳板 A\n未建造"
+"Building_hud_jumppad_b_not_built"	"跳板 B\n未建造"
+
+// Jump Pad
+"TF_Object_Jump"					"跳板"
+"TF_Object_Jump_A"					"跳板 A"
+"TF_Object_Jump_B"					"跳板 B"
+"TF_JumpPad_Mode_A"					"A"
+"TF_JumpPad_Mode_B"					"B"
+
+// ----------------------------------------------------------------
+// Weapon attributes
+// ----------------------------------------------------------------
+
+"Attrib_CritVsBurning"				"对着火的敌人 100% 爆击"
+"Attrib_RocketJumpDmgReduction"		"火箭跳跃时受到的爆炸伤害 %s1%"
+"Attrib_Scattergun_HasKnockback"	"能够击退目标，射击者自身也会被震退"
+
+"Attrib_RocketGravity"								"火箭呈弧形彈道"
+"Attrib_CreatesEarthquakeFallDamage"				"手持时：受到摔落伤害时会造成地震"
+"Attrib_TakeProjectileCritsAirborne"				"穿戴时：在空中会受到飞行物的爆击伤害"
+"Attrib_Gravity_Active_Increased"					"手持时：重力增加 +%s1%"
+"Attrib_TeleporterJumpPad"							"建造跳板来取代传送装置的入口和出口"
+"Attrib_Mod_Horizontal_Spread"						"拥有水平线武器散射"
+"Attrib_ApplySelfKnockback"							"击中时给自己一个反向击退"
+"Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% 击退作用"
+"Attrib_LifestealCrit"								"爆击时：会迅速吸收被害者的生命值"
+"Attrib_FlatHealOnAfterburn_Active"					"手持时：后续燃烧时生命值每刻 +%s1"
+"Attrib_RememberTargetsRemainingAfterburn"			"标记处于后续燃烧的目标"
+"Attrib_OnDeathRemoveTargetsAfterburn"				"死亡时：敌人将会灭火"
+"Attrib_Explosive_Bullets"							"发射爆炸子弹"
+"Attrib_CannotUseStoredCrits"						"该武器不能使用积累的爆击"
+"Attrib_GainStoredCritsOnHit"						"击中时：得到 %s1 个爆击"
+"Attrib_AlwaysCritsFullStoredCrits"					"该武器只在攒满时才能使用积攒的爆击"
+"Attrib_LoseStoredCritsOnMiss"						"未命中时：失去 %s1 个积累的爆击"
+"Attrib_MeleeTakenBecomesCritWearer"				"穿戴时：受到的近战伤害造成爆击"
+"Attrib_MoveSpeed_Bonus_Cloaked"					"隐身时 +%s1% 移动速度"
+"Attrib_LoseCloakOnDamage"							"隐身时受伤 -%s1% 隐身能量"
+"Attrib_TranqOnHit"									"击中时：给予受害者色盲效果，并在 %s1 秒内降低目标的移动速度和远程武器伤害"
+"Attrib_FishwhackerSweep"							"对附近的敌人产生击退"
+"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"击退作用受武器伤害影响"
+"Attrib_ApplySelfKnockbackSwing"					"挥舞时给自己一个反向击退"
+"Attrib_AirblastSelfKnockback"						"压缩空气对使用者造成击退"
+"Attrib_ProximityMine"								"地雷在敌人靠近时引爆"
+"Attrib_AltFire_FizzleMines"						"辅助开火能力：消除附近的地雷"
+"Attrib_NoStickyChargeTime"							"无粘弹蓄力时间"
+"Attrib_BlastSplashDamage_Decreased"				"%s1% 溅射爆炸伤害"
+"Attrib_BurningTargetsChargeCrit"					"手持时：燃烧目标会积攒能量条获得爆击"
+"Attrib_LimitedRange"								"此武器拥有距离限制"
+"Attrib_GainStoredCritsOnKill"						"击杀时：得到 %s1 个爆击"
+"Attrib_HealOnKillCrit"								"爆击击杀时生命值 +%s1"
+"Attrib_InstantReloadOnDirectHit"					"精确命中时：立马填装 %s1 发弹匣"
+"Attrib_InstantReloadOnHit"							"击中时：立马填装 %s1 发弹匣"
+"Attrib_InstantReloadOnDirectHitKill"				"精确命中击杀时：立马填装 %s1 发弹匣"
+"Attrib_InstantReloadOnKill"						"击杀时：立马填装 %s1 发弹匣"
+"Attrib_ViewPunchOnHit"								"击中时：摇晃受害者的视野"
+"Attrib_FlinchDecrease"								"减少 %s1% 后坐力"
+"Attrib_FlinchIncrease"								"+%s1% 后坐力"
+"Attrib_FlinchDecreaseWearer"						"减少 %s1% 穿戴时的后坐力"
+"Attrib_FlinchIncreaseWearer"						"+%s1% 穿戴时的后坐力"
+"Attrib_FlinchDecreaseAiming"						"减少 %s1% 瞄准时的后坐力"
+"Attrib_FlinchIncreaseAiming"						"+%s1% 瞄准时的后坐力"
+"Attrib_CritVsBleed"								"对流血的敌人 100% 爆击"
+"Attrib_MinicritWhileDisguised"						"伪装时攻击造成迷你爆击"
+"Attrib_TakeMinicritsWhileDisguised"				"伪装时受伤造成迷你爆击"
+"Attrib_ObjectivesGiveMiniCrits"					"对占领和竞争控制点的敌人或夺取情报的敌人和自身造成迷你爆击"
+"Attrib_HeadshotIsMinicrit"							"爆头造成迷你爆击"
+"Attrib_BuildingsMaxLevel"							"建筑物的最大等级是 %s1"
+"Attrib_UpgradeCost"								"建筑物需要 %s1 金属来升级"
+"Attrib_Dispenser_Build_Rate"						"补给器建造速度提升 %s1%"
+"Attrib_JumpPad_Build_Rate"							"跳板建造速度提升 %s1%"
+"Attrib_DispenserBuildCost"							"补给器建造只需要 %s1% 金属"
+"Attrib_SentrygunBuildCost"							"步哨枪建造只需要 %s1% 金属"
+"Attrib_JumpPadBuildCost"							"跳版建造只需要 %s1% 金属"
+"Attrib_NoPrimaryAmmoFromDispensersAlways"			"补给器不提供弹药"
+"Attrib_MetalOnSentryKill"							"步哨击杀：+%s1 金属"
+"Attrib_SentryKnockback_Increased"					"步哨枪击退效果 +%s1%"
+"Attrib_SentryKnockback_Decreased"					"步哨枪击退效果减少 %s1% "
+"Attrib_SentryTurnRate_Increased"					"步哨枪视野锁定速度 +%s1%"
+"Attrib_SentryTurnRate_Decreased"					"步哨枪视野锁定速度减少 %s1%"
+"Attrib_HealingMedigunReceivedBonus"				"穿戴时：受到医疗枪的治疗量 +%s1%"
+"Attrib_HealingMedigunReceivedPenalty"				"穿戴时：受到医疗枪的治疗量 %s1%"
+"Attrib_HealingMedigunReceivedActiveBonus"			"手持时：受到医疗枪的治疗量 +%s1%"
+"Attrib_HealingMedigunReceivedActivePenalty"		"手持时：受到医疗枪的治疗量 %s1%"
+"Attrib_HealingDispenserReceivedBonus"				"穿戴时：受到补给器的治疗量 +%s1%"
+"Attrib_HealingDispenserReceivedPenalty"			"穿戴时：受到补给器的治疗量 %s1%"
+"Attrib_HealingDispenserReceivedActiveBonus"		"手持时：受到补给器的治疗量 +%s1%"
+"Attrib_HealingDispenserReceivedActivePenalty"		"手持时：受到补给器的治疗量 %s1%"
+"Attrib_DispenserCanOverhealOnWearer"				"穿戴时：能被补给器超量治疗"
+"Attrib_DispenserCanOverhealOnActive"				"手持时：能被补给器超量治疗"
+"Attrib_EverythingCanOverhealOnWearer"				"穿戴时：能被任何东西超量治疗"
+"Attrib_EverythingCanOverhealOnActive"				"手持时：能被任何东西超量治疗"
+"Attrib_NoCritHeals"								"无爆击治疗：治疗非战斗人员不会增加治疗速率"
+"Attrib_HealthKitsCanOverhealOnWearer"				"穿戴时：医疗包可以超量治疗"
+"Attrib_HealthKitsCanOverhealOnActive"				"手持时：医疗包可以超量治疗"
+"Attrib_HealingReceivedActiveBonus"					"手持时：受到治疗者的治疗量 +%s1%"
+"Attrib_HealingReceivedActivePenalty"				"手持时：受到治疗者的治疗量 %s1%"
+"Attrib_HealthFromPacks_Active_Increased"			"手持时：从医疗包获得的生命值 +%s1%"
+"Attrib_HealthFromPacks_Active_Decreased"			"手持时：从医疗包获得的生命值 %s1%"
+"Attrib_DamageDelaysRegeneration"					"受伤时延迟生命恢复 %s1 秒"
+"Attrib_DestroyGrenadesDetonateOwn"					"可以引爆你自己的爆炸物并摧毁敌方爆炸物"
+"Attrib_HoldFirePreventDetonation"					"按住开火键：防止榴弹引爆"
+"Attrib_CritAirborneEnemies"						"爆击使敌人飞天"
+"Attrib_ModCritAirborneDirectHitOnly"				"对空中目标直击造成爆击"
+"Attrib_ObjectivesGiveCrits"						"对占领和竞争控制点的敌人或夺取情报的敌人和自身造成爆击"
+"Attrib_AddAmmoOnDirectHit"							"精确命中时：获得 %s1 发载弹"
+"Attrib_AddAmmoOnDirectHitKill"						"精确命中击杀时：获得 %s1 发载弹"
+"Attrib_AddAmmoOnKill"								"击杀时：获得 %s1 发载弹"
+"Attrib_MinicritVsWet"								"对湿身的敌人 100% 迷你爆击"
+"Attrib_TakeMinicritsProjectileAirborne"			"在空中会受到飞行物的迷你爆击伤害"
+"Attrib_HealOnSmack"								"满能量击中队友时给予超量治疗"
+"Attrib_MultDamageCrit"								"爆击伤害额外增加 %s1%"
+"Attrib_DropTeamHealthPackOnKill"					"击杀敌人会掉落仅限团队使用的医疗包"
+"Attrib_PassiveAmmoHolstered"						"此武器在收起时会被动补充弹药"
+"Attrib_Backstab"									"从背后攻击敌人，一击必杀"
+"Attrib_UpgradeRepairBuildings"						"升级，修理和加速建造友方建筑"
+"Attrib_AltFire_DetonateStickybombs"				"辅助开火能力：引爆全部黏性炸弹"
+"Attrib_AltFire_Airblast"							"辅助开火能力：喷出压缩空气，能击退敌人、反弹炮弹、为队友灭火"
+"Attrib_AltFire_Cloak"								"辅助开火能力：进入隐形状态，隐形时不能攻击。撞到敌人会使你略微显形"
+"Attrib_SapBuildings"								"放置在敌方建筑上，可以使其失效并且缓慢损失生命值。放置电子工兵不影响你的伪装"
+"Attrib_ReloadNotActive"							"此武器在不手持时也会自动装弹"
+"Attrib_Sandvich"									"食用后回复至多 120 点生命值。\n\n辅助开火能力：将三明治分享给队友（相当于中型医疗包）"
+"Attrib_AltFire_MinicritBoost"						"辅助开火能力：给予队友迷你爆击增益"
+"Attrib_SplitsIntoBomblets"							"爆炸后会分裂成 4 个小炸弹"
+"Attrib_DisabledByWrench"							"可以被扳手拆除"
+"Attrib_Coilgun"									"蓄满力的子弹会在墙壁上反弹，蓄力时间过长还会在手中爆炸"
+"Attrib_DamageAffectedByCharge"						"伤害受能量条影响"
+"Attrib_JumpPadNoUpgrade"							"跳板无法升级"
+"Attrib_AltFire_HasteBoost"							"辅助开火能力：给予队友急速增益"
+"Attrib_AltFire_UberBubble"							"辅助开火能力：发射一个装置，在一定范围内获得无敌效果"
+
+// ----------------------------------------------------------------
+// Map strings
+// ----------------------------------------------------------------
+
+// cp_amaranth
+"Amaranth_cap_A"	"仓库"
+"Amaranth_cap_B"	"红队运输设施"
+
+// 4dom_hydro
+"Hydro_dom_cap_warehouse"	"控制点A，仓库"
+"Hydro_dom_cap_radar_dish"	"控制点B，雷达"
+"Hydro_dom_cap_power_plant"	"控制点C，电站"
+"Hydro_dom_cap_dam"			"控制点D，水坝"
+
+// vip_mineside
+"vip_mineside_description"	"目标：
+红队需要阻止 VIP 抵达撤离区域。蓝队需要护送 VIP 抵达撤离区域。
+
+其他说明：
+蓝队需要将公文包装置送到撤离区域大门旁边的控制室， 撤离区域的大门才能打开。
+
+如果蓝队把公文包装置送到控制室，大门计时器将从 60 秒开始倒数，然后再次关闭。"
+
+"Mineside_setup_goal_red"	"杀死VIP并阻止他抵达撤离区域。防止他拿到公文包装置！"
+"Mineside_setup_goal_blu"	"护送VIP前往撤离区域。将公文包装置送到控制室，打开大门。"
+
+"Mineside_escape_zone"	"撤离区域"
+
+// dom_oilcanyon
+"Oilcanyon_cap_A"	"控制点A，峡谷"
+"Oilcanyon_cap_B"	"控制点B，激光炮"
+"Oilcanyon_cap_C"	"控制点C，精炼厂"
+
+// vip_trainyard
+"Trainyard_escape_zone"	"撤离车辆"
+
+// vip_harbor
+"Harbor_cap_1"			"装卸码头"
+"Harbor_cap_2"			"滨水区"
+"Harbor_cap_3"			"仓库"
+
+// 4dom_krepost
+"dom_krepost_description"	"目标：
+获胜条件：每个团队都必须占领并守住控制点以获得分数。占领的控制点越多，得分就越快。
+
+被占领的控制点每 60 秒后会随机切换到其他团队的基地。
+
+其他说明：
+争夺控制点可以阻止敌人获得分数。
+
+选择新控制点时，被占领的控制点将锁定。
+
+仅限近战武器，徒手保卫你的荣耀！"
+
+"Krepost_cap_red"	"红队城堡"
+"Krepost_cap_blu"	"蓝队城堡"
+"Krepost_cap_grn"	"绿队城堡"
+"Krepost_cap_ylw"	"黄队城堡"
+
+"Krepost_attack_red"	"红队的大门打开了！"
+"Krepost_attack_blu"	"蓝队的大门打开了！"
+"Krepost_attack_grn"	"绿队的大门打开了！"
+"Krepost_attack_ylw"	"黄队的大门打开了！"
+
+// td_caper
+"Caper_cap_A"	"控制点A，激光炮"
+"Caper_cap_B"	"控制点B，碉堡"
+"Caper_cap_C"	"控制点C，下水道"
+
+// vipr_2bridge
+"2Bridge_cap_A"	"红队桥梁"
+"2Bridge_cap_B"	"蓝队桥梁"
+
+// vipr_drizzle
+"Drizzle_cap_A"	"红队矿井入口"
+"Drizzle_cap_B"	"蓝队矿井入口"
+
+// dom_railway
+"Railway_cap_A"	"控制点A，停车库"
+"Railway_cap_B"	"控制点B，装卸大厅"
+"Railway_cap_C"	"控制点C，货场"
+
+// dom_sawtooth
+"Sawtooth_cap_A"	"控制点A，瞭望台"
+"Sawtooth_cap_B"	"控制点B，锯木厂"
+"Sawtooth_cap_C"	"控制点C，无线电塔"
+
+// td_sunnyside
+"Sunnyside_cap_A"	"控制点A，谷仓"
+"Sunnyside_cap_B"	"控制点B，数据罐"
+"Sunnyside_cap_C"	"控制点C，栏舍"
+
+// vip_avanti
+"Avanti_red_setup_goal"		"沿着下坡推进并击杀敌方VIP，阻止他抵达撤离区域！"
+"Avanti_blue_setup_goal"	"沿着上坡推进并将VIP护送至撤离区域！"
+"Avanti_cap_1"				"储藏室"
+"Avanti_cap_2"				"阳台"
+"Avanti_cap_3"				"钟楼"
+"Avanti_cap_4"				"撤离点前门"
+
+// vipr_chopper
+"Chopper_cap_A"				"红队雷达"
+"Chopper_cap_B"				"蓝队雷达"
+
+// ----------------------------------------------------------------
+// Gamemodes
+// ----------------------------------------------------------------
+
+"Gametype_CTF_Penguin"		"夺取企鹅" // We have fun here
+"Gametype_Domination"		"统治"
+"Gametype_MedDomination"	"统治（中世纪）"
+"Gametype_KOTF"				"旗帜之王"
+"Gametype_TD"				"领土统治"
+"Gametype_VIP"				"护送VIP"
+"Gametype_VIPRace"			"护送VIP竞赛"
+
+"Gametype_FourTeam"			"四名团队模式"
+
+"Gametype_Arena_FourTeam"			"竞技场（四名团队）"
+"Gametype_AttackDefense_FourTeam"	"进攻/防御（四名团队）"
+"Gametype_CP_FourTeam"				"控制点（四名团队）"
+"Gametype_CTF_FourTeam"				"夺旗（四名团队）"
+"Gametype_Domination_FourTeam"		"统治（四名团队）"
+"Gametype_MedDomination_FourTeam"	"统治（四名团队-中世纪）"
+"Gametype_KOTF_FourTeam"			"旗帜之王（四名团队）"
+"Gametype_Koth_FourTeam"			"山丘之王（四名团队）"
+"Gametype_Escort_FourTeam"			"推车（四名团队）"
+"Gametype_EscortRace_FourTeam"		"推车竞赛（四名团队）"
+"Gametype_SD_FourTeam"				"速递（四名团队）"
+"Gametype_TD_FourTeam"				"领土统治（四名团队）"
+"Gametype_Training_FourTeam"		"训练模式（四名团队）"
+"Gametype_VIP_FourTeam"				"护送VIP（四名团队）"
+"Gametype_VIPRace_FourTeam"			"护送VIP竞赛（四名团队）"
+
+// Offline practice descriptions
+"TF_GameModeDesc_VIP"			"蓝队必须护送平民前往控制点，红队则需要阻止他们。"
+"TF_GameModeDesc_VIPRace"		"赶在敌方团队之前抢先一步将我方平民护送至终点。"
+"TF_GameModeDesc_Domination"	"占领控制点并尽可能的进行防守来获取得分。"
+"TF_GameModeDesc_Arena"			"干掉所有敌方玩家，或者等待控制点解锁。"
+
+"TF_GameModeBrief_VIPRace"		"护送VIP竞赛 — 双方团队都各有一名VIP"
+
+// ----------------------------------------------------------------
+// Gamemode strings
+// ----------------------------------------------------------------
+
+// Domination
+"default_dom_description"	"目标：
+获胜条件：每个团队都必须占领并守住控制点以获得分数。 占领的控制点越多，得分就越快。
+
+其他说明：
+争夺控制点可以阻止敌人利用该控制点获得分数。
+
+如果你的团队落后了，占领所有控制点即可获得分数奖励。"
+
+"domination_setup_goal"	"占领控制点，随着时间的推移获得分数。占领一个以上的控制点会增加获胜几率！"
+
+// VIP
+"default_vip_description"	"目标：
+蓝队需要在时间结束前护送 VIP 抵达撤离区域。红队需要阻止蓝队 VIP 抵达撤离区域。
+
+其他说明：
+如果 VIP 不在场，蓝队可以冻结控制点的占领进度。"
+
+"vip_setup_goal_offense"	"护送VIP前往撤离区域。"
+"vip_setup_goal_defense"	"杀死敌方的VIP，阻止他抵达撤离区域。"
+
+"TF_VIP_Assigned"				"%s1 已成为 VIP！"
+"TF_VIP_Tutorial_Annotation_2"	"他为身边的人提供护盾增益\n还能给予队友迷你爆击！"
+"TF_VIP_Tutorial_Annotation_3"	"请记住，他的生命比你的生命更重要，所以不要让他被刺杀！"
+
+"Cant_cap_civilian_only"		"只有VIP才能\n占领这个控制点。"
+"Cant_cap_civilian_only_frozen"	"无法占领\n只有VIP才能\n占领这个控制点。"
+
+// VIP (Lives)
+"vipl_setup_goal_offense"	"护送VIP前往撤离区域，保护他免受刺客追杀。"
+"vipl_setup_goal_defense"	"杀死敌方的VIP或阻止他抵达撤离区域即可获胜。"
+
+// VIP (Flags)
+"vip_bring_flag_here"	"把装置带到这里来！"
+"vip_bring_flag"		"将装置带到控制室！"
+
+"TF_VIP_TakeDeviceToPoint"		"将装置带到控制室！"
+"TF_VIP_TeamDeviceReturned"		"装置已返回！去拿取它！"
+"TF_VIP_EnemyDeviceReturned"	"装置已返回！保卫放置点！"
+
+// VIP Race
+"default_vipr_description"	"目标：
+护送 VIP 抵达控制点，然后前往撤离区域即可获胜。击杀敌方 VIP 可以重置他们占领的控制点。
+
+其他说明：
+如果你的 VIP 阵亡，你将失去 VIP 占领的任何控制点。
+
+如果自己的 VIP 不在场，任何一名团队都可以冻结控制点的占领进度。
+
+在骤死赛下，杀死敌方 VIP 即可赢得本回合！"
+
+"vipr_setup_goal"		"护送你的VIP前往控制点，防止敌方VIP采取同样行动！"
+"vipr_setup_goal_4team"	"护送你的VIP前往控制点，防止敌方VIP采取同样行动！"
+
+"vipr_cap_wrong_vip"	"占领敌方的控制点，蠢货！"
+"vipr_own_civ_death"	"你的 VIP 已被淘汰！保护他！"
+"vipr_their_civ_death"	"干的好！他们的 VIP 被淘汰了！"
+"vipr_cap_a_reset"		"控制点 A 已被重置！"
+"vipr_cap_b_reset"		"控制点 B 已被重置！"
+"vipr_cap_a_reset_vip"	"你死了！控制点 A 已被重置！"
+"vipr_cap_b_reset_vip"	"你死了！控制点 B 已被重置！"
+
+"vipr_central_point"		"中央控制点"
+"vipr_cap_mid_reset"		"中央控制点已被重置！"
+"vipr_death_cap_mid_reset"	"你死了！中央控制点已被重置！"
+
+"vipr_red_civ_death"	"红队的VIP已被淘汰！"
+"vipr_blu_civ_death"	"蓝队的VIP已被淘汰！"
+"vipr_ylw_civ_death"	"黄队的VIP已被淘汰！"
+"vipr_grn_civ_death"	"绿队的VIP已被淘汰！"
+
+"vipr_escape_zone"	"撤离区域"
+
+// Territorial Domination
+"default_td_description"			"目标：
+每个团队都必须占领所有的控制点才能获胜。
+
+其他说明：
+你会在自己拥有的控制点上重生。
+
+每轮比赛开始时，各队对控制点的所有权是随机的。"
+
+// Payload Race (Four-Team)
+"4plr_goal"	"推动你的战车到达终点即可获胜！"
+
+"4plr_cap_red"	"红队的夺取点"
+"4plr_cap_blu"	"蓝队的夺取点"
+"4plr_cap_grn"	"绿队的夺取点"
+"4plr_cap_ylw"	"黄队的夺取点"
+
+// Useful generic stuff for mappers
+"generic_cap_A"			"控制点A"
+"generic_cap_B"			"控制点B"
+"generic_cap_C"			"控制点C"
+"generic_cap_D"			"控制点D"
+"generic_cap_E"			"控制点E"
+
+// ----------------------------------------------------------------
+// Intro movies
+// ----------------------------------------------------------------
+
+// cp_coldfront
+"TF_IM_Coldfront_Intro"	"Coldfront 是一张控制点地图"
+
+// cp_steel
+"TF_IM_Steel_Intro"	"Steel 是一张变种攻防型控制点地图"
+"TF_IM_Steel_BlueWin"	"蓝队必须占领控制点 E 才能获胜"
+"TF_IM_Steel_PlotTwist"	"然而..."
+"TF_IM_Steel_FinalCap"	"控制点 E 始终处于开放状态。蓝队可以随时占领它"
+"TF_IM_Steel_Points"	"占领控制点 A、B、C 和 D ，就能轻松拿下控制点 E ！"
+"TF_IM_Steel_CapA"	"占领控制点 A 会打开通往控制点 B 和控制点 E 的额外通道"
+"TF_IM_Steel_CapB"	"占领控制点 B 可以快速移动红队的重生室，还能为控制点 C 开辟一条额外的路线"
+"TF_IM_Steel_CapC"	"占领控制点 C 会将桥梁延伸到控制点 E"
+"TF_IM_Steel_CapD"	"占领控制点 D 会阻止红队轻松到达控制点 E"
+"TF_IM_Steel_Bridge"	"如果没有桥梁，每个人都无法到达控制点 E"
+"TF_IM_Steel_Pit"	"小心坑洞！"
+
+// VIP Race
+"TF_IM_VIPR_Intro"	"欢迎来到“护送VIP竞赛”模式介绍"
+"TF_IM_VIPR_ToWin"	"为了取胜，你必须帮助 VIP 占领敌方控制点..."
+"TF_IM_VIPR_Escape"	"...然后在敌方团队采取同样行动之前将他们护送到撤离区域！"
+"TF_IM_VIPR_Death"	"如果 VIP 阵亡，他们占领的任何控制点将会被重置"
+"TF_IM_VIPR_HUD"	"两位 VIP 的状态和进度都会显示在屏幕下方"
+
+// ----------------------------------------------------------------
+// Scoreboard
+// ----------------------------------------------------------------
+
+"TF_ScoreBoard_Player"				"%s1 位玩家"
+"TF_ScoreBoard_Players"				"%s1 位玩家"
+
+"ScoreBoard_Spectator"				""%s1 位观察者：%s2"
+"ScoreBoard_Spectators"				""%s1 位观察者：%s2"
+
+"TF_ScoreBoard_KillsLabel"			"击杀："
+"TF_ScoreBoard_AssistsLabel"		"辅助："
+"TF_ScoreBoard_DeathsLabel"			"死亡："
+
+"TF_Scoreboard_DamageLabel"			"伤害："
+"TF_ScoreBoard_HealingLabel"		"治疗："
+"TF_Scoreboard_SupportLabel"		"支援："
+
+"TF_ScoreBoard_CapturesLabel"		"夺取/占领："
+"TF_ScoreBoard_DefensesLabel"		"防守："
+"TF_ScoreBoard_DominationsLabel"	"控制："
+"TF_ScoreBoard_RevengesLabel"		"报仇："
+"TF_ScoreBoard_BonusLabel"			"奖励："
+
+"TF_ScoreBoard_UberchargesLabel"	"UberCharge："
+"TF_ScoreBoard_TransportsLabel"		"传送装置："
+"TF_ScoreBoard_DestructionLabel"	"破坏："
+"TF_ScoreBoard_HeadshotsLabel"		"爆头："
+"TF_ScoreBoard_BackstabsLabel"		"背刺："
+
+"TF_Medal_Developer"	            "TF2C 开发者"
+"TF_Medal_Contributor"	            "TF2C 贡献者"
+"TF_Medal_Playtester"	            "TF2C 测试员"
+
+// ----------------------------------------------------------------
+// Win Panel
+// ----------------------------------------------------------------
+
+"Winpanel_Teams1"	"团队"
+"Winpanel_Teams2"	"团队"
+
+"Winpanel_TeamWins"		"  %s1获胜！"
+"Winpanel_TeamLost"		"  %s1失败！"
+"Winpanel_TeamAdvances"	"%s1占领区域"
+"Winpanel_TeamDefends"	"  %s1防守！"
+
+"WinPanel_Green_Team_Wins"	"  绿队获胜！"
+"WinPanel_Yellow_Team_Wins"	"  黄队获胜！"
+
+"Winpanel_GreenWins"		"  绿队获胜！"
+"Winpanel_GreenAdvances"	"绿队占领区域"
+"Winpanel_GreenDefends"		"  绿队防守！"
+"Winpanel_YellowWins"		"  黄队获胜！"
+"Winpanel_YellowAdvances"	"黄队占领区域"
+"Winpanel_YellowDefends"	"  黄队防守！"
+"Winpanel_GreenMVPs"		"绿队 MVP："
+"Winpanel_YellowMVPs"		"黄队 MVP："
+
+"Winreason_KOTHPointHeld"		"%s1 保持占领控制点直到时间耗尽"
+"Winreason_PayloadPushed"		"%s1 将战车推到了最后的终点"
+"Winreason_ArenaPointCaptured"	"%s1 占领了控制点"
+"Winreason_RoundScoreLimit"		"%s1 已获得 %s2 分"
+"Winreason_VIPEscaped"			"VIP 已撤离"
+"Winreason_VIPKilled"			"VIP 已被消灭"
+
+// ----------------------------------------------------------------
+// Main Menu
+// ----------------------------------------------------------------
+
+"TF_Menu_Welcome"			"欢迎回来，"
+
+"TF_Menu_ResumeGame"		"回到游戏"
+"TF_Menu_Mute"				"屏蔽玩家"
+"TF_Menu_Vote"				"发起投票"
+
+"TF_Menu_FindServers"		"寻找服务器"
+"TF_Menu_CreateServer"		"创建服务器"
+"TF_Menu_OfflineTraining"	"离线训练"
+
+"TF_Menu_Loadout"			"配置"
+
+"TF_Menu_Achievements"		"展示成就"
+"TF_Menu_Stats"				"玩家统计"
+
+"TF_Menu_Options"			"选项"
+"TF_Menu_Addons"			"附加插件（即将到来！）"
+
+"TF_Menu_Quit"				"退出游戏"
+"TF_Menu_Disconnect"		"断开连接"
+
+"TF_Menu_Blog"				"官方博客"
+
+"TF_Friends_Title"					"好友（%friend_count%）"
+"TF_Friends_Status_InTF2C"		    "正在游玩军团要塞2：秘典"
+"TF_Friends_Status_Idle_InTF2C"	    "在军团要塞2：秘典里闲置"
+"TF_Friends_Status_InMod"		    "正在游玩其他游戏模式"
+"TF_Friends_Status_Idle_InMod"	    "在其他游戏模式里闲置"
+"TF_Friends_Status_InGame"		    "正在游玩其他游戏"
+"TF_Friends_Status_Idle"		    "在其他游戏里闲置"
+"TF_Friends_Status_Online"		    "在线"
+"TF_Friends_Status_Away"		    "离开"
+"TF_Friends_Status_Offline"		    "离线"
+
+
+// ----------------------------------------------------------------
+// Loadout
+// ----------------------------------------------------------------
+
+// Loadout gamemode indicator
+"TF_Loadout_Modifier_StockItemsOnly"		"仅限基础武器！"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"\"中世纪\" 仅限部分物品！"
+"TF_Loadout_Modifier_RandomizerClasses"		"随机兵种！"
+"TF_Loadout_Modifier_RandomizerItems"		"随机物品！"
+"TF_Loadout_Modifier_RandomizerAttributes"	"随机属性！"
+"TF_Loadout_Modifier_RandomizerMayhem"		"随机大混斗！"
+"TF_Loadout_Modifier_CustomWeaponsEnabled"	"自定义武器已启用！"
+
+// Item slot types
+"TF_Loadout_Slot_Invalid"		"无效"
+"TF_Loadout_Slot_Primary"		"主武器"
+"TF_Loadout_Slot_Secondary"		"副武器"
+"TF_Loadout_Slot_Melee"			"近战武器"
+"TF_Loadout_Slot_Utility"		"实用工具"
+"TF_Loadout_Slot_Building"		"建筑"
+"TF_Loadout_Slot_PDA1"			"建造工具"
+"TF_Loadout_Slot_PDA2"			"拆除工具"
+
+// Item slot vanity names
+"TF_Loadout_Slot_Secondary_Medic"	"医疗枪"
+"TF_Loadout_Slot_Building_Spy"		"电子工兵"
+"TF_Loadout_Slot_PDA2_Spy"		    "手表"
+
+"TF_Loadout_Close"				"关闭"
+"TF_Loadout_Back"				"返回"
+"TF_Loadout_Defaults"			"默认配置"
+
+// Reset inventory
+"TF_ConfirmDefaultInventory_Title"		"默认配置"
+"TF_ConfirmDefaultInventory_Message"	"你确定要把此兵种的配置改为默认配置吗？"
+"TF_ConfirmDefaultInventory_OK"			"确定"
+
+// ----------------------------------------------------------------
+// Options
+// ----------------------------------------------------------------
+
+// TODO this is one big mess
+// Keyboard Options
+"TF2c_KeyboardCategory_Movement"        "移动"
+"TF2c_KeyboardCategory_Combat"          "战斗"
+"TF2c_KeyboardCategory_Communication"   "交流"
+"TF2c_KeyboardCategory_UI"  		 	"UI"
+"TF2c_KeyboardCategory_Extra"			"额外选项"
+"TF2c_UseDefaultsButton"				"重设绑定"
+"TF_ClassSkill_Spy_Spywalk"				"间谍：伪装奔跑"
+"TF_Voice_Menu_0_0"						"语音指令： 医生！"
+"TF_Voice_Menu_0_1"						"语音指令： 谢谢！"
+"TF_Voice_Menu_1_0"						"语音指令： 敌人来袭"
+"TF_Voice_Menu_1_1"						"语音指令： 当心间谍！"
+"TF_Voice_Menu_1_2"						"语音指令： 前面有步哨！"
+"TF_Voice_Menu_1_3"						"语音指令： 这里需要传送装置"
+"TF_Voice_Menu_1_4"						"语音指令： 这里需要补给器"
+"TF_Voice_Menu_1_5"						"语音指令： 这里需要步哨"
+"TF_Voice_Menu_1_6"						"语音指令： 激活 UberCharge！"
+"TF_Voice_Menu_1_7"						"语音指令：（医生）UberCharge 就绪状态"
+"TF_Voice_Menu_2_0"						"语音指令： 救命！"
+"TF_Spec_Next"							"循环目标（往前）"
+"TF_Spec_Prev"							"循环目标（往后）"
+"TF_Spec_Mode"							"切换旁观者模式"
+"TF_Use"								"使用键（互动）"
+"TF_Kill"								"自杀键（自身）"
+"TF_Explode"							"自爆键（自身）"
+
+// Scoreboard Options
+"TF_Enable"								"启用"
+"TF_Disable"							"禁用"
+"TF_RightClick_Enable"					"右键启用"
+
+// UI options
+"TF_Open_Charinfo"						"打开人物配置"
+
+"TF2c_EnableGamepad"					"启用游戏控制器"
+
+"TF2c_MouseRawInput"					"原始输入"
+"TF2c_MouseSensitivity"					"鼠标灵敏度"
+"TF2c_MouseSmoothing"					"鼠标平滑"
+"TF2c_MouseAcceleration"				"鼠标加速"
+"TF2c_MouseAccelerationStrength"		"鼠标加速值"
+
+"TF2c_Options_Game"                     "游戏设置"
+"TF2c_Options_Input"                    "输入设置"
+"TF2c_Options_Video"                    "视频设置"
+"TF2c_Options_Audio"                    "音频设置"
+"TF2c_Options_MultiPlayer"              "多人游戏设置"
+
+"TF2c_OptionCategory_Mouse"				"鼠标"
+"TF2c_OptionCategory_Joystick"			"游戏控制器"
+"TF2c_OptionCategory_Keyboard"			"键盘"
+
+"TF2c_OptionCategory_Graphics"			"图像"
+"TF2c_OptionCategory_Video"				"视频"
+
+"TF2c_OptionCategory_Volume"			"音量"
+"TF2c_OptionCategory_Device"			"设备"
+"TF2c_OptionCategory_Language"			"语音"
+"TF2c_OptionCategory_Voice"				"语音"
+
+"TF2c_OptionCategory_Combat"			"战斗"
+"TF2c_OptionCategory_HUD"				"HUD"
+"TF2c_OptionCategory_ViewModel"			"模型视图"
+"TF2c_OptionCategory_ClassSpecific"		"兵种特定技能"
+"TF2c_OptionCategory_Performance"		"性能"
+"TF2c_OptionCategory_Misc"				"杂项"
+"TF2c_OptionCategory_Replay"			"录制"
+"TF2c_OptionCategory_DemoSupport"		"DEMO"
+"TF2c_OptionCategory_Communication"		"交流"
+
+"TF2c_OptionCategory_CustomizationMultiplayer"			"定制化"
+"TF2c_OptionCategory_Network"							"网络"
+
+"TF2c_MuteUnfocused"					"切换到后台或脱离游戏窗口时：静音不聚焦"
+
+"TF2c_Options_Custom"					"自定义"
+
+"TF2c_ChatFilterSettingsButton"			"打开设置"
+
+"GameUI_CloseWithoutSaving"				"关闭并不保存"
+"GameUI_CloseWithoutSavingText" 		"你确定要关闭这个页面吗？\n 所有未保存的修改都会失效！"
+"GameUI_Legacy"							"传统选项菜单"
+"GameUI_Effect_Detail"          		"效果细节"
+"GameUI_VeryLow"               			"非常低"
+"GameUI_Off"               				"关闭"
+"GameUI_Everyone"               		"所有人"
+"GameUI_FriendsOnly"               		"仅限好友"
+
+"GameUI_Restart"						"需要重启游戏"
+"GameUI_RestartText"					"某些修改过的选项需要你重启游戏后才能生效："
+"GameUI_OptionsRestart_Revert"			"恢复修改"
+
+// Combat
+"TF2C_Option_DamageFeedback"				"启用命中反馈"
+"TF2C_Tooltip_DamageFeedback"				"命中反馈会在造成伤害或者承受伤害的同时播放不同的命中反馈音效。"
+"TF2C_Option_DamageFeedbackOutgoing"		"启用输出命中反馈"
+"TF2C_Tooltip_DamageFeedbackOutgoing"		"对敌人造成伤害时会播放输出命中反馈音效。"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"输出命中反馈音量"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"对敌人造成伤害时播放的爆击命中反馈音效音量。"
+"TF2C_Option_DamageFeedbackIncoming"		"启用受击命中反馈"
+"TF2C_Tooltip_DamageFeedbackIncoming"		"受到伤害时会播放受击命中反馈音效。"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"受击命中反馈音量"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"受到伤害时播放的命中反馈音效音量。"
+
+"TF_CenterFirePreference"         	"首选从中心区域发射子弹"
+"TF_CenterFirePreference_Tip"    	"若选中此选项，玩家的子弹生成位置 Y 坐标将设为 0；需要玩家重新连接或处于旁观状态才能应用。"
+"TF_BurningDeathAnim"				"启用燃烧死亡动画"
+"TF_BurningDeathAnim_Tip"			"若选中此选项，在被火烧死时布娃娃将会播放一段特殊的死亡动画。"
+"TF_CombatTextBatchingWindow"		"伤害数值文本累积时间"
+"TF_CombatTextBatchingWindow_Tip"	"伤害数值文本批量处理将在此多少秒内累积。"
+"TF_CombatTextDropShadow"			"显示伤害数值文本阴影效果"
+"TF_CombatTextDropShadow_Tip"		"若选中此选项，为所有伤害数值文本显示阴影效果。"
+
+// ClassSpecific
+"TF_CyclopsDoubleTap"             	"爆破手：启用独眼巨炮双击引爆"
+"TF_CyclopsDoubleTap_Tip"        	"若选中此选项，独眼巨炮的榴弹需要双击两次才会引爆，而不是松开开火键。"
+"TF_SapperAwareness"                "工程师：电子工兵感应"
+"TF_SapperAwareness_Tip"            "若选中此选项，将以另一种颜色显示建筑物上的电子工兵警告提示。"
+"TF_SniperBell"					    "狙击步枪完全充能时播放提示音"
+"TF_SniperBell_Tip"					"当狙击步枪完全充能时会播放提示音效。"
+"TF_ZoomSensitivityRatio"			"狙击手：狙击枪瞄准镜缩放灵敏度"
+"TF_ZoomSensitivityRatio_Tip"		"调整瞄准镜缩放灵敏度。"
+"TF_SpywalkInverted"				"间谍：默认情况下伪装时使用伪装奔跑"
+"TF_SpywalkInverted_Tip"			"若选中此选项，默认情况下伪装时将会以正常速度移动，而在使用伪装奔跑绑定键时则为正常伪装兵种速度。"
+"TF_ViewModelCloakTint"				"间谍：模型视图隐身着色"
+"TF_ViewModelCloakTint_Tip"			"间谍：允许在隐身状态下对模型视图进行着色。"
+"TF_AvoidBecomingVIP"				"平民：避免成为VIP"
+"TF_AvoidBecomingVIP_Tip"			"若选中此选项，游戏选择 VIP 时通常不会考虑你；如果所有人都选中了此选项，或者你被投票选中，你仍然可以成为 VIP。"
+
+// HUD
+"TF_LoadoutGrid"                  "启用武器配置网格"
+"TF_LoadoutGrid_Tip"              "若选中此选项，武器配置页面将以网格形式显示。"
+"TF_HighlightAmmo"				  "在掉落的武器上显示光圈效果"
+"TF_HighlightAmmo_Tip"			  "若选中此选项，高亮光圈会被启用，并在游戏中时高亮出掉落的武器目标。"
+"TF_MessageAlert"				  "启用文字聊天提示音效"
+"TF_MessageAlert_Tip"			  "若选中此选项，当收到聊天消息时将播放音效。"
+"TF_MessageVolume"				  "文字聊天提示音效音量"
+"TF_MessageVolume_Tip"			  "设置文字聊天提示音效的音量。"
+"TF_ScoreBoardShowAvatars"		  "允许在计分板上显示玩家头像"
+"TF_ShowCurrentWeapon"		  	  "显示当前装备的武器"
+"TF_OverlayToastPosition"         "Steam 游戏内通知位置"
+"TF_TopLeft"                      "左上角"
+"TF_TopRight"                     "右上角"
+"TF_BottomLeft"                   "左下角"
+"TF_BottomRight"                  "右下角"
+"TF_OverlayToastInsetHoriz"       "Steam 游戏内通知显示水平线方向"
+"TF_OverlayToastInsetVert"        "Steam 游戏内通知显示垂直线方向"
+"TF_TargetID_Floating_Health"	  "Target ID - 启用悬浮生命值图标"
+"TF_TargetID_Floating_Health_Tip" "若选中此选项，会在角色上方显示生命值图标。"
+"TF_TargetID_Alpha"				  "Target ID - 名称面板背景透明度"
+"TF_TargetID_Alpha_Tip"			  "设置TargetID的名称面板背景透明度。"
+"TF_TargetID_Show_Avatars"		  "Target ID - 在Target ID上显示头像"
+"TF_TargetID_Show_Avatars_Tip"	  "在Target ID上显示玩家的Steam头像。"
+"TF_HideKeybinds"                 "隐藏显示游戏内键位绑定"
+"TF_HideKeybinds_Tip"			  "禁用游戏HUD上键位绑定显示功能。"
+"TF_AlternativeTimer"             "使用替代的游戏内计时器"
+"TF_AlternativeTimer_Tip"         "若选中此选项，将使用另一种等宽字体的计时器。"
+"TF_DisableDropShadow"            "禁用阴影"
+"TF_DisableDropShadow_Tip"        "若选中此选项，将从大部分文本和图像中移除阴影效果。"
+"TF_DeathNoticeMax"               "死亡信息 - 最大显示数量"
+"TF_DeathNoticeMax_Tip"           "设置同一时间内显示死亡信息条目的最大数量。"
+"TF_DeathNoticeTime"              "死亡信息 - 显示时间（单位：秒）"
+"TF_DeathNoticeTime_Tip"          "设置死亡信息条目的过渡时间。"
+
+// ViewModel
+
+"TF_ViewModelFOV"				"模型视图视场"
+"TF_FlipViewModels"				"翻转模型视图"
+"TF_InvisibleArms"				"启用模型视图隐形手臂"
+"TF_ViewModelOpacity"			"模型视图不透明度"
+
+// Misc
+"TF_ClassMenu_Music"				"兵种选择界面音乐"
+"TF_StreamerMode"					"启用直播模式"
+"TF_StreamerMode_Tip"				"若选中此选项，则禁用文字聊天和语音聊天，并在游戏中匿名每个人。"
+"TF_ModelMuzzleFlash"				"启用测试版枪口火焰"
+"TF_ModelMuzzleFlash_Tip"			"若选中此选项，枪口火焰将使用卡通模型而不是粒子特效。"
+"TF_Boioing"                      "启用自定义自杀布娃娃效果"
+"TF_Boioing_Tip"                  "若选中此选项，则允许自定义自杀命令来改变布娃娃的死亡效果。"
+
+// Voice
+"TF2c_Option_Proximity_Voice_Local"	"启用距离式语音聊天。"
+// MULTIPLAYER
+"TF_DownloadFilter_Title"			"从服务器上下载自定义文件的权限"
+"GameUI_DownloadFilter_All"			"允许所有自定义文件"
+"GameUI_DownloadFilter_NoSounds"	"无自定义音效"
+"GameUI_DownloadFilter_MapsOnly"	"仅限地图文件"
+"GameUI_DownloadFilter_None"		"无自定义文件"
+
+"TF_Network_Rate"       			"网络更新速率"
+"TF_Network_Rate_Tip"       		"设置网络更新的速率，更新越快，系统“猜测补偿”的程度就越小。\n\n建议逐一尝试不同设置，看看在你的网络连接条件下哪种效果最好。"
+
+// Video
+"TF2c_Option_BloomScale"	"泛光效果"
+
+// ----------------------------------------------------------------
+// Stats
+// ----------------------------------------------------------------
+
+"TF_Stats_Reset"			            "重置统计数据" // R
+"TF_Stats_Close"			            "关闭" // Q
+
+"TF_NextTip"						    "下一个提示"
+
+"Stat_PadJumps"							"跳板"
+
+"StatPanel_Label_PadJumps"				"跳板使用次数："
+
+"TF_ClassRecord_MostUbercharges"	    "最多 UberCharges 激活："
+"TF_ClassRecord_Alt_MostUbercharges"	"UberCharge激活（次数）"
+"TF_ClassRecord_MostPadJumps"			"最多跳板使用次数："
+"TF_ClassRecord_Alt_MostPadJumps"	    "跳板（次数）"
+
+"StatPanel_PadJumps_Best"		        "你该回合的跳板使用次数比之前的回合还多！"
+"StatPanel_PadJumps_Tie"		        "你该回合的跳板使用次数与纪录相同。"
+"StatPanel_PadJumps_Close"		        "你该回合的跳板使用次数接近纪录。"
+"StatPanel_MVM_PadJumps_Best"			"在这个回合的“曼恩 vs. 机器”中，你的跳板使用次数比之前的回合还多！"
+"StatPanel_MVM_PadJumps_Tie"			"在这个回合的“曼恩 vs. 机器”中，你的跳板使用次数与纪录相同。"
+"StatPanel_MVM_PadJumps_Close"			"在这个回合的“曼恩 vs. 机器”中，你的跳板使用次数接近纪录。"
+
+// ----------------------------------------------------------------
+// Achievements
+// ----------------------------------------------------------------
+
+// Achievement groups
+"Achievement_Group_3000"	"进攻兵种（%s1 到 %s2）"
+"Achievement_Group_3100"	"防守兵种（%s1 到 %s2）"
+"Achievement_Group_3200"	"支援兵种（%s1 到 %s2）"
+"Achievement_Group_3300"	"地图和游戏模式（%s1 到 %s2）"
+
+// Launch achievements
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"一场精心策划的事故"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"使用 R.P.G. 发射的火箭弹从远处击杀敌人。"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"世界旅行者"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"在Dustbowl, 2Fort, Badlands（控制点）, 和 Well（夺旗模式），Avanti中进行一场完整的游戏。"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_DUSTBOWL"	"Dustbowl"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_2FORT"	"2Fort"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_BADLANDS"	"Badlands（控制点）"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_WELL"	"Well（夺旗模式）"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_VIP_AVANTI"	"Avanti"
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_NAME"		"KA-BLOOIE!"
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"使用集束炸药摧毁 5 座工程师建筑。"
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"炸药破坏者"
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"使用扳手拆除敌人的集束炸药。"
+"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_NAME"				"深度睡眠"
+"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"作为间谍，使用近战武器杀死 10 名被麻醉的玩家。"
+"TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"生日狂欢"
+"TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"				"通过压缩空气反弹 20 个集束炸药。"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"钉破防线"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"用钉枪摧毁 5 座步哨枪。"
+"TF2C_ACHIEVEMENT_BRICK_NAME"							"石专"
+"TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"破釜沉舟"
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"受到致命跌落伤害的同时用海军锚震死一名敌人。"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"开膛破肚！"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"使用双管霰弹枪累计获得 10 次贴脸击杀。"
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"纵火死神"
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"在一次生命内使用收割者砍下 3 名敌人的脑袋。"
+"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"连爆飞溅"
+"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"使用独眼巨炮的连击爆炸杀死至少 3 名敌人。"
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"解除武装"
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"作为机枪手，在不靠近敌方地雷的情况下安全触发部署超过 5 秒后的敌方地雷。"
+"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, 呃..."
+"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"在错误使用集束炸药的情况下炸死一名敌人。"
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"遏制政策"
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"在一次生命内，不受任何伤害的同时使用高射炮造成 2000 点伤害。"
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"干完活发工资"
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"使用契诃夫之拳攒到最大爆击量后打出爆击击杀。"
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"终端速度"
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"使用跳板后通过踩死敌方的方式获得击杀。"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"马拉松式手术"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"将妙手回春炮的 Ubercharge 延长至 12 秒。"
+"TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"心肌梗死！"
+"TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"使用电击治疗仪让装备了契诃夫之拳的敌方机枪手心肌梗死。"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"死亡航空"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"爆头击杀一名在空中的敌人。"
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"猎杀法国佬"
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"通过伤害使用逃生怀表的隐身敌方间谍来暴露他的踪迹。"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"企业家"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"以平民身份赢得一轮护送VIP模式而不死。"
+"TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"快速逃生通道"
+"TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"在三分钟内赢得一轮护送VIP竞赛。"
+"TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"考古学"
+"TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"在 Jinn 地图中找到被埋葬的宝藏。"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"前锋队员"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"在 2Bridge 地图上赢得一场气垫球小游戏。"
+"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"禽类清除计划"
+"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"追逐一只鸡并利用环境杀死它。"
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"碟中谍之三无间"
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"在一轮四名团队游戏模式中背刺其余三名团队的玩家。"
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"全面统治"
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"在一轮统治模式中，使你的队伍拥有每个控制点。"
+"TF2C_ACHIEVEMENT_SHAME_NAME"							"耻辱勋章"
+"TF2C_ACHIEVEMENT_SHAME_DESC"							"被敌方 VIP 杀死。简直就是耻辱。"
+"TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"毁灭性批判"
+"TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"控制一名获得贡献者勋章的玩家。"
+
+// ----------------------------------------------------------------
+// Discord Rich Presence
+// ----------------------------------------------------------------
+
+// TODO figure out how we want this formatted
+"Discord_InOfficialMap"				"官方地图：%s1"
+"Discord_InCommunityMap"			"社区地图：%s1"
+"Discord_InMap_Hidden"				"地图：隐藏"
+"Discord_InMenu"					"在主菜单中"
+"Discord_InMenu_ToolTip"			"主菜单"
+"Discord_IsLoading"					"目前正在载入..."
+"Discord_IsLoading_ToolTip"			"载入中..."
+"Discord_InServer"					"游戏中-在服务器里"
+"Discord_InServer_Info"				"游戏中-在服务器：%s1 上"
+"Discord_InServer_NoSteam"			"游戏中-在非 Steam 服务器里"
+"Discord_InServer_NoSteam_ToolTip"	""
+"Discord_Player_Dead"				"*死亡*"
+
+// ----------------------------------------------------------------
+// Server Browser
+// ----------------------------------------------------------------
+"ServerBrowser_PlayerCount" "%s1/%s2"
+"ServerBrowser_LatencyDetail" "延迟: %s1"
+"ServerBrowser_IPAddressDetail" "IP地址: %s1"
+"ServerBrowser_PlayerListHeading" "(玩家数：%s1/%s2, %s3位电脑玩家):"
+"ServerBrowser_NotFullFilter" "服务器未满"
+"ServerBrowser_HasPlayersFilter" "有玩家游玩"
+"ServerBrowser_NoPasswordFilter" "没有密码"
+"ServerBrowser_HasTagsFilter" "含有标签"
+"ServerBrowser_MaxLatencyFilter" "最大延迟"
+"ServerBrowser_MaxPlayersFilter" "最大玩家数"
+"ServerBrowser_ServerTypeFilter" "服务器类型"
+"ServerBrowser_MapNameFilter" "地图名字"
+"ServerBrowser_SortBy" "排列方式："
+"ServerBrowser_SortByName" "名字"
+"ServerBrowser_SortByMap" "地图"
+"ServerBrowser_SortByPlayers" "玩家数"
+"ServerBrowser_SortByLatency" "延迟"
+"ServerBrowser_SortByLastPlayed" "最后一次游玩"
+"ServerBrowser_UseLegacyBrowser" "使用传统服务器浏览器"
+"ServerBrowser_CurrentMapHeading" "现在的地图："
+"ServerBrowser_TagListHeading" "标签："
+"ServerBrowser_OfficialDetail" "此服务器为官方服务器"
+"ServerBrowser_VerifiedDetail" "此服务器已经过验证"
+"ServerBrowser_Any" "任何"
+"ServerBrowser_Official" "官方服务器"
+"ServerBrowser_Verified" "已经过验证"
+"ServerBrowser_OfficialOrVerified" "官方或者已验证"
+"ServerBrowser_CustomRules"	"自定义规则"
+"ServerBrowser_CustomWeapons" "自定义武器"
+}
+}
