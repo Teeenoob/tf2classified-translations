@@ -411,7 +411,7 @@
 "TF_Weapon_Bonesaw_Desc"	"Nie martw się, to nie moja krew! ...Albo, po zastanowieniu się, nie jestem już tego taki pewien."
 // Shotgun
 "TF_Weapon_Shotgun"					"Strzelba"
-"TF_Weapon_Shotgun_Desc_Engineer"	"Czasami trzeba zrobić coś po samemu."
+"TF_Weapon_Shotgun_Desc_Engineer"	"Czasami trzeba zrobić coś po swojemu."
 "TF_Weapon_Shotgun_Desc_Soldier"	"Moja strzelba nie zgadza się z chęcią do życia, gnido!"
 "TF_Weapon_Shotgun_Desc_Heavy"		"Grubemu to wystarczy."
 "TF_Weapon_Shotgun_Desc_Pyro"		"Niech to przemówi za siebie."
